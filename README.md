@@ -52,3 +52,9 @@ Notes :
 [HAL API](http://api.archives-ouvertes.fr/ref/author)
 
 [Crossref API](https://github.com/CrossRef/rest-api-doc)
+
+# Authors 
+
+**Mael AVENNEC** - [mael.avennec.etu@univ-lille.fr](https://github.com/mvkopp)
+
+**Imad IGUICHI** - [imad.iguichi.etu@univ-lille.fr](https://gitlab-etu.fil.univ-lille1.fr/iguichi)
