@@ -1,6 +1,8 @@
-# pji-avennec-iguichi
+# PJI - Projet 30
 
-PJI [Project 30](https://www.fil.univ-lille1.fr/~salson/pji/projet.php?id=30) "Un outil pour l'analyse et la visualisation de collaborations scientifiques"
+*Un outil pour l'analyse et la visualisation de collaborations scientifiques*
+
+[Lien Sujet](https://www.fil.univ-lille1.fr/~salson/pji/projet.php?id=30)
 
 
 
