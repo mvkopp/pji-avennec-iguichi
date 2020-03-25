@@ -38,11 +38,11 @@ Objectifs :
 
 Questions ? 
 
-* Devons-nous récupérer les abstract des articles par scraping ? ou par utilisation d'une API ? (Articles sur différents sites)
+- Devons-nous récupérer les abstract des articles par scraping ? ou par utilisation d'une API ? (Articles sur différents sites)
 -> ***Pour l'instant pas de récupération des abstract, attendre de voir l'avancement du projet pour décider***
 
 Notes :
-* Utilisation du module [requests](https://pypi.org/project/requests/)
+- Utilisation du module [requests](https://pypi.org/project/requests/)
 
 ### **Semaine 2** - 30/03/20
 
@@ -92,12 +92,13 @@ Objectifs :
 
 Objectifs : 
 
-- [ ] Rendre le projet (**27/04/20**)
+- [ ] Rendre le compte rendu du projet à 90% (**27/04/20**)
 
 Notes : /
 
+### **Semaine 7** - 4/05/20
 
-### ** 
+- A définir
 
 # Structure du dossier
 
