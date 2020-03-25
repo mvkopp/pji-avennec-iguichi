@@ -35,6 +35,7 @@ Objectifs :
 - [ ] Se familiariser avec Gephi (Faire le tuto)
 - [ ] Liste des différentes informations récupéré par DBLP (utiles et pas utiles), Crossref etc..
 - [ ] Choisir comment stocker les données qu’on peut déjà extraire
+- [ ] Réalisation d'un diagramme de gantt (Gestion de projet) 
 
 Questions ? 
 
