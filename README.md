@@ -36,7 +36,8 @@ Objectifs :
 - [ ] Liste des différentes informations récupéré par DBLP (utiles et pas utiles), Crossref etc..
 - [ ] Choisir comment stocker les données qu’on peut déjà extraire
 
-Questions ? {: .green}
+Questions ? 
+{: .green}
 
 <style>
   .green {
