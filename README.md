@@ -38,11 +38,11 @@ Objectifs :
 
 Questions ? 
 
-- Devons-nous récupérer les abstract des articles par scraping ? ou par utilisation d'une API ? (Articles sur différents sites)
+* Devons-nous récupérer les abstract des articles par scraping ? ou par utilisation d'une API ? (Articles sur différents sites)
 -> ***Pour l'instant pas de récupération des abstract, attendre de voir l'avancement du projet pour décider***
 
 Notes :
-- Utilisation du module [requests](https://pypi.org/project/requests/)
+* Utilisation du module [requests](https://pypi.org/project/requests/)
 
 ### **Semaine 2** - 30/03/20
 
