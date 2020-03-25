@@ -37,17 +37,6 @@ Objectifs :
 - [ ] Choisir comment stocker les données qu’on peut déjà extraire
 
 Questions ? 
-{: .green}
-
-<style>
-  .green {
-    color:green;
-  }
-  .green:hover {
-    color:red;
-  }
-</style>
-
 
 - Devons-nous récupérer les abstract des articles par scraping ? ou par utilisation d'une API ? (Articles sur différents sites)
 -> ***Pour l'instant pas de récupération des abstract, attendre de voir l'avancement du projet pour décider***
