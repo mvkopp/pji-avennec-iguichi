@@ -1,4 +1,5 @@
 import requests
+from lxml import etree
 
 def get_articles_by_author(author):
     """
@@ -52,6 +53,26 @@ def main():
     main function
     """
     AUTHOR='laetitia vermeulen jourdan'
+
+    articles = etree.Element("Articles")
+    for res in get_articles_by_author(AUTHOR) :
+        article = etree.SubElement(articles, "article")
+        titre = etree.SubElement(article,"Titre")
+        titre.text = res['title']
+        publier_par = etree.SubElement(article,"Publisher")
+        publier_par.text = res['publisher']
+        auteurs = etree.SubElement(article, "Auteurs")
+        for auteur_art in res['authors'] :
+            nom = etree.SubElement(auteurs, "Nom_Auteur")
+            nom.text = auteur_art
+        type_art = etree.SubElement(article,"Type") 
+        type_art.text=res['type']
+        url_art = etree.SubElement(article,"URL")
+        url_art.text = res['url']
+        fichier = open ("result.xml","w")
+        fichier.write(etree.tostring(articles, pretty_print=True))
+
+
     print("****************************** Les publication pour ", AUTHOR," ***************************")
     for res in get_articles_by_author(AUTHOR) :
         print("URL : " , res['url'])
