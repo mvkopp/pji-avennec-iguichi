@@ -69,8 +69,8 @@ def main():
         type_art.text=res['type']
         url_art = etree.SubElement(article,"URL")
         url_art.text = res['url']
-        fichier = open ("result.xml","w")
-        fichier.write(etree.tostring(articles, pretty_print=True))
+    fichier = open ("result.xml","a")
+    fichier.write(etree.tostring(articles, pretty_print=True))
 
 
     print("****************************** Les publication pour ", AUTHOR," ***************************")
