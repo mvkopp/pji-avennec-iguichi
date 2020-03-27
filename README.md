@@ -33,7 +33,7 @@ Objectifs :
 - [x] Créer un programme qui va à partir d'un nom de scientifique, trouver ses articles dans les bases de données tel que dblp, crossref
 - [x] Se familiariser avec igraph
 - [ ] Se familiariser avec Gephi (Faire le tuto)
-- [ ] Liste des différentes informations récupérés par DBLP (utiles et pas utiles), Crossref etc..
+- [x] Liste des différentes informations récupérés par DBLP (utiles et pas utiles), Crossref etc..
 - [x] Choisir comment stocker les données qu’on peut déjà extraire
 - [ ] Réalisation d'un diagramme de gantt (Gestion de projet) 
 
