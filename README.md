@@ -49,9 +49,9 @@ Notes :
 
 Objectifs : 
 
-- [ ] Recupérer les données en quantité
-- [ ] Connecter les résultats extraits de DBLP, Crossref, HAL ensemble
-- [ ] Mettre en place vérification que les personnes retournés sont les mêmes dans un site ou l’autre (second nom de famille etc)
+- [x] Recupérer les données en quantité
+- [x] Connecter les résultats extraits de DBLP, Crossref, HAL ensemble
+- [x] Mettre en place vérification que les personnes retournés sont les mêmes dans un site ou l’autre (second nom de famille etc)
 - [ ] Mettre en place une fonction qui va chercher si les co-auteurs des membres permanents de l'équipe OPTIMA ont eux-mêmes des publications.
 
 Notes : /
