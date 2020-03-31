@@ -57,6 +57,8 @@ def main():
     articles = etree.Element("Articles")
     for res in get_articles_by_author(AUTHOR) :
         article = etree.SubElement(articles, "article")
+        reference = etree.SubElement(article, "Reference")
+        reference.text = "Crossref"
         titre = etree.SubElement(article,"Titre")
         titre.text = res['title']
         publier_par = etree.SubElement(article,"Publisher")

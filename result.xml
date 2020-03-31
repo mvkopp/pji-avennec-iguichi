@@ -1,5 +1,376 @@
 <Articles>
   <article>
+    <Reference>DBLP</Reference>
+    <Titre>Special issue on &amp;quot;Stochastic Local Search - Recent developments and trends&amp;quot;.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Holger H. Hoos</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Kessaci</Nom_Auteur>
+      <Nom_Auteur>Thomas St&#252;tzle</Nom_Auteur>
+      <Nom_Auteur>Nadarajen Veerapen</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1111/itor.12695</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Special issue on &amp;quot;Stochastic Local Search - Recent developments and trends&amp;quot;.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Holger H. Hoos</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Kessaci</Nom_Auteur>
+      <Nom_Auteur>Thomas St&#252;tzle</Nom_Auteur>
+      <Nom_Auteur>Nadarajen Veerapen</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1111/itor.12728</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Special issue on &amp;quot;Stochastic Local Search - Recent developments and trends&amp;quot;.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Holger H. Hoos</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Kessaci</Nom_Auteur>
+      <Nom_Auteur>Thomas St&#252;tzle</Nom_Auteur>
+      <Nom_Auteur>Nadarajen Veerapen</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1111/itor.12752</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Special issue on &amp;quot;Stochastic Local Search - Recent developments and trends&amp;quot;.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Holger H. Hoos</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Kessaci</Nom_Auteur>
+      <Nom_Auteur>Thomas St&#252;tzle</Nom_Auteur>
+      <Nom_Auteur>Nadarajen Veerapen</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1111/itor.12772</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Metaheuristics for data mining - Survey and opportunities for big data.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1007/s10288-019-00402-4</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Automatic Configuration of Multi-Objective Local Search Algorithms for Permutation Problems.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Aymeric Blot</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Marmion</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Holger H. Hoos</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1162/evco_a_00240</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Special issue on &amp;quot;Stochastic Local Search - Recent developments and trends&amp;quot;.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Holger H. Hoos</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Kessaci</Nom_Auteur>
+      <Nom_Auteur>Thomas St&#252;tzle</Nom_Auteur>
+      <Nom_Auteur>Nadarajen Veerapen</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1111/itor.12679</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Configuration of a Dynamic MOLS Algorithm for Bi-objective Flowshop Scheduling.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Camille Pageau</Nom_Auteur>
+      <Nom_Auteur>Aymeric Blot</Nom_Auteur>
+      <Nom_Auteur>Holger H. Hoos</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Kessaci</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-030-12598-1_45</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>TPOT-SH - A Faster Optimization Algorithm to Solve the AutoML Problem on Large Datasets.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Laurent Parmentier</Nom_Auteur>
+      <Nom_Auteur>Olivier Nicol</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Kessaci</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1109/ICTAI.2019.00072</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>An Improved TLBO Algorithm for Solving UAV Path Planning Problem.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Soheila Ghambari</Nom_Auteur>
+      <Nom_Auteur>Lhassane Idoumghar</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Julien Lepagnot</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1109/SSCI44817.2019.9003160</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Survey and unification of local search techniques in metaheuristics for multi-objective combinatorial optimisation.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Aymeric Blot</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Marmion</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1007/s10732-018-9381-1</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>An exact algorithm for the bi-objective timing problem.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Sophie Jacquin</Nom_Auteur>
+      <Nom_Auteur>Fanny Dufoss&#233;</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1007/s11590-018-1237-y</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Automatic Configuration of Bi-Objective Optimisation Algorithms - Impact of Correlation Between Objectives.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Aymeric Blot</Nom_Auteur>
+      <Nom_Auteur>Holger H. Hoos</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Kessaci</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1109/ICTAI.2018.00093</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Probability Estimation by an Adapted Genetic Algorithm in Web Insurance.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Anne-Lise Bedenel</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Christophe Biernacki</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-030-05348-2_21</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Adaptive Multi-objective Local Search Algorithms for the Permutation Flowshop Scheduling Problem.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Aymeric Blot</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Kessaci</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Patrick De Causmaecker</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-030-05348-2_22</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>New Initialisation Techniques for Multi-objective Local Search - Application to the Bi-objective Permutation Flowshop.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Aymeric Blot</Nom_Auteur>
+      <Nom_Auteur>Manuel L&#243;pez-Ib&#225;&#241;ez 0001</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Kessaci</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-319-99253-2_26</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>A comparative study of meta-heuristic algorithms for solving UAV path planning.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Soheila Ghambari</Nom_Auteur>
+      <Nom_Auteur>Julien Lepagnot</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Lhassane Idoumghar</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1109/SSCI.2018.8628807</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Extraction and optimization of classification rules for temporal sequences - Application to hospital data.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Maxence Vandromme</Nom_Auteur>
+      <Nom_Auteur>Julie Jacques</Nom_Auteur>
+      <Nom_Auteur>Julien Taillard</Nom_Auteur>
+      <Nom_Auteur>A. Hansske</Nom_Auteur>
+      <Nom_Auteur>Laetitia Vermeulen-Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1016/j.knosys.2017.02.001</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Automatically Configuring Multi-objective Local Search Using Multi-objective Optimisation.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Aymeric Blot</Nom_Auteur>
+      <Nom_Auteur>Alexis Pernet</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Marie-&#201;l&#233;onore Kessaci-Marmion</Nom_Auteur>
+      <Nom_Auteur>Holger H. Hoos</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-319-54157-0_5</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Automatic design of multi-objective local search algorithms - case study on a bi-objective permutation flowshop scheduling problem.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Aymeric Blot</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Marie-&#201;l&#233;onore Kessaci-Marmion</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1145/3071178.3071323</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>A multi-objective dynamic programming-based metaheuristic to solve a bi-objective unit commitment problem using a multi-objective decoder.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Sophie Jacquin</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1504/IJMHEUR.2016.079104</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Multi-objective Neutral Neighbors&amp;apos; - What could be the definition(s)?</Titre>
+    <Auteurs>
+      <Nom_Auteur>Marie-El&#233;onore Marmion</Nom_Auteur>
+      <Nom_Auteur>Hern&#225;n E. Aguirre</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Kiyoshi Tanaka</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1145/2908812.2908902</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>MO-ParamILS - A Multi-objective Automatic Algorithm Configuration Framework.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Aymeric Blot</Nom_Auteur>
+      <Nom_Auteur>Holger H. Hoos</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Marie-&#201;l&#233;onore Kessaci-Marmion</Nom_Auteur>
+      <Nom_Auteur>Heike Trautmann</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-319-50349-3_3</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Feature Selection Using Tabu Search with Learning Memory - Learning Tabu Search.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Lucien Mousin</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Marie-&#201;l&#233;onore Kessaci-Marmion</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-319-50349-3_10</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>A Scalable Biclustering Method for Heterogeneous Medical Data.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Maxence Vandromme</Nom_Auteur>
+      <Nom_Auteur>Julie Jacques</Nom_Auteur>
+      <Nom_Auteur>Julien Taillard</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-319-51469-7_6</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Decoder-based evolutionary algorithm for bi-objective just-in-time single-machine job-shop.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Sophie Jacquin</Nom_Auteur>
+      <Nom_Auteur>Emilie Allart</Nom_Auteur>
+      <Nom_Auteur>Fanny Dufoss&#233;</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1109/SSCI.2016.7850054</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Conception of a dominance-based multi-objective local search in the context of classification rule mining in large and imbalanced data sets.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Julie Jacques</Nom_Auteur>
+      <Nom_Auteur>Julien Taillard</Nom_Auteur>
+      <Nom_Auteur>David Delerue</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1016/j.asoc.2015.06.002</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Using multiobjective optimization for biclustering microarray data.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Khedidja Seridi</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1016/j.asoc.2015.03.060</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Neutral but a Winner! How Neutrality Helps Multiobjective Local Search Algorithms.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Aymeric Blot</Nom_Auteur>
+      <Nom_Auteur>Hern&#225;n E. Aguirre</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Marmion</Nom_Auteur>
+      <Nom_Auteur>Kiyoshi Tanaka</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-319-15934-8_3</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>A Comparison of Decoding Strategies for the 0/1 Multi-objective Unit Commitment Problem.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Sophie Jacquin</Nom_Auteur>
+      <Nom_Auteur>Lucien Mousin</Nom_Auteur>
+      <Nom_Auteur>Igor Machado Coelho</Nom_Auteur>
+      <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-319-15934-8_26</URL>
+  </article>
+</Articles>
+<Articles>
+  <article>
+    <Reference>Crossref</Reference>
     <Titre>Evolutionary Data Mining for Genomics</Titre>
     <Publisher>IGI Global</Publisher>
     <Auteurs>
@@ -9,6 +380,7 @@
     <URL>http://dx.doi.org/10.4018/978-1-60566-010-3.ch127</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
     <Titre>Clustering Nominal and Numerical Data: A New Distance&#160;Concept&#160;for&#160;a&#160;Hybrid&#160;Genetic&#160;Algorithm</Titre>
     <Publisher>Springer Berlin Heidelberg</Publisher>
     <Auteurs>
@@ -20,6 +392,7 @@
     <URL>http://dx.doi.org/10.1007/978-3-540-24652-7_22</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
     <Titre>Metaheuristics for data mining</Titre>
     <Publisher>Springer Science and Business Media LLC</Publisher>
     <Auteurs>
@@ -30,6 +403,7 @@
     <URL>http://dx.doi.org/10.1007/s10288-019-00402-4</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
     <Titre>Metaheuristics for Big Data</Titre>
     <Publisher>John Wiley &amp; Sons, Inc.</Publisher>
     <Auteurs>
@@ -40,6 +414,7 @@
     <URL>http://dx.doi.org/10.1002/9781119347569</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
     <Titre>Guest Editorial</Titre>
     <Publisher>Springer Science and Business Media LLC</Publisher>
     <Auteurs>
@@ -50,6 +425,7 @@
     <URL>http://dx.doi.org/10.1007/s10852-008-9084-y</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
     <Titre>Perspectivas e pr&#225;ticas do Museu do Patrim&#244;nio Vivo de Jo&#227;o Pessoa</Titre>
     <Publisher>Department of Museology - Lusophone University</Publisher>
     <Auteurs>
@@ -60,6 +436,7 @@
     <URL>http://dx.doi.org/10.36572/csm.2015.vol.49.01</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
     <Titre>Editorial</Titre>
     <Publisher>Springer Science and Business Media LLC</Publisher>
     <Auteurs>
@@ -70,6 +447,7 @@
     <URL>http://dx.doi.org/10.1007/s10852-012-9176-6</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
     <Titre>A unified model for evolutionary multi-objective optimization and its implementation in a general purpose software framework</Titre>
     <Publisher>IEEE</Publisher>
     <Auteurs>
@@ -81,6 +459,7 @@
     <URL>http://dx.doi.org/10.1109/mcdm.2009.4938833</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
     <Titre>Discovering Haplotypes in Linkage Disequilibrium Mapping with an Adaptive Genetic Algorithm</Titre>
     <Publisher>Springer Berlin Heidelberg</Publisher>
     <Auteurs>
@@ -92,6 +471,7 @@
     <URL>http://dx.doi.org/10.1007/3-540-36605-9_7</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
     <Titre>Evolutionary Feature Selection for Bioinformatics</Titre>
     <Publisher>John Wiley &amp; Sons, Inc.</Publisher>
     <Auteurs>
@@ -103,6 +483,19 @@
     <URL>http://dx.doi.org/10.1002/9780470199091.ch6</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
+    <Titre>Multiobjective Path Relinking for Biclustering: Application to Microarray Data</Titre>
+    <Publisher>Springer Berlin Heidelberg</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Khedidja Seridi</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+    </Auteurs>
+    <Type>book-chapter</Type>
+    <URL>http://dx.doi.org/10.1007/978-3-642-37140-0_18</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
     <Titre>A software framework based on a conceptual unified model for evolutionary multiobjective optimization: ParadisEO-MOEO</Titre>
     <Publisher>Elsevier BV</Publisher>
     <Auteurs>
@@ -114,6 +507,7 @@
     <URL>http://dx.doi.org/10.1016/j.ejor.2010.07.023</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
     <Titre>Using multiobjective metaheuristics to solve VRP with uncertain demands</Titre>
     <Publisher>IEEE</Publisher>
     <Auteurs>
@@ -125,17 +519,7 @@
     <URL>http://dx.doi.org/10.1109/cec.2010.5586538</URL>
   </article>
   <article>
-    <Titre>Parallel Hybrid Metaheuristic for Multi-objective Biclustering in Microarray Data</Titre>
-    <Publisher>IEEE</Publisher>
-    <Auteurs>
-      <Nom_Auteur>Khedidja Seridi</Nom_Auteur>
-      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
-      <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
-    </Auteurs>
-    <Type>proceedings-article</Type>
-    <URL>http://dx.doi.org/10.1109/ipdpsw.2012.78</URL>
-  </article>
-  <article>
+    <Reference>Crossref</Reference>
     <Titre>Evolutionary Data Mining for Genomics</Titre>
     <Publisher>IGI Global</Publisher>
     <Auteurs>
@@ -147,6 +531,7 @@
     <URL>http://dx.doi.org/10.4018/978-1-59140-557-3.ch091</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
     <Titre>Multi-objective evolutionary algorithm for biclustering in microarrays data</Titre>
     <Publisher>IEEE</Publisher>
     <Auteurs>
@@ -158,6 +543,7 @@
     <URL>http://dx.doi.org/10.1109/cec.2011.5949941</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
     <Titre>Dynamic Programming Based Metaheuristic for Energy Planning Problems</Titre>
     <Publisher>Springer Berlin Heidelberg</Publisher>
     <Auteurs>
@@ -169,6 +555,7 @@
     <URL>http://dx.doi.org/10.1007/978-3-662-45523-4_14</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
     <Titre>Preliminary Studies on Biclustering of GWA: A Multiobjective Approach</Titre>
     <Publisher>Springer International Publishing</Publisher>
     <Auteurs>
@@ -180,6 +567,7 @@
     <URL>http://dx.doi.org/10.1007/978-3-319-11683-9_9</URL>
   </article>
   <article>
+    <Reference>Crossref</Reference>
     <Titre>Using multiobjective optimization for biclustering microarray data</Titre>
     <Publisher>Elsevier BV</Publisher>
     <Auteurs>
@@ -191,17 +579,7 @@
     <URL>http://dx.doi.org/10.1016/j.asoc.2015.03.060</URL>
   </article>
   <article>
-    <Titre>A multi-objective dynamic programming-based metaheuristic to solve a bi-objective unit commitment problem using a multi-objective decoder</Titre>
-    <Publisher>Inderscience Publishers</Publisher>
-    <Auteurs>
-      <Nom_Auteur>Sophie Jacquin</Nom_Auteur>
-      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
-      <Nom_Auteur>El Ghazali Talbi</Nom_Auteur>
-    </Auteurs>
-    <Type>journal-article</Type>
-    <URL>http://dx.doi.org/10.1504/ijmheur.2016.079104</URL>
-  </article>
-  <article>
+    <Reference>Crossref</Reference>
     <Titre>DYNAMOP Applied to the Unit Commitment Problem</Titre>
     <Publisher>Springer International Publishing</Publisher>
     <Auteurs>
@@ -210,4 +588,18 @@
       <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
     </Auteurs>
     <Type>book-chapter</Type>
-    <URL>http://dx.doi.or
+    <URL>http://dx.doi.org/10.1007/978-3-319-19084-6_20</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>$$MO-Mine_{clust}$$ M O - M i n e c l u s t : A Framework for Multi-objective Clustering</Titre>
+    <Publisher>Springer International Publishing</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Benjamin Fisset</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    </Auteurs>
+    <Type>book-chapter</Type>
+    <URL>http://dx.doi.org/10.1007/978-3-319-19084-6_30</URL>
+  </article>
+</Articles>

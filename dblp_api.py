@@ -1,5 +1,6 @@
 import requests
 from lxml import etree
+import sys
 
 
 def get_publications_by_author(author,h=30):
@@ -53,6 +54,8 @@ def main():
 
     for res in get_publications_by_author(AUTHOR) :
         article = etree.SubElement(articles, "article")
+        reference = etree.SubElement(article, "Reference")
+        reference.text = "DBLP"
         titre = etree.SubElement(article,"Titre")
         titre.text = res['title']
         auteurs = etree.SubElement(article, "Auteurs")
