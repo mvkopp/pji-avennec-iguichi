@@ -52,7 +52,7 @@ def main():
     """
     main function
     """
-    AUTHOR='laetitia vermeulen jourdan'
+    AUTHOR='Faiza Ajmi'
 
     articles = etree.Element("Articles")
     for res in get_articles_by_author(AUTHOR) :

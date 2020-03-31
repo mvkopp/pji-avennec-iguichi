@@ -603,3 +603,617 @@
     <URL>http://dx.doi.org/10.1007/978-3-319-19084-6_30</URL>
   </article>
 </Articles>
+<Articles>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Metaheuristics for data mining - Survey and opportunities for big data.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1007/s10288-019-00402-4</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Exploiting Promising Sub-Sequences of Jobs to solve the No-Wait Flowshop Scheduling Problem.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Lucien Mousin</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Kessaci</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Informal Publications</Type>
+    <URL>http://arxiv.org/abs/1903.09035</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Extraction and optimization of classification rules for temporal sequences - Application to hospital data.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Maxence Vandromme</Nom_Auteur>
+      <Nom_Auteur>Julie Jacques</Nom_Auteur>
+      <Nom_Auteur>Julien Taillard</Nom_Auteur>
+      <Nom_Auteur>A. Hansske</Nom_Auteur>
+      <Nom_Auteur>Laetitia Vermeulen-Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1016/j.knosys.2017.02.001</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Neutral Neighbors in Bi-objective Optimization - Distribution of the Most Promising for Permutation Problems.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Marie-&#201;l&#233;onore Kessaci-Marmion</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>J&#233;r&#233;mie Humeau</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-319-54157-0_24</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>A New Constructive Heuristic for the No-Wait Flowshop Scheduling Problem.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Lucien Mousin</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Kessaci</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-319-69404-7_14</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Multi-objective Neutral Neighbors&amp;apos; - What could be the definition(s)?</Titre>
+    <Auteurs>
+      <Nom_Auteur>Marie-El&#233;onore Marmion</Nom_Auteur>
+      <Nom_Auteur>Hern&#225;n E. Aguirre</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Kiyoshi Tanaka</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1145/2908812.2908902</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Feature Selection Using Tabu Search with Learning Memory - Learning Tabu Search.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Lucien Mousin</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Marie-&#201;l&#233;onore Kessaci-Marmion</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-319-50349-3_10</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>A Scalable Biclustering Method for Heterogeneous Medical Data.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Maxence Vandromme</Nom_Auteur>
+      <Nom_Auteur>Julie Jacques</Nom_Auteur>
+      <Nom_Auteur>Julien Taillard</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-319-51469-7_6</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Conception of a dominance-based multi-objective local search in the context of classification rule mining in large and imbalanced data sets.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Julie Jacques</Nom_Auteur>
+      <Nom_Auteur>Julien Taillard</Nom_Auteur>
+      <Nom_Auteur>David Delerue</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1016/j.asoc.2015.06.002</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Neutral but a Winner! How Neutrality Helps Multiobjective Local Search Algorithms.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Aymeric Blot</Nom_Auteur>
+      <Nom_Auteur>Hern&#225;n E. Aguirre</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Marmion</Nom_Auteur>
+      <Nom_Auteur>Kiyoshi Tanaka</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-319-15934-8_3</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>MO-Mine_clust - A Framework for Multi-objective Clustering.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Benjamin Fisset</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-319-19084-6_30</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Knowledge Discovery in Bioinformatics.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Julie Hamon</Nom_Auteur>
+      <Nom_Auteur>Julie Jacques</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Parts in Books or Collections</Type>
+    <URL>https://doi.org/10.1007/978-3-662-43505-2_61</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Learning and Intelligent Optimization - 9th International Conference, LION 9, Lille, France, January 12-15, 2015. Revised Selected Papers</Titre>
+    <Auteurs>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Marie-El&#233;onore Marmion</Nom_Auteur>
+    </Auteurs>
+    <Type>Editorship</Type>
+    <URL>https://doi.org/10.1007/978-3-319-19084-6</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>On the structure of multiobjective combinatorial search space - MNK-landscapes with correlated objectives.</Titre>
+    <Auteurs>
+      <Nom_Auteur>S&#233;bastien V&#233;rel</Nom_Auteur>
+      <Nom_Auteur>Arnaud Liefooghe</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1016/j.ejor.2012.12.019</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Fitness Landscape Analysis and Metaheuristics Efficiency.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Marie-El&#233;onore Marmion</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1007/s10852-012-9177-5</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>The benefits of using multi-objectivization for mining pittsburgh partial classification rules in imbalanced and discrete data.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Julie Jacques</Nom_Auteur>
+      <Nom_Auteur>Julien Taillard</Nom_Auteur>
+      <Nom_Auteur>David Delerue</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1145/2463372.2463432</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>MOCA-I - Discovering Rules and Guiding Decision Maker in the Context of Partial Classification in Large and Imbalanced Datasets.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Julie Jacques</Nom_Auteur>
+      <Nom_Auteur>Julien Taillard</Nom_Auteur>
+      <Nom_Auteur>David Delerue</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-642-44973-4_5</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Neutrality in the Graph Coloring Problem.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Marie-El&#233;onore Marmion</Nom_Auteur>
+      <Nom_Auteur>Aymeric Blot</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-642-44973-4_14</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Solving a dial-a-ride problem with a hybrid evolutionary multi-objective approach - Application to demand responsive transport.</Titre>
+    <Auteurs>
+      <Nom_Auteur>R&#233;my Chevrier</Nom_Auteur>
+      <Nom_Auteur>Arnaud Liefooghe</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1016/j.asoc.2011.12.014</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Synergies between operations research and data mining - The emerging use of multi-objective approaches.</Titre>
+    <Auteurs>
+      <Nom_Auteur>David Corne</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    </Auteurs>
+    <Type>Journal Articles</Type>
+    <URL>https://doi.org/10.1016/j.ejor.2012.03.039</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>NILS - a Neutrality-based Iterated Local Search and its application to Flowshop Scheduling</Titre>
+    <Auteurs>
+      <Nom_Auteur>Marie-El&#233;onore Marmion</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Arnaud Liefooghe</Nom_Auteur>
+      <Nom_Auteur>S&#233;bastien V&#233;rel</Nom_Auteur>
+    </Auteurs>
+    <Type>Informal Publications</Type>
+    <URL>http://arxiv.org/abs/1207.4450</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Set-based Multiobjective Fitness Landscapes - A Preliminary Study</Titre>
+    <Auteurs>
+      <Nom_Auteur>S&#233;bastien V&#233;rel</Nom_Auteur>
+      <Nom_Auteur>Arnaud Liefooghe</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Informal Publications</Type>
+    <URL>http://arxiv.org/abs/1207.4451</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Pareto Local Optima of Multiobjective NK-Landscapes with Correlated Objectives</Titre>
+    <Auteurs>
+      <Nom_Auteur>S&#233;bastien V&#233;rel</Nom_Auteur>
+      <Nom_Auteur>Arnaud Liefooghe</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Informal Publications</Type>
+    <URL>http://arxiv.org/abs/1207.4452</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>The Road to VEGAS - Guiding the Search over Neutral Networks</Titre>
+    <Auteurs>
+      <Nom_Auteur>Marie-El&#233;onore Marmion</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Arnaud Liefooghe</Nom_Auteur>
+      <Nom_Auteur>S&#233;bastien V&#233;rel</Nom_Auteur>
+    </Auteurs>
+    <Type>Informal Publications</Type>
+    <URL>http://arxiv.org/abs/1207.4626</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>On the Effect of Connectedness for Biobjective Multiple and Long Path Problems</Titre>
+    <Auteurs>
+      <Nom_Auteur>S&#233;bastien V&#233;rel</Nom_Auteur>
+      <Nom_Auteur>Arnaud Liefooghe</Nom_Auteur>
+      <Nom_Auteur>J&#233;r&#233;mie Humeau</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Informal Publications</Type>
+    <URL>http://arxiv.org/abs/1207.4628</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>On the Neutrality of Flowshop Scheduling Fitness Landscapes</Titre>
+    <Auteurs>
+      <Nom_Auteur>Marie-El&#233;onore Marmion</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Arnaud Liefooghe</Nom_Auteur>
+      <Nom_Auteur>S&#233;bastien V&#233;rel</Nom_Auteur>
+    </Auteurs>
+    <Type>Informal Publications</Type>
+    <URL>http://arxiv.org/abs/1207.4629</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Analyzing the Effect of Objective Correlation on the Efficient Set of MNK-Landscapes</Titre>
+    <Auteurs>
+      <Nom_Auteur>S&#233;bastien V&#233;rel</Nom_Auteur>
+      <Nom_Auteur>Arnaud Liefooghe</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Informal Publications</Type>
+    <URL>http://arxiv.org/abs/1207.4631</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>NILS - A Neutrality-Based Iterated Local Search and Its Application to Flowshop Scheduling.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Marie-El&#233;onore Marmion</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Arnaud Liefooghe</Nom_Auteur>
+      <Nom_Auteur>S&#233;bastien V&#233;rel</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-642-20364-0_17</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Pareto Local Optima of Multiobjective NK-Landscapes with Correlated Objectives.</Titre>
+    <Auteurs>
+      <Nom_Auteur>S&#233;bastien V&#233;rel</Nom_Auteur>
+      <Nom_Auteur>Arnaud Liefooghe</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-642-20364-0_20</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>The road to VEGAS - guiding the search over neutral networks.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Marie-El&#233;onore Marmion</Nom_Auteur>
+      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+      <Nom_Auteur>Arnaud Liefooghe</Nom_Auteur>
+      <Nom_Auteur>S&#233;bastien V&#233;rel</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1145/2001576.2001842</URL>
+  </article>
+</Articles>
+<Articles>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>Augmented Reality for Real-Time Navigation Assistance to Wheelchair Users with Obstacles&amp;apos; Management.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Sawssen Ben Abdallah</Nom_Auteur>
+      <Nom_Auteur>Faiza Ajmi</Nom_Auteur>
+      <Nom_Auteur>Sarah Ben Othman</Nom_Auteur>
+      <Nom_Auteur>S&#233;bastien Vermandel</Nom_Auteur>
+      <Nom_Auteur>Slim Hammadi</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1007/978-3-030-22750-0_47</URL>
+  </article>
+  <article>
+    <Reference>DBLP</Reference>
+    <Titre>An Innovative System to Assist the Mobility of People With Motor Disabilities.</Titre>
+    <Auteurs>
+      <Nom_Auteur>Faiza Ajmi</Nom_Auteur>
+      <Nom_Auteur>Sawssen Ben Abdallah</Nom_Auteur>
+      <Nom_Auteur>Sarah Ben Othman</Nom_Auteur>
+      <Nom_Auteur>Hayfa Zgaya-Biau</Nom_Auteur>
+      <Nom_Auteur>Slim Hammadi</Nom_Auteur>
+    </Auteurs>
+    <Type>Conference and Workshop Papers</Type>
+    <URL>https://doi.org/10.1109/SMC.2019.8914332</URL>
+  </article>
+</Articles>
+<Articles>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>A Time Series Analysis of Satellite Imageries for Land Use &amp; Land Cover (LULC) Change Detection of Gujranwala City, Pakistan from 1999&#8211;2019</Titre>
+    <Publisher>Indian Society for Education and Environment</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Faiza Mazhar</Nom_Auteur>
+      <Nom_Auteur>Faiza Fadia</Nom_Auteur>
+    </Auteurs>
+    <Type>journal-article</Type>
+    <URL>http://dx.doi.org/10.17485/ijst/2019/v12i46/148606</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>Sleep quality among residents of Saudi Board of Family Medicine compared to service physicians in primary care centers</Titre>
+    <Publisher>ScopeMed Publishing</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Mansour Ajmi</Nom_Auteur>
+    </Auteurs>
+    <Type>journal-article</Type>
+    <URL>http://dx.doi.org/10.5455/ijmsph.2015.22032015193</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>Developing In-House Digital Tools</Titre>
+    <Publisher>IGI Global</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Ayyoub Ajmi</Nom_Auteur>
+    </Auteurs>
+    <Type>book-chapter</Type>
+    <URL>http://dx.doi.org/10.4018/978-1-5225-2676-6.ch006</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>CLINICAL FEATURES AND OUTCOME OF CHILDREN ADMITTED WITH HERBAL INTOXICATION AT SAHLOUL UNIVERSITY HOSPITAL, SOUSSE, TUNISIA</Titre>
+    <Publisher>Morressier</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Houda Ajmi</Nom_Auteur>
+    </Auteurs>
+    <Type>posted-content</Type>
+    <URL>http://dx.doi.org/10.26226/morressier.5b5f433bb56e9b005965b8b8</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>0088 - NEONATALOGIST-PERFORMED ECHOGRAPHY IN CONGENITAL HEART DISEASE SCREENING: A TUNISIAN EXPERIENCE</Titre>
+    <Publisher>Morressier</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Houda Ajmi</Nom_Auteur>
+    </Auteurs>
+    <Type>posted-content</Type>
+    <URL>http://dx.doi.org/10.26226/morressier.5b5f4339b56e9b005965b413</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>BURDEN OF PNEUMOCOCCAL INVASIVE DISEASES IN A TERTIARY REFERRAL CENTER FOR PEDIATRICS IN TUNISIA</Titre>
+    <Publisher>Morressier</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Houda Ajmi</Nom_Auteur>
+    </Auteurs>
+    <Type>posted-content</Type>
+    <URL>http://dx.doi.org/10.26226/morressier.5b5f433cb56e9b005965b36d</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>An Innovative System to Assist the Mobility of People With Motor Disabilities</Titre>
+    <Publisher>IEEE</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Faiza Ajmi</Nom_Auteur>
+      <Nom_Auteur>Sawssen Ben Abdallah</Nom_Auteur>
+      <Nom_Auteur>Sarah Ben Othman</Nom_Auteur>
+      <Nom_Auteur>Hayfa Zgaya-Biau</Nom_Auteur>
+      <Nom_Auteur>Slim Hammadi</Nom_Auteur>
+    </Auteurs>
+    <Type>proceedings-article</Type>
+    <URL>http://dx.doi.org/10.1109/smc.2019.8914332</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>Augmented Reality for Real-Time Navigation Assistance to Wheelchair Users with Obstacles&#8217; Management</Titre>
+    <Publisher>Springer International Publishing</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Sawssen Ben Abdallah</Nom_Auteur>
+      <Nom_Auteur>Faiza Ajmi</Nom_Auteur>
+      <Nom_Auteur>Sarah Ben Othman</Nom_Auteur>
+      <Nom_Auteur>S&#233;bastien Vermandel</Nom_Auteur>
+      <Nom_Auteur>Slim Hammadi</Nom_Auteur>
+    </Auteurs>
+    <Type>book-chapter</Type>
+    <URL>http://dx.doi.org/10.1007/978-3-030-22750-0_47</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>Acquired haemophilia&#160;B: a case report and literature review</Titre>
+    <Publisher>John Libbey Eurotext</Publisher>
+    <Auteurs>
+      <Nom_Auteur>In&#232;s Jedidi</Nom_Auteur>
+      <Nom_Auteur>Sondes Hdiji</Nom_Auteur>
+      <Nom_Auteur>Naourez Ajmi</Nom_Auteur>
+      <Nom_Auteur>Faiza Makni</Nom_Auteur>
+      <Nom_Auteur>Sayda Masmoudi</Nom_Auteur>
+      <Nom_Auteur>Moez Elloumi</Nom_Auteur>
+      <Nom_Auteur>Choumous Kallel</Nom_Auteur>
+    </Auteurs>
+    <Type>journal-article</Type>
+    <URL>http://dx.doi.org/10.1684/abc.2011.0638</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>Association between neurological and rheumatological manifestations in vitamin D deficiency and vitamin D levels</Titre>
+    <Publisher>Pakistan Journal of Medical Sciences</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Faiza Abdulaziz Qari</Nom_Auteur>
+      <Nom_Auteur>Faiza A. Qari</Nom_Auteur>
+    </Auteurs>
+    <Type>journal-article</Type>
+    <URL>http://dx.doi.org/10.12669/pjms.293.3447</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>Audit firm, corporate governance, and audit quality: Evidence from Bahrain</Titre>
+    <Publisher>Elsevier BV</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Jasim Al-Ajmi</Nom_Auteur>
+    </Auteurs>
+    <Type>journal-article</Type>
+    <URL>http://dx.doi.org/10.1016/j.adiac.2009.02.005</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>Which Microstructural Features of Bilingual Dictionaries Affect Users' Look-Up Performance?</Titre>
+    <Publisher>Oxford University Press (OUP)</Publisher>
+    <Auteurs>
+      <Nom_Auteur>H. Al-Ajmi</Nom_Auteur>
+    </Auteurs>
+    <Type>journal-article</Type>
+    <URL>http://dx.doi.org/10.1093/ijl/15.2.119</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>A comparison of minimal erythema doses for narrowband vs. broadband ultraviolet B irradiation in darkly pigmented healthy subjects and in psoriatic patients in Kuwait</Titre>
+    <Publisher>Wiley</Publisher>
+    <Auteurs>
+      <Nom_Auteur>H.S. Al-Ajmi</Nom_Auteur>
+    </Auteurs>
+    <Type>journal-article</Type>
+    <URL>http://dx.doi.org/10.1111/j.1365-2133.2006.07162.x</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>Dynamic tooth loads and quasi-static transmission errors in helical gears &#8211; Approximate dynamic factor formulae</Titre>
+    <Publisher>Elsevier BV</Publisher>
+    <Auteurs>
+      <Nom_Auteur>P. Velex</Nom_Auteur>
+      <Nom_Auteur>M. Ajmi</Nom_Auteur>
+    </Auteurs>
+    <Type>journal-article</Type>
+    <URL>http://dx.doi.org/10.1016/j.mechmachtheory.2006.12.009</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>Investors' use of corporate reports in Bahrain</Titre>
+    <Publisher>Emerald</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Jasim Al&#8208;Ajmi</Nom_Auteur>
+    </Auteurs>
+    <Type>journal-article</Type>
+    <URL>http://dx.doi.org/10.1108/02686900910941140</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>The effect of personal characteristics on conflict management style</Titre>
+    <Publisher>Emerald</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Rashed Shebeeb Al&#8208;Ajmi</Nom_Auteur>
+    </Auteurs>
+    <Type>journal-article</Type>
+    <URL>http://dx.doi.org/10.1108/10595420710833589</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>THE EFFECT OF PERSONAL CHARACTERISTICS ON JOB SATISFACTION: A STUDY AMONG MALE MANAGERS IN THE KUWAIT OIL INDUSTRY</Titre>
+    <Publisher>Emerald</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Rashed Al&#8208;Ajmi</Nom_Auteur>
+    </Auteurs>
+    <Type>journal-article</Type>
+    <URL>http://dx.doi.org/10.1108/eb047429</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>The Organizational Commitment and Job Satisfaction: A Comparative Study of the Public and the Private Sectors in the State of Kuwait</Titre>
+    <Publisher>King Abdulaziz University Scientific Publishing Centre</Publisher>
+    <Auteurs>
+      <Nom_Auteur>RASHED AL-AJMI</Nom_Auteur>
+    </Auteurs>
+    <Type>journal-article</Type>
+    <URL>http://dx.doi.org/10.4197/eco.13-1.5</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>Thermal comfort in air-conditioned mosques in the dry desert climate</Titre>
+    <Publisher>Elsevier BV</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Farraj F. Al-ajmi</Nom_Auteur>
+    </Auteurs>
+    <Type>journal-article</Type>
+    <URL>http://dx.doi.org/10.1016/j.buildenv.2010.05.003</URL>
+  </article>
+  <article>
+    <Reference>Crossref</Reference>
+    <Titre>E-math clinic</Titre>
+    <Publisher>ACM Press</Publisher>
+    <Auteurs>
+      <Nom_Auteur>Mohamed Fahad Al-Ajmi</Nom_Auteur>
+    </Auteurs>
+    <Type>proceedings-article</Type>
+    <URL>http://dx.doi.org/10.1145/1836029.1836032</URL>
+  </article>
+</Articles>

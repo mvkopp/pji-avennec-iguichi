@@ -48,7 +48,7 @@ def main():
     """
     main function
     """
-    AUTHOR='laetitia jourdan'
+    AUTHOR='Faiza Ajmi'
 
     articles = etree.Element("Articles")
 
