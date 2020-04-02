@@ -1,4 +1,30 @@
 <article>
+  <Reference>DBLP</Reference>
+  <Titre>Augmented Reality for Real-Time Navigation Assistance to Wheelchair Users with Obstacles&amp;apos; Management.</Titre>
+  <Auteurs>
+    <Nom_Auteur>Sawssen Ben Abdallah</Nom_Auteur>
+    <Nom_Auteur>Faiza Ajmi</Nom_Auteur>
+    <Nom_Auteur>Sarah Ben Othman</Nom_Auteur>
+    <Nom_Auteur>S&#233;bastien Vermandel</Nom_Auteur>
+    <Nom_Auteur>Slim Hammadi</Nom_Auteur>
+  </Auteurs>
+  <Type>Conference and Workshop Papers</Type>
+  <URL>https://doi.org/10.1007/978-3-030-22750-0_47</URL>
+</article>
+<article>
+  <Reference>DBLP</Reference>
+  <Titre>An Innovative System to Assist the Mobility of People With Motor Disabilities.</Titre>
+  <Auteurs>
+    <Nom_Auteur>Faiza Ajmi</Nom_Auteur>
+    <Nom_Auteur>Sawssen Ben Abdallah</Nom_Auteur>
+    <Nom_Auteur>Sarah Ben Othman</Nom_Auteur>
+    <Nom_Auteur>Hayfa Zgaya-Biau</Nom_Auteur>
+    <Nom_Auteur>Slim Hammadi</Nom_Auteur>
+  </Auteurs>
+  <Type>Conference and Workshop Papers</Type>
+  <URL>https://doi.org/10.1109/SMC.2019.8914332</URL>
+</article>
+<article>
   <Reference>Crossref</Reference>
   <Titre>An Innovative System to Assist the Mobility of People With Motor Disabilities</Titre>
   <Publisher>IEEE</Publisher>

@@ -44,6 +44,13 @@ def get_publications_by_author(author,h=30):
     return res
 
 
+def test_auteur_by_name(author,res):   
+    test = False 
+    for auteur in res['authors']:
+        if (auteur == author):
+            test = True
+    return test
+
 def main():
     """
     main function
@@ -53,21 +60,22 @@ def main():
     articles = etree.Element("Articles")
 
     for res in get_publications_by_author(AUTHOR) :
-        article = etree.SubElement(articles, "article")
-        reference = etree.SubElement(article, "Reference")
-        reference.text = "DBLP"
-        titre = etree.SubElement(article,"Titre")
-        titre.text = res['title']
-        auteurs = etree.SubElement(article, "Auteurs")
-        for auteur_art in res['authors'] :
-            nom = etree.SubElement(auteurs, "Nom_Auteur")
-            nom.text = auteur_art
-        type_art = etree.SubElement(article,"Type") 
-        type_art.text=res['type']
-        url_art = etree.SubElement(article,"URL")
-        url_art.text = res['url']
-    #fichier = open ("result.xml","a")        
-    #fichier.write(etree.tostring(articles, pretty_print=True))
+        if (test_auteur_by_name(AUTHOR,res) == True):
+            article = etree.SubElement(articles, "article")
+            reference = etree.SubElement(article, "Reference")
+            reference.text = "DBLP"
+            titre = etree.SubElement(article,"Titre")
+            titre.text = res['title']
+            auteurs = etree.SubElement(article, "Auteurs")
+            for auteur_art in res['authors'] :
+                nom = etree.SubElement(auteurs, "Nom_Auteur")
+                nom.text = auteur_art
+            type_art = etree.SubElement(article,"Type") 
+            type_art.text=res['type']
+            url_art = etree.SubElement(article,"URL")
+            url_art.text = res['url']
+            fichier = open ("result.xml","a")        
+            fichier.write(etree.tostring(article, pretty_print=True))
 
     print("****************************** Les publication pour ", AUTHOR," ***************************")
     for res in get_publications_by_author(AUTHOR) :
