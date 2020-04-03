@@ -30,14 +30,55 @@ def scrape_webpage_cristal_optima(url):
             members.append(name_scientist)
 
     return members
+
+def scrape_webpage_cristal_all_teams():
+    """
+    Scrape the CRIStAL webpage and recover all the teams
+
+    :params : /
+    :returns: (list) the list of all CRIStAL teams
+
+    :example:
+    >>> scrape_webpage_cristal_all_teams()
+    ['biocomputing', 'bonsai', 'dicot', 'mocis', 'moses', '2xs', 'east', 'émeraude', '3dsam', 'fox', 'imageriecouleur', 'bonus', 'inocs', 'orkad', 'osl', 'links', 'magnet', 'sigma', 'sequel', 'caramel', 'carbon', 'rmod', 'spirals', 'cfhp', 'defrost', 'shoc', 'valse', 'bci', 'loki', 'mint', 'noce', 'smac']
+    
+    """
+    URL = 'https://www.cristal.univ-lille.fr'
+    
+    teams=[]
+
+    page=requests.get(URL) # recover the url content
+    soup = BeautifulSoup(page.content,'html.parser')
+
+    res = soup.find(id='topMain')
+    searchTab=res.find('li',{'class':'mega-menu-item'})
+
+    rows = searchTab.find('ul').find('li').find('div').findAll('div',{'class':'row'}) # recover all rows
+    for row in rows :
+        columns=row.findAll('div',{'class':'col-md-3'})
+        for column in columns :
+            if(column.find('ul').find('li').find('a').find('span',{'class':'mega-menu-sub-title'}) != None):   
+                sections=column.find('ul').find('li').find('ul').findAll('li')
+                for section in sections :
+                    team=section.find('a').text # find the name
+                    team=team.replace(" ","") # escape the spaces
+                    team=team.replace("\n","") # escape the line breaks
+                    team=team.lower() # transform the name to lower case
+                    teams.append(team) # add the team name to the result list
+
+    return teams
+            
+    
             
 
 def main():
     """
     main function
     """
-    URL="https://www.cristal.univ-lille.fr/gt/optima/"
-    scrape_webpage_cristal_optima(URL)
+    #URL="https://www.cristal.univ-lille.fr/gt/optima/"
+    #scrape_webpage_cristal_optima(URL)
+
+    print(scrape_webpage_cristal_all_teams())
     
 
 if __name__ == "__main__":
