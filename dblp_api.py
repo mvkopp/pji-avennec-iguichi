@@ -1,6 +1,7 @@
 import requests
 from lxml import etree
 import sys
+import xml.etree.cElementTree as ET
 
 
 def get_publications_by_author(author,h=30):
@@ -51,16 +52,27 @@ def test_auteur_by_name(author,res):
             test = True
     return test
 
+def ifExists(res) :
+    test = False
+    tree = ET.parse('result.xml')
+    root = tree.getroot()
+    for titre in root.findall('article') :
+        titreArticle = titre.find('Titre').text
+        print titreArticle
+        if res['title'] == titreArticle :
+            test = True
+    return test
+
 def main():
     """
     main function
     """
-    AUTHOR='Faiza Ajmi'
+    AUTHOR='Laetitia Jourdan'
 
     articles = etree.Element("Articles")
 
     for res in get_publications_by_author(AUTHOR) :
-        if (test_auteur_by_name(AUTHOR,res) == True):
+        if test_auteur_by_name(AUTHOR,res) == True and ifExists(res) == True:
             article = etree.SubElement(articles, "article")
             reference = etree.SubElement(article, "Reference")
             reference.text = "DBLP"
@@ -74,8 +86,9 @@ def main():
             type_art.text=res['type']
             url_art = etree.SubElement(article,"URL")
             url_art.text = res['url']
-            fichier = open ("result.xml","a")        
+            fichier = open ("result.xml","a")
             fichier.write(etree.tostring(article, pretty_print=True))
+
 
     print("****************************** Les publication pour ", AUTHOR," ***************************")
     for res in get_publications_by_author(AUTHOR) :
