@@ -67,6 +67,42 @@ def scrape_webpage_cristal_all_teams():
                     teams.append(team) # add the team name to the result list
 
     return teams
+
+def scrape_webpage_cristal_members_by_teams(team):
+    """
+    Scrape all the members of a team given
+
+    :params: - team (str) the team name
+    :returns: (dict) a dictionnary with the permanents and not permanents separate
+    
+    :example:
+    >>> scrape_webpage_cristal_members_by_teams('bci')
+    {'permanent': ['François Cabestaing', 'Marie-Hélène Bekaert', 'Claudine Botte-Lecocq', 'José Rouillard', 'Jean-Marc Vannobel'], 'non-permanent': ['Jimmy Petit', 'Camille Bordeau', 'Claire Dussard']}
+    """
+    URL='https://www.cristal.univ-lille.fr/equipes/'
+    
+    members={}
+    members['permanent']=[]
+    members['non-permanent']=[]
+
+    page=requests.get(URL+team) # recover the url content
+    soup = BeautifulSoup(page.content,'html.parser')
+    
+    res = soup.find(id='membres')        
+    columns=res.find('div',{'class':'container'}).find('div',{'class':'row'}).findAll('div',{'class':'col-md-4'})
+    for column in columns :
+        
+            groups = column.find('ul').findChildren('li',recursive=False)
+            for group in groups :
+                list_members=group.find('ul').findChildren('li',recursive=False)
+                for list_member in list_members :
+                    member=list_member.find('a').text
+                    
+                    if (column.find('h3').text.lower().replace(" ","").replace("\n","") == 'permanents'):
+                        members['permanent'].append(member)
+                    else :
+                        members['non-permanent'].append(member)
+    return members
             
     
             
@@ -78,7 +114,7 @@ def main():
     #URL="https://www.cristal.univ-lille.fr/gt/optima/"
     #scrape_webpage_cristal_optima(URL)
 
-    print(scrape_webpage_cristal_all_teams())
+    print(scrape_webpage_cristal_members_by_teams('bci'))
     
 
 if __name__ == "__main__":
