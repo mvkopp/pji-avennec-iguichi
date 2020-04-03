@@ -1,32 +1,4 @@
-<articles>
-  <article>
-    <Reference>Crossref</Reference>
-    <Titre>An Innovative System to Assist the Mobility of People With Motor Disabilities</Titre>
-    <Publisher>IEEE</Publisher>
-    <Auteurs>
-      <Nom_Auteur>Faiza Ajmi</Nom_Auteur>
-      <Nom_Auteur>Sawssen Ben Abdallah</Nom_Auteur>
-      <Nom_Auteur>Sarah Ben Othman</Nom_Auteur>
-      <Nom_Auteur>Hayfa Zgaya-Biau</Nom_Auteur>
-      <Nom_Auteur>Slim Hammadi</Nom_Auteur>
-    </Auteurs>
-    <Type>proceedings-article</Type>
-    <URL>http://dx.doi.org/10.1109/smc.2019.8914332</URL>
-  </article>
-  <article>
-    <Reference>Crossref</Reference>
-    <Titre>Augmented Reality for Real-Time Navigation Assistance to Wheelchair Users with Obstacles&#8217; Management</Titre>
-    <Publisher>Springer International Publishing</Publisher>
-    <Auteurs>
-      <Nom_Auteur>Sawssen Ben Abdallah</Nom_Auteur>
-      <Nom_Auteur>Faiza Ajmi</Nom_Auteur>
-      <Nom_Auteur>Sarah Ben Othman</Nom_Auteur>
-      <Nom_Auteur>S&#233;bastien Vermandel</Nom_Auteur>
-      <Nom_Auteur>Slim Hammadi</Nom_Auteur>
-    </Auteurs>
-    <Type>book-chapter</Type>
-    <URL>http://dx.doi.org/10.1007/978-3-030-22750-0_47</URL>
-  </article>
+<articles>  
   <article>
     <Reference>Crossref</Reference>
     <Titre>Evolutionary Data Mining for Genomics</Titre>
@@ -37,15 +9,204 @@
     <Type>book-chapter</Type>
     <URL>http://dx.doi.org/10.4018/978-1-60566-010-3.ch127</URL>
   </article>
-  <article>
-    <Reference>Crossref</Reference>
-    <Titre>Metaheuristics for data mining</Titre>
-    <Publisher>Springer Science and Business Media LLC</Publisher>
-    <Auteurs>
-      <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
-      <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
-    </Auteurs>
-    <Type>journal-article</Type>
-    <URL>http://dx.doi.org/10.1007/s10288-019-00402-4</URL>
-  </article>
- </articles></articles>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>Metaheuristics for data mining</Titre>
+  <Publisher>Springer Science and Business Media LLC</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+  </Auteurs>
+  <Type>journal-article</Type>
+  <URL>http://dx.doi.org/10.1007/s10288-019-00402-4</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>Metaheuristics for Big Data</Titre>
+  <Publisher>John Wiley &amp; Sons, Inc.</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+  </Auteurs>
+  <Type>book</Type>
+  <URL>http://dx.doi.org/10.1002/9781119347569</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>Perspectivas e pr&#225;ticas do Museu do Patrim&#244;nio Vivo de Jo&#227;o Pessoa</Titre>
+  <Publisher>Department of Museology - Lusophone University</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Moys&#233;s Siqueira Neto</Nom_Auteur>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+  </Auteurs>
+  <Type>journal-article</Type>
+  <URL>http://dx.doi.org/10.36572/csm.2015.vol.49.01</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>Editorial</Titre>
+  <Publisher>Springer Science and Business Media LLC</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+  </Auteurs>
+  <Type>journal-article</Type>
+  <URL>http://dx.doi.org/10.1007/s10852-012-9176-6</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>A unified model for evolutionary multi-objective optimization and its implementation in a general purpose software framework</Titre>
+  <Publisher>IEEE</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Arnaud Liefooghe</Nom_Auteur>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+  </Auteurs>
+  <Type>proceedings-article</Type>
+  <URL>http://dx.doi.org/10.1109/mcdm.2009.4938833</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>Discovering Haplotypes in Linkage Disequilibrium Mapping with an Adaptive Genetic Algorithm</Titre>
+  <Publisher>Springer Berlin Heidelberg</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+  </Auteurs>
+  <Type>book-chapter</Type>
+  <URL>http://dx.doi.org/10.1007/3-540-36605-9_7</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>Evolutionary Feature Selection for Bioinformatics</Titre>
+  <Publisher>John Wiley &amp; Sons, Inc.</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+  </Auteurs>
+  <Type>book-chapter</Type>
+  <URL>http://dx.doi.org/10.1002/9780470199091.ch6</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>Multiobjective Path Relinking for Biclustering: Application to Microarray Data</Titre>
+  <Publisher>Springer Berlin Heidelberg</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Khedidja Seridi</Nom_Auteur>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+  </Auteurs>
+  <Type>book-chapter</Type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-37140-0_18</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>A software framework based on a conceptual unified model for evolutionary multiobjective optimization: ParadisEO-MOEO</Titre>
+  <Publisher>Elsevier BV</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Arnaud Liefooghe</Nom_Auteur>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+  </Auteurs>
+  <Type>journal-article</Type>
+  <URL>http://dx.doi.org/10.1016/j.ejor.2010.07.023</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>Using multiobjective metaheuristics to solve VRP with uncertain demands</Titre>
+  <Publisher>IEEE</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Dalia Sulieman</Nom_Auteur>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+  </Auteurs>
+  <Type>proceedings-article</Type>
+  <URL>http://dx.doi.org/10.1109/cec.2010.5586538</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>Multi-objective evolutionary algorithm for biclustering in microarrays data</Titre>
+  <Publisher>IEEE</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Khedidja Seridi</Nom_Auteur>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+  </Auteurs>
+  <Type>proceedings-article</Type>
+  <URL>http://dx.doi.org/10.1109/cec.2011.5949941</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>Dynamic Programming Based Metaheuristic for Energy Planning Problems</Titre>
+  <Publisher>Springer Berlin Heidelberg</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Sophie Jacquin</Nom_Auteur>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+  </Auteurs>
+  <Type>book-chapter</Type>
+  <URL>http://dx.doi.org/10.1007/978-3-662-45523-4_14</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>Preliminary Studies on Biclustering of GWA: A Multiobjective Approach</Titre>
+  <Publisher>Springer International Publishing</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Khedidja Seridi</Nom_Auteur>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+  </Auteurs>
+  <Type>book-chapter</Type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-11683-9_9</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>Using multiobjective optimization for biclustering microarray data</Titre>
+  <Publisher>Elsevier BV</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Khedidja Seridi</Nom_Auteur>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+  </Auteurs>
+  <Type>journal-article</Type>
+  <URL>http://dx.doi.org/10.1016/j.asoc.2015.03.060</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>DYNAMOP Applied to the Unit Commitment Problem</Titre>
+  <Publisher>Springer International Publishing</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Sophie Jacquin</Nom_Auteur>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    <Nom_Auteur>El-Ghazali Talbi</Nom_Auteur>
+  </Auteurs>
+  <Type>book-chapter</Type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-19084-6_20</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>$$MO-Mine_{clust}$$ M O - M i n e c l u s t : A Framework for Multi-objective Clustering</Titre>
+  <Publisher>Springer International Publishing</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Benjamin Fisset</Nom_Auteur>
+    <Nom_Auteur>Clarisse Dhaenens</Nom_Auteur>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+  </Auteurs>
+  <Type>book-chapter</Type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-19084-6_30</URL>
+</article>
+<article>
+  <Reference>Crossref</Reference>
+  <Titre>Automatic design of multi-objective local search algorithms</Titre>
+  <Publisher>ACM Press</Publisher>
+  <Auteurs>
+    <Nom_Auteur>Aymeric Blot</Nom_Auteur>
+    <Nom_Auteur>Laetitia Jourdan</Nom_Auteur>
+    <Nom_Auteur>Marie-&#201;l&#233;onore Kessaci</Nom_Auteur>
+  </Auteurs>
+  <Type>proceedings-article</Type>
+  <URL>http://dx.doi.org/10.1145/3071178.3071323</URL>
+</article>
+</articles>

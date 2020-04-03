@@ -60,7 +60,7 @@ def ifExists(res) :
     test = False
     tree = ET.parse('result.xml')
     root = tree.getroot()
-    for titre in root.findall('Titre') :
+    for titre in root.findall('article') :
         titreArticle = titre.find('Titre').text
         print titreArticle
         if res['title'] == titreArticle :
@@ -91,10 +91,18 @@ def main():
             type_art.text=res['type']
             url_art = etree.SubElement(article,"URL")
             url_art.text = res['url']
-            fichier = open ("result.xml","a")
-            #fichier.write(etree.tostring(article, pretty_print=True))
-    fichier.write("</articles>")
-    fichier.close()
+            f = open("result.xml", "r") 
+            lines = f.readlines()
+            f.close()
+            taille = len(lines)
+            lines[taille-1]=""
+            fichier = open ("result.xml","w")
+            fichier.writelines(lines)
+            fichier.close()
+            fichier = open("result.xml","a")
+            fichier.write(etree.tostring(article, pretty_print=True))
+            fichier.write("</articles>")
+            fichier.close()
 
 
     print("****************************** Les publication pour ", AUTHOR," ***************************")
