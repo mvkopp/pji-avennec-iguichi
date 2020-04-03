@@ -134,8 +134,6 @@ def recover_all_cristal_members():
         members['non-permanent']+=team_members['non-permanent']
 
     return members
-
-    
             
 
 def main():
