@@ -1,4 +1,5 @@
 import requests
+import unidecode
 from bs4 import BeautifulSoup
 
 def scrape_webpage_cristal_optima(url):
@@ -61,13 +62,79 @@ def scrape_webpage_cristal_all_teams():
                 sections=column.find('ul').find('li').find('ul').findAll('li')
                 for section in sections :
                     team=section.find('a').text # find the name
-                    team=team.replace(" ","") # escape the spaces
                     team=team.replace("\n","") # escape the line breaks
+                    team=team.strip() # escape the spaces before and after the words
+                    team=team.replace(" ","-") # replace space between word by a dash
                     team=team.lower() # transform the name to lower case
+                    team=unidecode.unidecode(team)
                     teams.append(team) # add the team name to the result list
 
     return teams
+
+def scrape_webpage_cristal_members_by_teams(team):
+    """
+    Scrape all the members of a team given
+
+    :params: - team (str) the team name
+    :returns: (dict) a dictionnary with the permanents and not permanents separate
+    
+    :example:
+    >>> scrape_webpage_cristal_members_by_teams('bci')
+    {'permanent': ['François Cabestaing', 'Marie-Hélène Bekaert', 'Claudine Botte-Lecocq', 'José Rouillard', 'Jean-Marc Vannobel'], 'non-permanent': ['Jimmy Petit', 'Camille Bordeau', 'Claire Dussard']}
+    """
+    URL='https://www.cristal.univ-lille.fr/equipes/'
+    
+    members={}
+    members['permanent']=[]
+    members['non-permanent']=[]
+
+    page=requests.get(URL+team) # recover the url content
+    soup = BeautifulSoup(page.content,'html.parser')
+    
+    res = soup.find(id='membres')        
+    columns=res.find('div',{'class':'container'}).find('div',{'class':'row'}).findAll('div',{'class':'col-md-4'})
+    for column in columns :
+        
+            groups = column.find('ul').findChildren('li',recursive=False)
+            for group in groups :
+                list_members=group.find('ul').findChildren('li',recursive=False)
+                for list_member in list_members :
+                    if(list_member.find('a') != None):
+                        member=list_member.find('a').text
+                    else:
+                        member=list_member.text
+                        member=member.replace("\n","") # remove the line break
+                        member=member.strip() # remove spaces before and after the name
+                        
+                        
+                    if (column.find('h3').text.lower().replace(" ","").replace("\n","") == 'permanents'):
+                        members['permanent'].append(member)
+                    else :
+                        members['non-permanent'].append(member)
+    return members
             
+
+def recover_all_cristal_members():
+    """
+    Recover all cristal members
+
+    :params: /
+    :returns: (dict) a dictionnary with permanent members and not permanent members ordered separatly
+    """
+    members={}
+    members['permanent']=[]
+    members['non-permanent']=[]
+
+    teams=scrape_webpage_cristal_all_teams()
+
+    for team in teams:
+        team_members=scrape_webpage_cristal_members_by_teams(team)
+
+        members['permanent']+=team_members['permanent']
+        members['non-permanent']+=team_members['non-permanent']
+
+    return members
+
     
             
 
@@ -78,7 +145,7 @@ def main():
     #URL="https://www.cristal.univ-lille.fr/gt/optima/"
     #scrape_webpage_cristal_optima(URL)
 
-    print(scrape_webpage_cristal_all_teams())
+    print(recover_cristal_all_members())
     
 
 if __name__ == "__main__":
