@@ -46,72 +46,122 @@ def get_publications_by_author(author,h=30):
     return res
 
 
-def test_auteur_by_name(author,res):   
+def test_author_by_name(author, publication):
+    """
+    Test if the name of the search is an author of the publication
+
+    :params: - author (str)
+             - publication (dict)
+    :returns: (bool) True if it's an author of th publication, False otherwise
+
+    :example:
+    
+    """
     test = False 
-    for auteur in res['authors']:
+    for auteur in publication['authors']:
         if (auteur == author):
             test = True
     return test
 
-def ifExists(res) :
+def test_article_already_exists(publication) :
+    """
+    Test if the article is already in the database
+    
+    :params: - publication (dict) a publication
+    :returns: (bool) True if article already exsits, False otherwise
+    """
     test = False
-    tree = ET.parse('result.xml')
+    tree = ET.parse('articles_database.xml')
     root = tree.getroot()
-    for titre in root.findall('article') :
-        titreArticle = titre.find('Titre').text
-        print titreArticle
-        if res['title'] == titreArticle :
+    for title in root.findall('article') :
+        titleArticle = title.find('title').text
+
+        if res['title'] == titleArticle :
             test = True
     return test
+
+def save_into_database(publications):
+    """
+    Save the publication into database
+
+    :params: - publications (list) list of publications
+    :returns: /
+    """
+    articles = etree.Element("articles")
+
+    for publication in publications :
+        if test_author_by_name(AUTHOR,publication) == True and test_article_already_exists(publication) == True:
+            article = etree.SubElement(articles, "article")
+            # reference
+            reference = etree.SubElement(article, "reference")
+            reference.text = "DBLP"
+            # title
+            title = etree.SubElement(article,"title")
+            title.text = publication['title']
+            # authors
+            authors = etree.SubElement(article, "authors")
+            for author_name in publication['authors'] :
+                # author
+                author = etree.SubElement(authors,"author")
+                nom = etree.SubElement(author, "name")
+                nom.text = author_name
+            # type    
+            type_article = etree.SubElement(article,"type") 
+            type_article.text=publication['type']
+            # url
+            url = etree.SubElement(article,"URL")
+            url.text = publication['url']
+
+            fichier = open("articles_database.xml", "r") 
+            lines = fichier.readlines()
+            fichier.close()
+            
+            taille = len(lines)
+            lines[taille-1]="" # delete the last line of the file ( </articles> )
+            
+            fichier = open ("articles_database.xml","w")
+            fichier.writelines(lines) # rewrite the entire file without last line
+            fichier.close()
+            
+            fichier = open("articles_database.xml","a")
+            fichier.write(etree.tostring(article, pretty_print=True))
+            fichier.write("</articles>") # add the last line to close the element
+            fichier.close()
+
+def display_publications(publications,author):
+    """
+    Display publications of an author in textual format
+
+    :params: - publications (list) list of publications
+             - author (str) the author name
+    :returns: /
+    """
+    res="***"+22*'*'+len(author)*'*'+'**\n'
+    res+="** Les publication pour " + author + " **\n"
+    res+="***"+22*'*'+len(author)*'*'+'**\n\n'
+    i=0
+    for publication in publications :
+        res+="# Publication numéro "+str(i)+"\n\n"
+        res+="URL : " + publication['url'] + "\n"
+        res+="Auteurs : "+publication['authors'][0]
+        for author in publication['authors'][1:] :
+            res+=', '+author
+        res+="\n"
+        res+="Titre : " + publication['title'] + "\n"
+        res+="Type : "+ publication['type'] + "\n"
+        res+="\n"
+        i+=1
+    print(res)
+    
 
 def main():
     """
     main function
     """
     AUTHOR='Laetitia Jourdan'
+    publications=get_publications_by_author(AUTHOR)
+    display_publications(publications,AUTHOR)
 
-    articles = etree.Element("Articles")
-
-    for res in get_publications_by_author(AUTHOR) :
-        if test_auteur_by_name(AUTHOR,res) == True and ifExists(res) == True:
-            article = etree.SubElement(articles, "article")
-            reference = etree.SubElement(article, "Reference")
-            reference.text = "DBLP"
-            titre = etree.SubElement(article,"Titre")
-            titre.text = res['title']
-            auteurs = etree.SubElement(article, "Auteurs")
-            for auteur_art in res['authors'] :
-                nom = etree.SubElement(auteurs, "Nom_Auteur")
-                nom.text = auteur_art
-            type_art = etree.SubElement(article,"Type") 
-            type_art.text=res['type']
-            url_art = etree.SubElement(article,"URL")
-            url_art.text = res['url']
-            f = open("result.xml", "r") 
-            lines = f.readlines()
-            f.close()
-            taille = len(lines)
-            lines[taille-1]=""
-            fichier = open ("result.xml","w")
-            fichier.writelines(lines)
-            fichier.close()
-            fichier = open("result.xml","a")
-            fichier.write(etree.tostring(article, pretty_print=True))
-            fichier.write("</articles>")
-            fichier.close()
-            fichier = open ("result.xml","a")
-            fichier.write(etree.tostring(article, pretty_print=True))
-
-
-    print("****************************** Les publication pour ", AUTHOR," ***************************")
-    for res in get_publications_by_author(AUTHOR) :
-        print("URL : " , res['url'])
-        print("Auteurs :" ,res['authors'])
-        print("Titre : " , res['title'])
-        print("type : ", res['type'])
-        print("**************************************************")
-    
-    #print(get_publications_by_author(AUTHOR))
     
 
 if __name__ == "__main__":
