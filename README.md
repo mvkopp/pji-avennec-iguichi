@@ -29,7 +29,7 @@ Objectifs :
 
 - [x] Se familiariser avec le module python dblp 
 - [x] Se familiariser avec l'API Crossref
-- [x] Créer un programme qui va scraper le site [CRIStAL](www.cristal.univ-lille.fr/gt/optima) afin d'en récuperer les membres permanents
+- [x] Créer un programme qui va scraper le site [CRIStAL](https://www.cristal.univ-lille.fr/gt/optima) afin d'en récuperer les membres permanents
 - [x] Créer un programme qui va à partir d'un nom de scientifique, trouver ses articles dans les bases de données tel que dblp, crossref
 - [x] Se familiariser avec igraph
 - [ ] Se familiariser avec Gephi (Faire le tuto)
