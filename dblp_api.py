@@ -31,7 +31,7 @@ def get_publications_by_author(author,h=30):
         # type
         document_type=hit['info']['type']
         tmp['type']=html.unescape(document_type)
-        # authors'
+        # authors
         authors=[]
         for author in hit['info']['authors']['author']:
             author_name=author['text']
