@@ -2,6 +2,7 @@ import requests
 from lxml import etree
 import sys
 import xml.etree.cElementTree as ET
+import html
 
 
 def get_publications_by_author(author,h=30):
@@ -26,19 +27,19 @@ def get_publications_by_author(author,h=30):
         tmp={}
         # title
         title=hit['info']['title']
-        tmp['title']=title
+        tmp['title']=html.unescape(title)
         # type
         document_type=hit['info']['type']
-        tmp['type']=document_type
+        tmp['type']=html.unescape(document_type)
         # authors'
         authors=[]
         for author in hit['info']['authors']['author']:
             author_name=author['text']
-            authors.append(author_name)
+            authors.append(html.unescape(author_name))
         tmp['authors']=authors
         # url
         url=hit['info']['ee']
-        tmp['url']=url
+        tmp['url']=html.unescape(url)
         
         res.append(tmp)
 
