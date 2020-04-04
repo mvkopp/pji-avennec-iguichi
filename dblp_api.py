@@ -43,8 +43,9 @@ def get_articles_by_author(author,h=30):
             authors.append(html.unescape(author_name))
         tmp['authors']=authors
         # url
-        url=hit['info']['ee']
-        tmp['url']=html.unescape(url)
+        if 'ee' in hit['info']:
+            url=hit['info']['ee']
+            tmp['url']=html.unescape(url)
         
         res.append(tmp)
 
@@ -121,8 +122,9 @@ def save_articles_into_database(publications,the_author,verbose=False):
             type_article = etree.SubElement(article,"type") 
             type_article.text=publication['type']
             # url
-            url = etree.SubElement(article,"URL")
-            url.text = publication['url']
+            if 'url' in publication :
+                url = etree.SubElement(article,"URL")
+                url.text = publication['url']
 
             newArticles+=1 # increments the counter of new articles added
 
@@ -175,7 +177,8 @@ def display_publications(publications,author):
             res+=', '+author
         res+="\n"
         res+="Type : "+ publication['type'] + "\n"
-        res+="URL : " + publication['url'] + "\n"
+        if 'url' in publication :
+            res+="URL : " + publication['url'] + "\n"
         res+="\n"
         i+=1
     print(res)
