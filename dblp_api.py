@@ -23,6 +23,9 @@ def get_articles_by_author(author,h=30):
 
     nb_hits=response['result']['hits']['@total']
 
+    if nb_hits == '0' : # if nothing is found
+        return res
+
     hits=response['result']['hits']['hit']
 
     for hit in hits :
@@ -189,10 +192,15 @@ def test_accuracy_author_name(author, publications,verbose=False):
                 identique += 1
     nonIdentique = len(publications) - identique
 
+    if len(publications) == 0 :
+        error_rate = 0
+    else :
+        error_rate=Decimal(nonIdentique) / Decimal(len(publications)) *100
+
     if verbose == True : 
         print("\nPrécision sur l'auteur :\n------------------------")
         print(str(identique) ,"articles possède le nom d'autheur : '"+author+"' et ",nonIdentique,"articles ne le possèdent pas")
-        print("> Taux d'erreur = ", Decimal(nonIdentique) / Decimal(len(publications)) *100,"%")     
+        print("> Taux d'erreur = ", error_rate,"%")     
 
 
 def main():
