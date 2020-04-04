@@ -226,9 +226,9 @@ def main():
     AUTHOR='Laetitia Jourdan'
     publications=get_articles_by_author(AUTHOR)
 
-    save_articles_into_database(publications,AUTHOR,True)
+    #save_articles_into_database(publications,AUTHOR,True)
     #display_publications(publications,AUTHOR)
-    test_accuracy_author_name(AUTHOR, publications,True)
+    #test_accuracy_author_name(AUTHOR, publications,True)
 
     
 
