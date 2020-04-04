@@ -57,6 +57,10 @@ Objectifs :
 - [-] Remplacer les entités HTML par des caractères unicode
 - [x] Créer fonction qui va calculer la précision du nom d'autheur donnée par l'utilisateur et des noms d'auteurs dans les articles récupérés
 
+Questions ?
+- Comment gérer les cas où il n'y a pas de titre dans les résultats (ex : site=Crossref, auteur=Laurent Noé, article=1) ?
+
+
 Notes : 
 - Utilisation du module [Unidecode](https://pypi.org/project/Unidecode/)
 - Utilisation du module [HTML.unescape](https://docs.python.org/3/library/html.html#html.unescape) pour échapper les caractères spéciaux 
