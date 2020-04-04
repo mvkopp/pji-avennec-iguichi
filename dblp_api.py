@@ -103,7 +103,7 @@ def save_articles_into_database(publications,the_author,verbose=False):
     articles = etree.Element("articles") # create the main tag
 
     for publication in publications :
-        if test_author_by_name(the_author,publication) == True and test_article_already_exists(publication) == True:
+        if test_author_by_name(the_author,publication) == True and test_article_already_exists(publication) != True:
             article = etree.SubElement(articles, "article")
             # reference
             reference = etree.SubElement(article, "reference")
