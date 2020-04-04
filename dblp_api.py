@@ -126,21 +126,29 @@ def save_articles_into_database(publications,the_author,verbose=False):
 
             newArticles+=1 # increments the counter of new articles added
 
-            fichier = open("articles_database.xml", "r") 
-            lines = fichier.readlines()
-            fichier.close()
+            if os.stat('articles_database.xml').st_size != 0 : # if the database file is not empty
+                fichier = open("articles_database.xml", "r") 
+                lines = fichier.readlines()
+                fichier.close()
+                
+                taille = len(lines)
+                lines[taille-1]="" # delete the last line of the file ( </articles> )
+                
+                fichier = open ("articles_database.xml","w")
+                fichier.writelines(lines) # rewrite the entire file without last line
+                fichier.close()
             
-            taille = len(lines)
-            lines[taille-1]="" # delete the last line of the file ( </articles> )
+                fichier = open("articles_database.xml","a")
+                fichier.write(etree.tostring(article, encoding='unicode', pretty_print=True))
+                fichier.write("</articles>") # add the last line to close the element
+                fichier.close()
+
+            else : # if the database file is empty
+                fichier = open("articles_database.xml","a")
+                fichier.write(etree.tostring(articles, encoding='unicode', pretty_print=True))
+                fichier.close()
+
             
-            fichier = open ("articles_database.xml","w")
-            fichier.writelines(lines) # rewrite the entire file without last line
-            fichier.close()
-            
-            fichier = open("articles_database.xml","a")
-            fichier.write(etree.tostring(article, pretty_print=True))
-            fichier.write("</articles>") # add the last line to close the element
-            fichier.close()
 
     if verbose == True :
         print('Base de donnée :\n----------------')
