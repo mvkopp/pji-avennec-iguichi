@@ -143,7 +143,7 @@ def main():
     #URL="https://www.cristal.univ-lille.fr/gt/optima/"
     #scrape_webpage_cristal_optima(URL)
 
-    print(recover_cristal_all_members())
+    print(recover_all_cristal_members())
     
 
 if __name__ == "__main__":
