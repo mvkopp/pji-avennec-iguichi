@@ -1,6 +1,9 @@
 import requests
 from lxml import etree
 import xml.etree.cElementTree as ET
+import html
+from decimal import Decimal
+import os
 
 
 def get_articles_by_author(author):
@@ -24,98 +27,197 @@ def get_articles_by_author(author):
         tmp={}
         # publisher
         publisher=item['publisher']
-        tmp['publisher']=publisher
+        tmp['publisher']=html.unescape(publisher)
         # type
         document_type=item['type']
-        tmp['type']=document_type
+        tmp['type']=html.unescape(document_type)
         # title
         title=item['title'][0]
-        tmp['title']=title
+        tmp['title']=html.unescape(title)
         # authors
         authors=[]
         for author in item['author']:
             author_name=author['given']+' '+author['family']
-            authors.append(author_name)
+            authors.append(html.unescape(author_name))
         tmp['authors']=authors
         # abstract
         if 'abstract' in item :
             abstract = item['abstract']
-            tmp['abstract']=abstract
+            tmp['abstract']=html.unescape(abstract)
         # url  
         url=item['URL']
-        tmp['url']=url
+        tmp['url']=html.unescape(url)
         
         res.append(tmp)
 
     return res
 
-def test_auteur_by_name(author,res):   
+def test_author_by_name(author, publication):
+    """
+    Test if the name of the search is an author of the publication
+
+    :params: - author (str)
+             - publication (dict)
+    :returns: (bool) True if it's an author of th publication, False otherwise
+
+    :example:
+    
+    """
     test = False 
-    for auteur in res['authors']:
+    for auteur in publication['authors']:
         if (auteur == author):
             test = True
     return test
 
-def ifExists(res) :
+def test_article_already_exists(publication) :
+    """
+    Test if the article is already in the database
+    
+    :params: - publication (dict) a publication
+    :returns: (bool) True if article already exsits, False otherwise
+    """
     test = False
-    tree = ET.parse('result.xml')
+    if os.stat('articles_database.xml').st_size == 0 :
+        return test
+    tree = ET.parse('articles_database.xml')
+    return tree
     root = tree.getroot()
-    for titre in root.findall('article') :
-        titreArticle = titre.find('Titre').text
-        print titreArticle
-        if res['title'] == titreArticle :
+    for article in root.findall('article') :
+        titleArticle = article.find('title').text
+
+        if publication['title'] == titleArticle :
             test = True
     return test
+
+def save_articles_into_database(publications,the_author,verbose=False):
+    """
+    Save the publication into database
+
+    :params: - publications (list) list of publications
+             - the_author (str) the author name
+             - verbose (bool) {default = False} True to active the verbose mode, False otherwise 
+    :returns: /
+    """
+    newArticles = 0
+    
+    articles = etree.Element("articles") # create the main tag
+
+    for publication in publications :
+        if test_author_by_name(the_author,publication) == True and test_article_already_exists(publication) != True:
+            
+            article = etree.SubElement(articles, "article")
+            # reference
+            reference = etree.SubElement(article, "reference")
+            reference.text = "DBLP"
+            # title
+            title = etree.SubElement(article,"title")
+            title.text = publication['title']
+            # publisher
+            publisher = etree.SubElement(article, "publisher")
+            publisher.text = (publication['publisher'])
+            # authors
+            authors = etree.SubElement(article, "authors")
+            for author_name in publication['authors'] :
+                # author
+                author = etree.SubElement(authors,"author")
+                nom = etree.SubElement(author, "name")
+                nom.text = author_name
+            # abstract
+            if 'abstract' in publication : 
+                abstract = etree.SubElement(article,'abstract')
+                abstract.text = publication['abstract']
+            # type    
+            type_article = etree.SubElement(article,"type") 
+            type_article.text=publication['type']
+            # url
+            url = etree.SubElement(article,"URL")
+            url.text = publication['url']
+
+            newArticles+=1 # increments the counter of new articles added
+
+            fichier = open("articles_database.xml", "r") 
+            lines = fichier.readlines()
+            fichier.close()
+            
+            taille = len(lines)
+            lines[taille-1]="" # delete the last line of the file ( </articles> )
+            
+            fichier = open ("articles_database.xml","w")
+            fichier.writelines(lines) # rewrite the entire file without last line
+            fichier.close()
+            
+            fichier = open("articles_database.xml","a")
+            fichier.write(etree.tostring(article, encoding='unicode', pretty_print=True))
+            fichier.write("</articles>") # add the last line to close the element
+            fichier.close()
+
+    if verbose == True :
+        print('Base de donnée :\n----------------')
+        print(str(newArticles)+" nouveaux articles ont été ajoutés à la base de données <articles_database.xml> ")
+
+def display_publications(publications,author):
+    """
+    Display publications of an author in textual format
+
+    :params: - publications (list) list of publications
+             - author (str) the author name
+    :returns: /
+    """
+    res="***"+22*'*'+len(author)*'*'+'**\n'
+    res+="** Les publication pour " + author + " **\n"
+    res+="***"+22*'*'+len(author)*'*'+'**\n\n'
+    i=0
+    for publication in publications :
+        res+="# Publication numéro "+str(i)+"\n\n"
+        res+="Titre : " + publication['title'] + "\n"
+        res+="Auteurs : "+publication['authors'][0]
+        for author in publication['authors'][1:] :
+            res+=', '+author
+        res+="\n"
+        res+="Publié par : "+ publication['publisher'] + "\n"
+        res+="Type : "+ publication['type'] + "\n"
+        res+="URL : " + publication['url'] + "\n"
+        res+="\n"
+        i+=1
+    print(res)
+
+def test_accuracy_author_name(author,publications,verbose=False):
+    """
+    Test the accuracy of the API about the author name, to know if the publication got the right author name
+
+    :params: - author (str) the author name
+             - publications (list) list of publications
+             - verbose (bool) {default = False} True to active the verbose mode, False otherwise 
+
+    :returns: /
+    """
+    identique = 0
+    nonIdentique = 0
+    
+    for publication in publications :
+        for auteur in publication['authors']:
+            if (auteur == author):
+                identique += 1
+    nonIdentique = len(publications) - identique
+
+    if verbose == True :
+        print("\nPrécision sur l'auteur :\n------------------------")
+        print(str(identique) ,"articles possède le nom d'autheur : '"+author+"' et ",nonIdentique,"articles ne le possèdent pas")
+        print("> Taux d'erreur = ", Decimal(nonIdentique) / Decimal(len(publications)) *100,"%")
+
             
 def main():
     """
     main function
     """
-    AUTHOR='Laetitia Jourdan'
-
-    articles = etree.Element("Articles")
-    for res in get_articles_by_author(AUTHOR):
-        if test_auteur_by_name(AUTHOR,res) == True and ifExists(res) == False:
-            article = etree.SubElement(articles, "article")
-            reference = etree.SubElement(article, "Reference")
-            reference.text = "Crossref"
-            titre = etree.SubElement(article,"Titre")
-            titre.text = res['title']
-            publier_par = etree.SubElement(article,"Publisher")
-            publier_par.text = res['publisher']
-            auteurs = etree.SubElement(article, "Auteurs")
-            for auteur_art in res['authors'] :
-                nom = etree.SubElement(auteurs, "Nom_Auteur")
-                nom.text = auteur_art
-            type_art = etree.SubElement(article,"Type") 
-            type_art.text=res['type']
-            url_art = etree.SubElement(article,"URL")
-            url_art.text = res['url']
-            f = open("result.xml", "r") 
-            lines = f.readlines()
-            f.close()
-            taille = len(lines)
-            lines[taille-1]=""
-            fichier = open ("result.xml","w")
-            fichier.writelines(lines)
-            fichier.close()
-            fichier = open("result.xml","a")
-            fichier.write(etree.tostring(article, pretty_print=True))
-            fichier.write("</articles>")
-            fichier.close()
-
-
-    print("****************************** Les publication pour ", AUTHOR," ***************************")
-    for res in get_articles_by_author(AUTHOR) :
-        print("URL : " , res['url'])
-        print("Publie par : " , res['publisher'])
-        print("Auteurs :" ,res['authors'])
-        print("Titre : " , res['title'])
-        print("type : ", res['type'])
-        print("**************************************************")
+    print("------------\n| Crossref |\n------------\n")
     
-    print len(get_articles_by_author(AUTHOR))
-    #print(get_articles_by_author(AUTHOR))
+    AUTHOR='Laetitia Jourdan'
+    publications=get_articles_by_author(AUTHOR)
+
+    save_articles_into_database(publications,AUTHOR,True)
+    #display_publications(publications,AUTHOR)
+    test_accuracy_author_name(AUTHOR, publications,True)
     
 
 if __name__ == "__main__":
