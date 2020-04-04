@@ -8,7 +8,7 @@ import os
 
 def get_articles_by_author(author):
     """
-    GET informations about all articles where the auhtor is involved
+    GET informations about all articles where the author is involved
 
     :params : - author (str) the author name
     :returns: (list) list of all articles where the author is involved

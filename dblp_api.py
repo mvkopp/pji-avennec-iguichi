@@ -7,9 +7,9 @@ from decimal import Decimal
 import os
 
 
-def get_publications_by_author(author,h=30):
+def get_articles_by_author(author,h=30):
     """
-    GET informations about all publications where the auhtor is involved
+    GET informations about all articles where the author is involved
 
     :params : - author (str) the author name
               - h (int) number max of results (default = 30)
@@ -192,8 +192,8 @@ def test_accuracy_author_name(author, publications,verbose=False):
     if verbose == True : 
         print("\nPrécision sur l'auteur :\n------------------------")
         print(str(identique) ,"articles possède le nom d'autheur : '"+author+"' et ",nonIdentique,"articles ne le possèdent pas")
-        print("> Taux d'erreur = ", Decimal(nonIdentique) / Decimal(len(publications)) *100,"%")
-    
+        print("> Taux d'erreur = ", Decimal(nonIdentique) / Decimal(len(publications)) *100,"%")     
+
 
 def main():
     """
@@ -202,7 +202,7 @@ def main():
     print("--------\n| DBLP |\n--------\n")
     
     AUTHOR='Laetitia Jourdan'
-    publications=get_publications_by_author(AUTHOR)
+    publications=get_articles_by_author(AUTHOR)
 
     save_articles_into_database(publications,AUTHOR,True)
     #display_publications(publications,AUTHOR)
