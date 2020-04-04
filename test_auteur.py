@@ -97,8 +97,8 @@ def test_auteur_by_name(author):
                 identique = identique +1  
     nonIdentique = len(res) - identique       
     print(" ********************* Crossref :")
-    print  identique ,"articles sont de meme auteur et ",nonIdentique,"articles sont pas de meme auteur"
-    print " Taux d'erreur pour = ", Decimal(nonIdentique) / Decimal(len(res)) *100,"%"
+    print(identique ,"articles sont de meme auteur et ",nonIdentique,"articles sont pas de meme auteur")
+    print(" Taux d'erreur pour = ", Decimal(nonIdentique) / Decimal(len(res)) *100,"%")
     identique = 0 
     nonIdentique = 0 
     res = get_publications_by_author(author)
@@ -108,18 +108,19 @@ def test_auteur_by_name(author):
                 identique = identique +1  
     nonIdentique = len(res) - identique             
     print(" ********************* DBLP :")
-    print  identique ,"articles sont de meme auteur et ",len(res)-identique,"articles sont pas de meme auteur"
-    print " Taux d'erreur pour = ",Decimal(nonIdentique) / Decimal(len(res)) *100,"%"
+    print(identique ,"articles sont de meme auteur et ",len(res)-identique,"articles sont pas de meme auteur")
+    print(" Taux d'erreur pour = ",Decimal(nonIdentique) / Decimal(len(res)) *100,"%")
 
 def main():
     """
     main function
     """
-    AUTHOR='Faiza Ajmi'
+    #AUTHOR='Faiza Ajmi'
+    AUTHOR='Olivier Nicol'
     print("****************************** Les publication pour ", AUTHOR," ***************************")
-    for res in get_articles_by_author(AUTHOR) :
+    for res in get_publications_by_author(AUTHOR) :
         print("URL : " , res['url'])
-        print("Publie par : " , res['publisher'])
+        #print("Publie par : " , res['publisher'])
         print("Auteurs :" ,res['authors'])
         print("Titre : " , res['title'])
         print("type : ", res['type'])
