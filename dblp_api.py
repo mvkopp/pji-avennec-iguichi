@@ -38,9 +38,12 @@ def get_articles_by_author(author,h=30):
         tmp['type']=html.unescape(document_type)
         # authors
         authors=[]
-        for author in hit['info']['authors']['author']:
-            author_name=author['text']
-            authors.append(html.unescape(author_name))
+        if type(hit['info']['authors']['author']) == list :
+            for author_elt in hit['info']['authors']['author']:
+                author_name=author_elt['text']
+                authors.append(html.unescape(author_name))
+        else :
+            authors.append(html.unescape(hit['info']['authors']['author']['text']))
         tmp['authors']=authors
         # url
         if 'ee' in hit['info']:
