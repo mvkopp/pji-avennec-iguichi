@@ -20,8 +20,8 @@ def main_by_author(author_name):
     # Crossref
     print("\n------------\n| Crossref |\n------------\n")
     publications_from_crossref = crossref_api.get_articles_by_author(author_name)
-    crossref_api.save_articles_into_database(publications_from_crossref,author_name)
-    crossref_api.test_accuracy_author_name(author_name,publications_from_crossref)
+    crossref_api.save_articles_into_database(publications_from_crossref,author_name,True)
+    crossref_api.test_accuracy_author_name(author_name,publications_from_crossref,True)
 
     
 
@@ -41,14 +41,14 @@ def main():
         # DBLP
         print("\n--------\n| DBLP |\n--------\n")
         publications_from_dblp = dblp_api.get_articles_by_author(member_name)
-        dblp_api.save_articles_into_database(publications_from_dblp,member_name)
-        dblp_api.test_accuracy_author_name(member_name,publications_from_dblp)
+        dblp_api.save_articles_into_database(publications_from_dblp,member_name,True)
+        dblp_api.test_accuracy_author_name(member_name,publications_from_dblp,True)
 
         # Crossref
         print("\n------------\n| Crossref |\n------------\n")
         publications_from_crossref = crossref_api.get_articles_by_author(member_name)
-        crossref_api.save_articles_into_database(publications_from_crossref,member_name)
-        crossref_api.test_accuracy_author_name(member_name,publications_from_crossref)
+        crossref_api.save_articles_into_database(publications_from_crossref,member_name,True)
+        crossref_api.test_accuracy_author_name(member_name,publications_from_crossref,True)
     
 
 if __name__ == "__main__": # execute only if run as a script
