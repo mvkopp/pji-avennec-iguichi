@@ -50,7 +50,7 @@ Notes :
 Objectifs : 
 
 - [x] Recupérer les données en quantité
-- [x] Connecter les résultats extraits de DBLP, Crossref, HAL ensemble
+- [x] Connecter les résultats extraits de DBLP, Crossref
 - [x] Mettre en place vérification que les personnes retournés sont les mêmes dans un site ou l’autre (second nom de famille etc)
 - [ ] Mettre en place une fonction qui va chercher si les co-auteurs des membres permanents de l'équipe OPTIMA ont eux-mêmes des publications.
 - [x] Récupérer tous les membres permanents et non permanent du site CRIStAL grâce au scraping
