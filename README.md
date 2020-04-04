@@ -55,6 +55,7 @@ Objectifs :
 - [ ] Mettre en place une fonction qui va chercher si les co-auteurs des membres permanents de l'équipe OPTIMA ont eux-mêmes des publications.
 - [x] Récupérer tous les membres permanents et non permanent du site CRIStAL grâce au scraping
 - [-] Remplacer les entités HTML par des caractères unicode
+- [x] Créer fonction qui va calculer la précision du nom d'autheur donnée par l'utilisateur et des noms d'auteurs dans les articles récupérés
 
 Notes : 
 - Utilisation du module [Unidecode](https://pypi.org/project/Unidecode/)
