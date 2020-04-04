@@ -32,15 +32,21 @@ def get_articles_by_author(author):
         document_type=item['type']
         tmp['type']=html.unescape(document_type)
         # title
-        title=item['title'][0]
-        tmp['title']=html.unescape(title)
+        if 'title' in item :
+            title=item['title'][0]
+            tmp['title']=html.unescape(title)
+        else :
+            tmp['title']="No Title"
         # authors
         authors=[]
         for author in item['author']:
             if 'given' in author :
                 author_name=author['given']+' '+author['family']
             else :
-                author_name = author['family']
+                if 'family' in author :
+                    author_name = author['family']
+                else :
+                    author_name = author['name']
             
             authors.append(html.unescape(author_name))
         tmp['authors']=authors
