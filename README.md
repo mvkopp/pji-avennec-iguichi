@@ -118,7 +118,11 @@ Notes : /
 ├── scrape_scientist.py         # Python file (Scrape OPTIMA members)
 ├── crossref_api.py             # Python file (Crossref API functions)
 ├── dblp_api.py                 # Python file (DBLP API functions)
+├── articles_database.xml       # XML file (Articles database)
+├── main.py                     # Python file (Program main function)
+├── .gitignore                  # Gitignore file
 └── README.md                   # Documentation du projet
+
 ```
 
 # Link useful 
