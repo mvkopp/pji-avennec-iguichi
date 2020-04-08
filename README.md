@@ -35,7 +35,7 @@ Objectifs :
 - [ ] Se familiariser avec Gephi (Faire le tuto)
 - [x] Liste des différentes informations récupérés par DBLP (utiles et pas utiles), Crossref etc..
 - [x] Choisir comment stocker les données qu’on peut déjà extraire
-- [ ] Réalisation d'un diagramme de gantt (Gestion de projet) 
+- [x] Réalisation d'un diagramme de gantt (Gestion de projet) 
 
 Questions ? 
 
@@ -54,7 +54,7 @@ Objectifs :
 - [x] Mettre en place vérification que les personnes retournés sont les mêmes dans un site ou l’autre (second nom de famille etc)
 - [ ] Mettre en place une fonction qui va chercher si les co-auteurs des membres permanents de l'équipe OPTIMA ont eux-mêmes des publications.
 - [x] Récupérer tous les membres permanents et non permanent du site CRIStAL grâce au scraping
-- [-] Remplacer les entités HTML par des caractères unicode
+- [x] Remplacer les entités HTML par des caractères unicode
 - [x] Créer fonction qui va calculer la précision du nom d'autheur donnée par l'utilisateur et des noms d'auteurs dans les articles récupérés
 
 Questions ?
