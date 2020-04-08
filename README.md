@@ -59,6 +59,7 @@ Objectifs :
 
 Questions ?
 - Comment gérer les cas où il n'y a pas de titre dans les résultats (ex : site=Crossref, auteur=Laurent Noé, article=1) ?
+-> ***Si pas de titre, on ne considère pas l'article***
 
 
 Notes : 
@@ -71,6 +72,7 @@ Notes :
 
 Objectifs : 
 
+- [ ] Mettre à jour diagramme de gantt 
 - [ ] Réflechir à comment montrer les informations extraites de façon intuitive
 - [ ] Commencer à mettre en place interface
 - [ ] Tester l'exportation avec Gephi
