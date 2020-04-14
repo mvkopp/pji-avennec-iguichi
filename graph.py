@@ -23,7 +23,7 @@ def getAuthorsFromDataBase () :
         for author in article.findall('./authors/author') :
             authorArticle =author.find('name').text
             if leaveDuplicatAuthors(authorArticle,ListAuthors) == False :
-                ListAuthors.append(authorArticle) 
+                ListAuthors.append(authorArticle)
     return ListAuthors 
     
 def leaveDuplicatAuthors (Author,ListAuthors) :
@@ -40,25 +40,25 @@ def InitializeGraph (ListAuthors) :
     g.vs["nameAuthor"] = ListAuthors
     return g
 
-def setArc (g,author) :
+def setArc (g) :
+    listArtc = []
     i=0
     exist = False
     subset = []
     tree = ET.parse('articles_database.xml')
     root = tree.getroot()
     for article in root.findall('article') : 
+        print i 
+        i = i+1
         for author in article.findall('./authors/author') :
             authorArticle =author.find('name').text
             subset.append(authorArticle) 
-        for authorBySubSet in subset :
-            if authorBySubSet == author :
-                exist = True 
-        if exist == True :
-            for authorBySubSet in subset :
-                if authorBySubSet != author :
-                    index1Author = g.vs.find(nameAuthor=author)
-                    index2Author = g.vs.find(nameAuthor=authorBySubSet)
-                    if ifArcExist(g,index1Author,index2Author) == True :
+        for actorActual in subset :
+            for actorTarget in subset :
+                if actorActual != actorTarget :
+                    index1Author = g.vs.find(nameAuthor=actorActual)
+                    index2Author = g.vs.find(nameAuthor=actorTarget)
+                    if g.are_connected (index1Author, index2Author) == False :
                         g.add_edges([(index1Author,index2Author)])
         subset = []
 
@@ -75,20 +75,12 @@ def main():
     """
 i = 0
 ListAuthors = getAuthorsFromDataBase()
+print len(ListAuthors)
 g = InitializeGraph(ListAuthors)  
-#for author in ListAuthors :
-    #print "auteur N ",i
-    #i = i+1
-    #setArc(g,author)
-#g.export("test.xml")
-g.save("test.GraphML")
-layout = g.layout_kamada_kawai()
-layout = g.layout("kamada_kawai")
-layout = g.layout("kk")
-plot(g,layout = layout)
+setArc(g)
+g.write("test.GraphML")
+plot(g)
 
-        
-   
 #g = Graph([(0,1), (0,2), (2,3), (3,4), (4,2), (2,5), (5,0), (6,3), (5,6)])
 #g.vs
 #g.vs["name"] = ["Alice", "Bob", "Claire", "Dennis", "Esther", "Frank", "George"]

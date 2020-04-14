@@ -1,0 +1,5346 @@
+<articles>
+  <article>
+    <reference>DBLP</reference>
+    <title>Simplification of Reaction Networks, Confluence and Elementary Modes.</title>
+    <authors>
+      <author>
+        <name>Guillaume Madelaine</name>
+      </author>
+      <author>
+        <name>Elisa Tonello</name>
+      </author>
+      <author>
+        <name>Cedric Lhou baine</name>
+      </author>
+      <author>
+        <name>Joachim Niehren</name>
+      </author>
+    </authors>
+    <type>Journal Articles</type>
+    <URL>https://doi.org/10.3390/computation5010014</URL>
+  </article>
+<article>
+  <reference>DBLP</reference>
+  <title>Structural simplification of chemical reaction networks in partial steady states.</title>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Elisa Tonello</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.biosystems.2016.08.003</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Normalizing Chemical Reaction Networks by Confluent Structural Simplification.</title>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Elisa Tonello</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-319-45177-0_13</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Structural Simplification of Chemical Reaction Networks Preserving Deterministic Semantics.</title>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-319-23401-4_12</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Attractor Equivalence - An Observational Semantics for Reaction Networks.</title>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-319-10398-3_7</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Self-organized Patterning by Diffusible Factors - Roles of a Community Effect.</title>
+  <authors>
+    <author>
+      <name>Kirill Batmanov</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Yasushi Saka</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.3233/FI-2012-723</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Symmetry-Based Model Reduction for Approximate Stochastic Analysis.</title>
+  <authors>
+    <author>
+      <name>Kirill Batmanov</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Francois Lemaire</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-642-33636-2_5</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Models of Tet-On System with Epigenetic Effects.</title>
+  <authors>
+    <author>
+      <name>Ru bell Harmer</name>
+    </author>
+    <author>
+      <name>Jean Krivine</name>
+    </author>
+    <author>
+      <name>elise Laruelle</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-642-33636-2_25</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Theoretical basis of the community effect in development.</title>
+  <authors>
+    <author>
+      <name>Yasushi Saka</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Ekkehard Ullner</name>
+    </author>
+    <author>
+      <name>Marco Thiel</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1186/1752-0509-5-54</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Biochemical Reaction Rules with Constraints.</title>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-642-19718-5_18</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Attributed Pi-Calculus with Priorities.</title>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Adelinde M. Uhrmacher</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1007/978-3-642-11712-1_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Rule-Based Modeling of Transcriptional Attenuation at the Tryptophan Operon.</title>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1007/978-3-642-11712-1_6</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dynamic Compartments in the Imperative pi-Calculus.</title>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-642-03845-7_16</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Rule-based Modeling of Transcriptional Attenuation at the Tryptophan Operon.</title>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1109/WSC.2009.5429721</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Attributed Pi Calculus.</title>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Adelinde M. Uhrmacher</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-540-88562-7_10</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Stochastic Pi Calculus for Concurrent Objects.</title>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-540-73433-8_17</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Type inference for a distributed \pi-calculus.</title>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.scico.2003.12.003</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Dependently Typed Ambient Calculus.</title>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Vladimiro Sa bone</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-540-24725-8_13</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The receptive distributed pi-calculus.</title>
+  <authors>
+    <author>
+      <name>Roberto M. Amadio</name>
+    </author>
+    <author>
+      <name>Gerard Boudol</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1145/937563.937564</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Type Inference for a Distributed pi-Calculus.</title>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/3-540-36575-3_18</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>On me bage deliverability and non-uniform receptivity.</title>
+  <authors>
+    <author>
+      <name>Roberto M. Amadio</name>
+    </author>
+    <author>
+      <name>Gerard Boudol</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>http://content.iospre b.com/articles/fundamenta-informaticae/fi53-2-01</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Distance Based Revision of Preferential Logics.</title>
+  <authors>
+    <author>
+      <name>Laurent Audibert</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Karl Schlechta</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1093/jigpal/7.4.429</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Receptive Distributed pi-Calculus (Extended Abstract).</title>
+  <authors>
+    <author>
+      <name>Roberto M. Amadio</name>
+    </author>
+    <author>
+      <name>Gerard Boudol</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/3-540-46691-6_24</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Type inference for a distributed π-calculus</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.scico.2003.12.003</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Type Inference for a Distributed π-Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-36575-3_18</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Dependently Typed Ambient Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Vladimiro Sa bone</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-24725-8_13</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Receptive Distributed π-Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Roberto M. Amadio</name>
+    </author>
+    <author>
+      <name>Gerard Boudol</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-46691-6_24</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Stochastic Pi Calculus for Concurrent Objects</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-73433-8_17</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Rule-Based Modeling of Transcriptional Attenuation at the Tryptophan Operon</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-11712-1_6</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Attractor Equivalence: An Observational Semantics for Reaction Networks</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-10398-3_7</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Structural Simplification of Chemical Reaction Networks Preserving Deterministic Semantics</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-23401-4_12</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dynamic Compartments in the Imperative π-Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-03845-7_16</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The receptive distributed π-calculus</title>
+  <publisher>A bociation for Computing Machinery (ACM)</publisher>
+  <authors>
+    <author>
+      <name>Roberto M. Amadio</name>
+    </author>
+    <author>
+      <name>Gerard Boudol</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1145/937563.937564</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Biochemical Reaction Rules with Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-19718-5_18</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Theoretical basis of the community effect in development</title>
+  <publisher>Springer Science and Busine b Media LLC</publisher>
+  <authors>
+    <author>
+      <name>Yasushi Saka</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Ekkehard Ullner</name>
+    </author>
+    <author>
+      <name>Marco Thiel</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1186/1752-0509-5-54</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Symmetry-Based Model Reduction for Approximate Stochastic Analysis</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Kirill Batmanov</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Francois Lemaire</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-33636-2_5</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Attributed Pi Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Adelinde M. Uhrmacher</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-88562-7_10</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Structural simplification of chemical reaction networks in partial steady states</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Elisa Tonello</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.biosystems.2016.08.003</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Normalizing Chemical Reaction Networks by Confluent Structural Simplification</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Elisa Tonello</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-45177-0_13</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Simpliﬁcation of Reaction Networks, Conﬂuence and Elementary Modes</title>
+  <publisher>MDPI AG</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Elisa Tonello</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.3390/computation5010014</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Self-organized Patterning by Diffusible Factors: Roles of a Community Effect</title>
+  <publisher>IOS Pre b</publisher>
+  <authors>
+    <author>
+      <name>Kirill Batmanov</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Yasushi Saka</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.3233/fi-2012-723</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Attributed Pi-Calculus with Priorities</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Adelinde M. Uhrmacher</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-11712-1_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Logics for unordered trees with data constraints.</title>
+  <authors>
+    <author>
+      <name>Adrien Boiret</name>
+    </author>
+    <author>
+      <name>Vincent Hugot</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Ralf Treinen</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.jc b.2018.11.004</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Computing Difference Abstractions of Metabolic Networks Under Kinetic Constraints.</title>
+  <authors>
+    <author>
+      <name>Emilie Allart</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-030-31304-3_14</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Regular Matching and Inclusion on Compre bed Tree Patterns with Context Variables.</title>
+  <authors>
+    <author>
+      <name>Iovka Boneva</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Momar Sakho</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-030-13435-8_25</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Proceedings Fifth International Workshop on Rewriting Techniques for Program Transformations and Evaluation, WPTE@FSCD 2018, Oxford, England, 8th July 2018.</title>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>David Sabel</name>
+    </author>
+  </authors>
+  <type>Editorship</type>
+  <URL>https://doi.org/10.4204/EPTCS.289</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dependency Weighted Aggregation on Factorized Databases.</title>
+  <authors>
+    <author>
+      <name>Florent Capelli</name>
+    </author>
+    <author>
+      <name>Nicolas Crosetti</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Jan Ramon</name>
+    </author>
+  </authors>
+  <type>Informal Publications</type>
+  <URL>http://arxiv.org/abs/1901.03633</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Certain Query Answering on Compre bed String Patterns - From Streams to Hyperstreams.</title>
+  <authors>
+    <author>
+      <name>Iovka Boneva</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Momar Sakho</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-030-00250-3_9</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Automata for unordered trees.</title>
+  <authors>
+    <author>
+      <name>Adrien Boiret</name>
+    </author>
+    <author>
+      <name>Vincent Hugot</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Ralf Treinen</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.ic.2016.07.012</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Equivalence of Symbolic Tree Transducers.</title>
+  <authors>
+    <author>
+      <name>Vincent Hugot</name>
+    </author>
+    <author>
+      <name>Adrien Boiret</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-319-62809-7_7</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Predicting changes of reaction networks with partial kinetic information.</title>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Francois Coutte</name>
+    </author>
+    <author>
+      <name>Philippe Jacques</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.biosystems.2016.09.003</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Learning Top-Down Tree Transducers with Regular Domain Inspection.</title>
+  <authors>
+    <author>
+      <name>Adrien Boiret</name>
+    </author>
+    <author>
+      <name>Aurelien Lemay</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>http://proceedings.mlr.pre b/v57/boiret16.html</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Projection for Nested Word Automata Speeds up XPath Evaluation on XML Streams.</title>
+  <authors>
+    <author>
+      <name>Tom Sebastian</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-662-49192-8_49</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Early nested word automata for XPath query answering on XML streams.</title>
+  <authors>
+    <author>
+      <name>Denis Debarbieux</name>
+    </author>
+    <author>
+      <name>Olivier Gauwin</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Tom Sebastian</name>
+    </author>
+    <author>
+      <name>Mohamed Zergaoui</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.tcs.2015.01.017</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Observational program calculi and the correctne b of translations.</title>
+  <authors>
+    <author>
+      <name>David Sabel</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Jan Schwinghammer</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.tcs.2015.02.027</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Qualitative Reasoning for Reaction Networks with Partial Kinetic Information.</title>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+    <author>
+      <name>Francois Coutte</name>
+    </author>
+    <author>
+      <name>Philippe Jacques</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-319-23401-4_14</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Logics for Unordered Trees with Data Constraints on Siblings.</title>
+  <authors>
+    <author>
+      <name>Adrien Boiret</name>
+    </author>
+    <author>
+      <name>Vincent Hugot</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Ralf Treinen</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-319-15579-1_13</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Sublinear DTD Validity.</title>
+  <authors>
+    <author>
+      <name>Antoine Ndione</name>
+    </author>
+    <author>
+      <name>Aurelien Lemay</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-319-15579-1_58</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Uniform Programmning Language for Implementing XML Standards.</title>
+  <authors>
+    <author>
+      <name>Pavel Labath</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-662-46078-8_45</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Learning Sequential Tree-to-Word Transducers.</title>
+  <authors>
+    <author>
+      <name>Gregoire Laurence</name>
+    </author>
+    <author>
+      <name>Aurelien Lemay</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Slawek Staworko</name>
+    </author>
+    <author>
+      <name>Marc Tommasi</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-319-04921-2_40</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Deterministic Automata for Unordered Trees.</title>
+  <authors>
+    <author>
+      <name>Adrien Boiret</name>
+    </author>
+    <author>
+      <name>Vincent Hugot</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Ralf Treinen</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.4204/EPTCS.161.17</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Query induction with schema-guided pruning strategies.</title>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Jerome Champavere</name>
+    </author>
+    <author>
+      <name>Aurelien Lemay</name>
+    </author>
+    <author>
+      <name>Remi Gilleron</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>http://dl.acm.org/citation.cfm?id=2502611</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Approximate membership for regular languages modulo the edit distance.</title>
+  <authors>
+    <author>
+      <name>Antoine Ndione</name>
+    </author>
+    <author>
+      <name>Aurelien Lemay</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.tcs.2013.03.004</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Knockout Prediction for Reaction Networks with Partial Kinetic Information.</title>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-642-35873-9_22</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Early Nested Word Automata for XPath Query Answering on XML Streams.</title>
+  <authors>
+    <author>
+      <name>Denis Debarbieux</name>
+    </author>
+    <author>
+      <name>Olivier Gauwin</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Tom Sebastian</name>
+    </author>
+    <author>
+      <name>Mohamed Zergaoui</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-642-39274-0_26</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Learning Rational Functions.</title>
+  <authors>
+    <author>
+      <name>Adrien Boiret</name>
+    </author>
+    <author>
+      <name>Aurelien Lemay</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-642-31653-1_25</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Queries on Xml streams with bounded delay and concurrency.</title>
+  <authors>
+    <author>
+      <name>Olivier Gauwin</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Sophie Tison</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.ic.2010.08.003</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Functional computation as concurrent computation</title>
+  <publisher>ACM Pre b</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.1145/237721.237801</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Ordering constraints over feature trees expre bed in second-order monadic logic</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Martin Muller</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/bfb0052371</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>On underspecified proce bing of dynamic semantics</title>
+  <publisher>A bociation for Computational Linguistics</publisher>
+  <authors>
+    <author>
+      <name>Alexander Koller</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.3115/990820.990887</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Well-nested parallelism constraints for ellipsis resolution</title>
+  <publisher>A bociation for Computational Linguistics</publisher>
+  <authors>
+    <author>
+      <name>Katrin Erk</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.3115/1067807.1067824</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Bridging the gap between underspecification formalisms</title>
+  <publisher>A bociation for Computational Linguistics</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Stefan Thater</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.3115/1075096.1075143</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dominance constraints in stratified context unification</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Katrin Erk</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.ipl.2006.09.009</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Parallelism Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Katrin Erk</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/10721975_8</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Gene Regulation in the Pi Calculus: Simulating Cooperativity at the Lambda Switch</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/11905455_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dominance Constraints with Set Operators</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Denys Duchier</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-44957-4_22</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Parallelism and Tree Regular Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Mateu Villaret</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-36078-6_21</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dominance Constraints in Context Unification</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Alexander Koller</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-45738-0_12</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Entailment of Non-structural Subtype Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Tim Priesnitz</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-46674-6_22</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Streamable Fragments of Forward XPath</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Olivier Gauwin</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-22256-6_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Describing Lambda Terms in Context Unification</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Mateu Villaret</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/11422532_15</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Uniform Programmning Language for Implementing XML Standards</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Pavel Labath</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-662-46078-8_45</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Projection for Nested Word Automata Speeds up XPath Evaluation on XML Streams</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Tom Sebastian</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-662-49192-8_49</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A confluent relational calculus for higher-order programming with constraints</title>
+  <publisher>Springer-Verlag</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Gert Smolka</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/bfb0016846</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Logics and Automata for Totally Ordered Trees</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Marco Kuhlmann</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-70590-1_15</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Proceedings Fifth International Workshop on Rewriting Techniques for Program Transformations and Evaluation</title>
+  <publisher>Open Publishing A bociation</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>David Sabel</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.4204/eptcs.289.0</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A pipeline to create predictive functional networks - application to the tumor progre bion of hepatocellular carcinoma.</title>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Vincent Legagneux</name>
+    </author>
+    <author>
+      <name>Arnaud Poret</name>
+    </author>
+    <author>
+      <name>Lokmane Chebouba</name>
+    </author>
+    <author>
+      <name>Carito Guziolowski</name>
+    </author>
+    <author>
+      <name>Nathalie Theret</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1186/s12859-019-3316-1</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Learning Dynamics with Synchronous, Asynchronous and General Semantics.</title>
+  <authors>
+    <author>
+      <name>Tony Ribeiro</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier F. Roux</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-319-99960-9_8</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>ASP-based method for the enumeration of attractors in non-deterministic synchronous and asynchronous multi-valued networks.</title>
+  <authors>
+    <author>
+      <name>Emna Ben Abdallah  </name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Olivier F. Roux</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1186/s13015-017-0111-2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Inductive Learning from State Transitions over Continuous Domains.</title>
+  <authors>
+    <author>
+      <name>Tony Ribeiro</name>
+    </author>
+    <author>
+      <name>Sophie Tourret</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Domenico Borzacchiello</name>
+    </author>
+    <author>
+      <name>Francisco Chinesta</name>
+    </author>
+    <author>
+      <name>Olivier F. Roux</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-319-78090-0_9</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Constraint Identification Using Modified Hoare Logic on Hybrid Models of Gene Networks.</title>
+  <authors>
+    <author>
+      <name>Jonathan Behaegel</name>
+    </author>
+    <author>
+      <name>Jean-Paul Comet</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.4230/LIPIcs.TIME.2017.5</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Hybrid Hoare Logic for Gene Network Models.</title>
+  <authors>
+    <author>
+      <name>Jonathan Behaegel</name>
+    </author>
+    <author>
+      <name>Jean-Paul Comet</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+  </authors>
+  <type>Informal Publications</type>
+  <URL>http://arxiv.org/abs/1610.06715</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Identification of biological regulatory networks from Proce b Hitting models.</title>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier F. Roux</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.tcs.2014.12.002</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Sufficient conditions for reachability in automata networks with priorities.</title>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier F. Roux</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.tcs.2015.08.040</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Analyses statiques de la dynamique des reseaux d'automates indeterministes.</title>
+  <authors>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier F. Roux</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.3166/TSI.34.463-484</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Exhaustive analysis of dynamical properties of Biological Regulatory Networks with Answer Set Programming.</title>
+  <authors>
+    <author>
+      <name>Emna Ben Abdallah  </name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Olivier F. Roux</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1109/BIBM.2015.7359694</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Modelisation algebrique de la dynamique multi-echelles des reseaux de regulation biologique. (Algebraic Modeling of the Dynamics of Multi-scale Biological Regulatory Networks).</title>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+  </authors>
+  <type>Books and Theses</type>
+  <URL>https://tel.archives-ouvertes.fr/tel-01105203</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Under-approximation of Reachability in Multivalued Asynchronous Networks.</title>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier F. Roux</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.entcs.2013.11.004</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Concretizing the Proce b Hitting into Biological Regulatory Networks.</title>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier F. Roux</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-642-33636-2_11</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Exhaustive analysis of dynamical properties of Biological Regulatory Networks with Answer Set Programming</title>
+  <publisher>IEEE</publisher>
+  <authors>
+    <author>
+      <name>Emna Ben Abdallah</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.1109/bibm.2015.7359694</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Analyzing Large Network Dynamics with Proce b Hitting</title>
+  <publisher>John Wiley &amp; Sons, Inc.</publisher>
+  <authors>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Courtney Chancellor</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1002/9781119005223.ch4</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Identification of biological regulatory networks from Proce b Hitting models</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.tcs.2014.12.002</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Concretizing the Proce b Hitting into Biological Regulatory Networks</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-33636-2_11</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Sufficient conditions for reachability in automata networks with priorities</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.tcs.2015.08.040</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>ASP-based method for the enumeration of attractors in non-deterministic synchronous and asynchronous multi-valued networks</title>
+  <publisher>Springer Science and Busine b Media LLC</publisher>
+  <authors>
+    <author>
+      <name>Emna Ben Abdallah</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1186/s13015-017-0111-2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Learning Dynamics with Synchronous, Asynchronous and General Semantics</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Tony Ribeiro</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-99960-9_8</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Under-approximation of Reachability in Multivalued Asynchronous Networks</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.entcs.2013.11.004</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Analyses statiques de la dynamique des reseaux d 'automates indeterministes</title>
+  <publisher>Lavoisier</publisher>
+  <authors>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.3166/tsi.34.463-484</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A pipeline to create predictive functional networks: application to the tumor progre bion of hepatocellular carcinoma</title>
+  <publisher>Cold Spring Harbor Laboratory</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Vincent Legagneux</name>
+    </author>
+    <author>
+      <name>Arnaud Poret</name>
+    </author>
+    <author>
+      <name>Lokmane Chebouba</name>
+    </author>
+    <author>
+      <name>Carito Guziolowski</name>
+    </author>
+    <author>
+      <name>Nathalie Theret</name>
+    </author>
+  </authors>
+  <abstract>&lt;jats:title&gt;Abstract&lt;/jats:title&gt;&lt;jats:sec&gt;&lt;jats:title&gt;Background&lt;/jats:title&gt;&lt;jats:p&gt;Integrating genome-wide gene expre bion patient profiles with regulatory knowledge is a challenging task because of the inherent heterogeneity, noise and incompletene b of biological data. From the computational side, several solvers for logic programs are able to perform extremely well in decision problems for combinatorial search domains. The challenge then is how to proce b the biological knowledge in order to feed these solvers to gain insights in a biological study. It requires formalizing the biological knowledge to give a precise interpretation of this information; currently, very few pathway databases offer this po bibility.&lt;/jats:p&gt;&lt;/jats:sec&gt;&lt;jats:sec&gt;&lt;jats:title&gt;Results&lt;/jats:title&gt;&lt;jats:p&gt;The presented work proposes an automatic pipeline to extract automatically regulatory knowledge from pathway databases and generate novel computational predictions related to the state of expre bion or activity of biological molecules. We applied it in the context of hepatocellular carcinoma (HCC) progre bion, and evaluate the precision and the stability of these computational predictions. Our working base is a graph of 3,383 nodes and 13,771 edges extracted from the KEGG database, in which we integrate 209 differentially expre bed genes between low and high aggre bive HCC acro b 294 patients. Our computational model predicts the shifts of expre bion of 146 initially non-observed biological components. Our predictions were validated at 88% using a larger experimental dataset and cro b-validation techniques. In particular, we focus on the protein complexes predictions and show for the first time that NFKB1/BCL-3 complexes are activated in aggre bive HCC. In spite of the large dimension of the reconstructed models, our analyses over the computational predictions discover a well constrained region where KEGG regulatory knowledge constrains gene expre bion of several biomolecules. These regions can offer interesting windows to perturb experimentally such complex systems.&lt;/jats:p&gt;&lt;/jats:sec&gt;&lt;jats:sec&gt;&lt;jats:title&gt;Conclusion&lt;/jats:title&gt;&lt;jats:p&gt;This new pipeline allows biologists to develop their own predictive models based on a list of genes. It facilitates the identification of new regulatory biomolecules using knowledge graphs and predictive computational methods. Our workflow is implemented in an automatic python pipeline which is publicly available at &lt;jats:ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/LokmaneChebouba/key-pipe"&gt;https://github.com/LokmaneChebouba/key-pipe&lt;/jats:ext-link&gt; and contains as testing data all the data used in this paper.&lt;/jats:p&gt;&lt;/jats:sec&gt;</abstract>
+  <type>posted-content</type>
+  <URL>http://dx.doi.org/10.1101/605519</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A pipeline to create predictive functional networks: application to the tumor progre bion of hepatocellular carcinoma</title>
+  <publisher>Springer Science and Busine b Media LLC</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Vincent Legagneux</name>
+    </author>
+    <author>
+      <name>Arnaud Poret</name>
+    </author>
+    <author>
+      <name>Lokmane Chebouba</name>
+    </author>
+    <author>
+      <name>Carito Guziolowski</name>
+    </author>
+    <author>
+      <name>Nathalie Theret</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1186/s12859-019-3316-1</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Inductive Learning from State Transitions over Continuous Domains</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Tony Ribeiro</name>
+    </author>
+    <author>
+      <name>Sophie Tourret</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Domenico Borzacchiello</name>
+    </author>
+    <author>
+      <name>Francisco Chinesta</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-78090-0_9</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Models of Stochastic Gene Expre bion and Weyl Algebra.</title>
+  <authors>
+    <author>
+      <name>Samuel Vidal</name>
+    </author>
+    <author>
+      <name>Michel Petitot</name>
+    </author>
+    <author>
+      <name>Francois Boulier</name>
+    </author>
+    <author>
+      <name>Francois Lemaire</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-642-28067-2_5</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Modelisation de l'expre bion genetique bacterienne dans un pi-calcul stochastique a objets concurrents. (Modeling Bacterial Gene Expre bion in a Stochastic Pi Calculus with Concurrent Objects).</title>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+  </authors>
+  <type>Books and Theses</type>
+  <URL>https://tel.archives-ouvertes.fr/tel-00111653</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Biomolecular Agents as Multi-behavioural Concurrent Objects.</title>
+  <authors>
+    <author>
+      <name>Denys Duchier</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.entcs.2005.12.022</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Multi-Level Modeling in Systems Biology by Discrete Event Approaches (Mehrebenen-Modellierung in der Systembiologie innerhalb diskret-ereignisbasierter Ansatze).</title>
+  <authors>
+    <author>
+      <name>Adelinde M. Uhrmacher</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1524/itit.2006.48.3.148</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Simulating Bacterial Transcription and Translation in a Stochastic pi Calculus.</title>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1007/11880646_6</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Gene Regulation in the Pi Calculus - Simulating Cooperativity at the Lambda Switch.</title>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1007/11905455_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Type inference for a distributed π-calculus</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.scico.2003.12.003</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Type Inference for a Distributed π-Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-36575-3_18</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Dependently Typed Ambient Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Vladimiro Sa bone</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-24725-8_13</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Receptive Distributed π-Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Roberto M. Amadio</name>
+    </author>
+    <author>
+      <name>Gerard Boudol</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-46691-6_24</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Stochastic Pi Calculus for Concurrent Objects</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-73433-8_17</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Rule-Based Modeling of Transcriptional Attenuation at the Tryptophan Operon</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-11712-1_6</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Attractor Equivalence: An Observational Semantics for Reaction Networks</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-10398-3_7</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Structural Simplification of Chemical Reaction Networks Preserving Deterministic Semantics</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-23401-4_12</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dynamic Compartments in the Imperative π-Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-03845-7_16</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The receptive distributed π-calculus</title>
+  <publisher>A bociation for Computing Machinery (ACM)</publisher>
+  <authors>
+    <author>
+      <name>Roberto M. Amadio</name>
+    </author>
+    <author>
+      <name>Gerard Boudol</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1145/937563.937564</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Biochemical Reaction Rules with Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-19718-5_18</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Theoretical basis of the community effect in development</title>
+  <publisher>Springer Science and Busine b Media LLC</publisher>
+  <authors>
+    <author>
+      <name>Yasushi Saka</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Ekkehard Ullner</name>
+    </author>
+    <author>
+      <name>Marco Thiel</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1186/1752-0509-5-54</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Symmetry-Based Model Reduction for Approximate Stochastic Analysis</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Kirill Batmanov</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Francois Lemaire</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-33636-2_5</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Attributed Pi Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Adelinde M. Uhrmacher</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-88562-7_10</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Structural simplification of chemical reaction networks in partial steady states</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Elisa Tonello</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.biosystems.2016.08.003</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Normalizing Chemical Reaction Networks by Confluent Structural Simplification</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Elisa Tonello</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-45177-0_13</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Simpliﬁcation of Reaction Networks, Conﬂuence and Elementary Modes</title>
+  <publisher>MDPI AG</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Elisa Tonello</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.3390/computation5010014</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Self-organized Patterning by Diffusible Factors: Roles of a Community Effect</title>
+  <publisher>IOS Pre b</publisher>
+  <authors>
+    <author>
+      <name>Kirill Batmanov</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Yasushi Saka</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.3233/fi-2012-723</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Attributed Pi-Calculus with Priorities</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Adelinde M. Uhrmacher</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-11712-1_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Functional computation as concurrent computation</title>
+  <publisher>ACM Pre b</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.1145/237721.237801</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Ordering constraints over feature trees expre bed in second-order monadic logic</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Martin Muller</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/bfb0052371</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>On underspecified proce bing of dynamic semantics</title>
+  <publisher>A bociation for Computational Linguistics</publisher>
+  <authors>
+    <author>
+      <name>Alexander Koller</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.3115/990820.990887</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Well-nested parallelism constraints for ellipsis resolution</title>
+  <publisher>A bociation for Computational Linguistics</publisher>
+  <authors>
+    <author>
+      <name>Katrin Erk</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.3115/1067807.1067824</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Bridging the gap between underspecification formalisms</title>
+  <publisher>A bociation for Computational Linguistics</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Stefan Thater</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.3115/1075096.1075143</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dominance constraints in stratified context unification</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Katrin Erk</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.ipl.2006.09.009</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Parallelism Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Katrin Erk</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/10721975_8</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Gene Regulation in the Pi Calculus: Simulating Cooperativity at the Lambda Switch</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/11905455_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dominance Constraints with Set Operators</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Denys Duchier</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-44957-4_22</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Parallelism and Tree Regular Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Mateu Villaret</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-36078-6_21</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dominance Constraints in Context Unification</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Alexander Koller</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-45738-0_12</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Entailment of Non-structural Subtype Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Tim Priesnitz</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-46674-6_22</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Streamable Fragments of Forward XPath</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Olivier Gauwin</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-22256-6_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Describing Lambda Terms in Context Unification</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Mateu Villaret</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/11422532_15</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Uniform Programmning Language for Implementing XML Standards</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Pavel Labath</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-662-46078-8_45</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Projection for Nested Word Automata Speeds up XPath Evaluation on XML Streams</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Tom Sebastian</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-662-49192-8_49</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A confluent relational calculus for higher-order programming with constraints</title>
+  <publisher>Springer-Verlag</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Gert Smolka</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/bfb0016846</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Logics and Automata for Totally Ordered Trees</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Marco Kuhlmann</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-70590-1_15</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Proceedings Fifth International Workshop on Rewriting Techniques for Program Transformations and Evaluation</title>
+  <publisher>Open Publishing A bociation</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>David Sabel</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.4204/eptcs.289.0</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Type inference for a distributed π-calculus</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.scico.2003.12.003</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Type Inference for a Distributed π-Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-36575-3_18</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Dependently Typed Ambient Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Vladimiro Sa bone</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-24725-8_13</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Receptive Distributed π-Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Roberto M. Amadio</name>
+    </author>
+    <author>
+      <name>Gerard Boudol</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-46691-6_24</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Stochastic Pi Calculus for Concurrent Objects</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-73433-8_17</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Rule-Based Modeling of Transcriptional Attenuation at the Tryptophan Operon</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-11712-1_6</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Attractor Equivalence: An Observational Semantics for Reaction Networks</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-10398-3_7</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Structural Simplification of Chemical Reaction Networks Preserving Deterministic Semantics</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-23401-4_12</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dynamic Compartments in the Imperative π-Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-03845-7_16</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The receptive distributed π-calculus</title>
+  <publisher>A bociation for Computing Machinery (ACM)</publisher>
+  <authors>
+    <author>
+      <name>Roberto M. Amadio</name>
+    </author>
+    <author>
+      <name>Gerard Boudol</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1145/937563.937564</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Biochemical Reaction Rules with Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-19718-5_18</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Theoretical basis of the community effect in development</title>
+  <publisher>Springer Science and Busine b Media LLC</publisher>
+  <authors>
+    <author>
+      <name>Yasushi Saka</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Ekkehard Ullner</name>
+    </author>
+    <author>
+      <name>Marco Thiel</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1186/1752-0509-5-54</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Symmetry-Based Model Reduction for Approximate Stochastic Analysis</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Kirill Batmanov</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Francois Lemaire</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-33636-2_5</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Attributed Pi Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Adelinde M. Uhrmacher</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-88562-7_10</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Structural simplification of chemical reaction networks in partial steady states</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Elisa Tonello</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.biosystems.2016.08.003</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Normalizing Chemical Reaction Networks by Confluent Structural Simplification</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Elisa Tonello</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-45177-0_13</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Simpliﬁcation of Reaction Networks, Conﬂuence and Elementary Modes</title>
+  <publisher>MDPI AG</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Elisa Tonello</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.3390/computation5010014</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Self-organized Patterning by Diffusible Factors: Roles of a Community Effect</title>
+  <publisher>IOS Pre b</publisher>
+  <authors>
+    <author>
+      <name>Kirill Batmanov</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Yasushi Saka</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.3233/fi-2012-723</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Attributed Pi-Calculus with Priorities</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Adelinde M. Uhrmacher</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-11712-1_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Functional computation as concurrent computation</title>
+  <publisher>ACM Pre b</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.1145/237721.237801</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Ordering constraints over feature trees expre bed in second-order monadic logic</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Martin Muller</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/bfb0052371</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>On underspecified proce bing of dynamic semantics</title>
+  <publisher>A bociation for Computational Linguistics</publisher>
+  <authors>
+    <author>
+      <name>Alexander Koller</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.3115/990820.990887</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Well-nested parallelism constraints for ellipsis resolution</title>
+  <publisher>A bociation for Computational Linguistics</publisher>
+  <authors>
+    <author>
+      <name>Katrin Erk</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.3115/1067807.1067824</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Bridging the gap between underspecification formalisms</title>
+  <publisher>A bociation for Computational Linguistics</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Stefan Thater</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.3115/1075096.1075143</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dominance constraints in stratified context unification</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Katrin Erk</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.ipl.2006.09.009</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Parallelism Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Katrin Erk</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/10721975_8</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Gene Regulation in the Pi Calculus: Simulating Cooperativity at the Lambda Switch</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/11905455_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dominance Constraints with Set Operators</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Denys Duchier</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-44957-4_22</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Parallelism and Tree Regular Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Mateu Villaret</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-36078-6_21</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dominance Constraints in Context Unification</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Alexander Koller</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-45738-0_12</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Entailment of Non-structural Subtype Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Tim Priesnitz</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-46674-6_22</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Streamable Fragments of Forward XPath</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Olivier Gauwin</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-22256-6_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Describing Lambda Terms in Context Unification</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Mateu Villaret</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/11422532_15</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Uniform Programmning Language for Implementing XML Standards</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Pavel Labath</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-662-46078-8_45</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Projection for Nested Word Automata Speeds up XPath Evaluation on XML Streams</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Tom Sebastian</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-662-49192-8_49</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A confluent relational calculus for higher-order programming with constraints</title>
+  <publisher>Springer-Verlag</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Gert Smolka</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/bfb0016846</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Logics and Automata for Totally Ordered Trees</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Marco Kuhlmann</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-70590-1_15</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Proceedings Fifth International Workshop on Rewriting Techniques for Program Transformations and Evaluation</title>
+  <publisher>Open Publishing A bociation</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>David Sabel</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.4204/eptcs.289.0</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Exhaustive analysis of dynamical properties of Biological Regulatory Networks with Answer Set Programming</title>
+  <publisher>IEEE</publisher>
+  <authors>
+    <author>
+      <name>Emna Ben Abdallah</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.1109/bibm.2015.7359694</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Analyzing Large Network Dynamics with Proce b Hitting</title>
+  <publisher>John Wiley &amp; Sons, Inc.</publisher>
+  <authors>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Courtney Chancellor</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1002/9781119005223.ch4</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Identification of biological regulatory networks from Proce b Hitting models</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.tcs.2014.12.002</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Concretizing the Proce b Hitting into Biological Regulatory Networks</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-33636-2_11</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Sufficient conditions for reachability in automata networks with priorities</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.tcs.2015.08.040</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>ASP-based method for the enumeration of attractors in non-deterministic synchronous and asynchronous multi-valued networks</title>
+  <publisher>Springer Science and Busine b Media LLC</publisher>
+  <authors>
+    <author>
+      <name>Emna Ben Abdallah</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1186/s13015-017-0111-2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Learning Dynamics with Synchronous, Asynchronous and General Semantics</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Tony Ribeiro</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-99960-9_8</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Under-approximation of Reachability in Multivalued Asynchronous Networks</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.entcs.2013.11.004</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Analyses statiques de la dynamique des reseaux d 'automates indeterministes</title>
+  <publisher>Lavoisier</publisher>
+  <authors>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.3166/tsi.34.463-484</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A pipeline to create predictive functional networks: application to the tumor progre bion of hepatocellular carcinoma</title>
+  <publisher>Cold Spring Harbor Laboratory</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Vincent Legagneux</name>
+    </author>
+    <author>
+      <name>Arnaud Poret</name>
+    </author>
+    <author>
+      <name>Lokmane Chebouba</name>
+    </author>
+    <author>
+      <name>Carito Guziolowski</name>
+    </author>
+    <author>
+      <name>Nathalie Theret</name>
+    </author>
+  </authors>
+  <abstract>&lt;jats:title&gt;Abstract&lt;/jats:title&gt;&lt;jats:sec&gt;&lt;jats:title&gt;Background&lt;/jats:title&gt;&lt;jats:p&gt;Integrating genome-wide gene expre bion patient profiles with regulatory knowledge is a challenging task because of the inherent heterogeneity, noise and incompletene b of biological data. From the computational side, several solvers for logic programs are able to perform extremely well in decision problems for combinatorial search domains. The challenge then is how to proce b the biological knowledge in order to feed these solvers to gain insights in a biological study. It requires formalizing the biological knowledge to give a precise interpretation of this information; currently, very few pathway databases offer this po bibility.&lt;/jats:p&gt;&lt;/jats:sec&gt;&lt;jats:sec&gt;&lt;jats:title&gt;Results&lt;/jats:title&gt;&lt;jats:p&gt;The presented work proposes an automatic pipeline to extract automatically regulatory knowledge from pathway databases and generate novel computational predictions related to the state of expre bion or activity of biological molecules. We applied it in the context of hepatocellular carcinoma (HCC) progre bion, and evaluate the precision and the stability of these computational predictions. Our working base is a graph of 3,383 nodes and 13,771 edges extracted from the KEGG database, in which we integrate 209 differentially expre bed genes between low and high aggre bive HCC acro b 294 patients. Our computational model predicts the shifts of expre bion of 146 initially non-observed biological components. Our predictions were validated at 88% using a larger experimental dataset and cro b-validation techniques. In particular, we focus on the protein complexes predictions and show for the first time that NFKB1/BCL-3 complexes are activated in aggre bive HCC. In spite of the large dimension of the reconstructed models, our analyses over the computational predictions discover a well constrained region where KEGG regulatory knowledge constrains gene expre bion of several biomolecules. These regions can offer interesting windows to perturb experimentally such complex systems.&lt;/jats:p&gt;&lt;/jats:sec&gt;&lt;jats:sec&gt;&lt;jats:title&gt;Conclusion&lt;/jats:title&gt;&lt;jats:p&gt;This new pipeline allows biologists to develop their own predictive models based on a list of genes. It facilitates the identification of new regulatory biomolecules using knowledge graphs and predictive computational methods. Our workflow is implemented in an automatic python pipeline which is publicly available at &lt;jats:ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/LokmaneChebouba/key-pipe"&gt;https://github.com/LokmaneChebouba/key-pipe&lt;/jats:ext-link&gt; and contains as testing data all the data used in this paper.&lt;/jats:p&gt;&lt;/jats:sec&gt;</abstract>
+  <type>posted-content</type>
+  <URL>http://dx.doi.org/10.1101/605519</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A pipeline to create predictive functional networks: application to the tumor progre bion of hepatocellular carcinoma</title>
+  <publisher>Springer Science and Busine b Media LLC</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Vincent Legagneux</name>
+    </author>
+    <author>
+      <name>Arnaud Poret</name>
+    </author>
+    <author>
+      <name>Lokmane Chebouba</name>
+    </author>
+    <author>
+      <name>Carito Guziolowski</name>
+    </author>
+    <author>
+      <name>Nathalie Theret</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1186/s12859-019-3316-1</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Inductive Learning from State Transitions over Continuous Domains</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Tony Ribeiro</name>
+    </author>
+    <author>
+      <name>Sophie Tourret</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Domenico Borzacchiello</name>
+    </author>
+    <author>
+      <name>Francisco Chinesta</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-78090-0_9</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Simulating Bacterial Transcription and Translation in a Stochastic π Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/11880646_6</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Biomolecular Agents as Multi-behavioural Concurrent Objects</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Denys Duchier</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.entcs.2005.12.022</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Multi-Level Modeling in Systems Biology by Discrete Event Approaches (Mehrebenen-Modellierung in der Systembiologie innerhalb diskret-ereignisbasierter Ansatze)</title>
+  <publisher>Walter de Gruyter GmbH</publisher>
+  <authors>
+    <author>
+      <name>Adelinde Uhrmacher</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+  </authors>
+  <abstract>&lt;jats:title&gt;Summary&lt;/jats:title&gt;&lt;jats:p&gt;The creation of models for heterogeneous and complex cellular networks is a central goal of Systems Biology. When modeling a biological network, one may wish to account for certain aspects in detail, while a bird's eye perspective would seem more appropriate for other parts. Multi-level models combine such overview and detail representations. We illustrate multi-level modeling with gene regulation of the Tryptophan operon in E. coli. We review three discrete event modeling formalisms and discu b model design therein: DEVS, STATECHARTS, and stochastic π-CALCULUS. This introductory presentation already reveals some of their respective virtues and shortcomings.&lt;/jats:p&gt;</abstract>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1524/itit.2006.48.3.148</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Gene Regulation in the Pi Calculus: Simulating Cooperativity at the Lambda Switch</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/11905455_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Stochastic Pi Calculus for Concurrent Objects</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-73433-8_17</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Rule-Based Modeling of Transcriptional Attenuation at the Tryptophan Operon</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-11712-1_6</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Models of Stochastic Gene Expre bion and Weyl Algebra</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Samuel Vidal</name>
+    </author>
+    <author>
+      <name>Michel Petitot</name>
+    </author>
+    <author>
+      <name>Francois Boulier</name>
+    </author>
+    <author>
+      <name>Francois Lemaire</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-28067-2_5</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Self-organized Patterning by Diffusible Factors: Roles of a Community Effect</title>
+  <publisher>IOS Pre b</publisher>
+  <authors>
+    <author>
+      <name>Kirill Batmanov</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Yasushi Saka</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.3233/fi-2012-723</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Supporting Generic Methodologies to A bist IMS-LD Modeling.</title>
+  <authors>
+    <author>
+      <name>Xavier Le Pallec</name>
+    </author>
+    <author>
+      <name>Cesar Olavo de Moura Filho</name>
+    </author>
+    <author>
+      <name>Raphael Marvie</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+    <author>
+      <name>Jean-Claude Tarby</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1109/ICALT.2006.1652594</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Efficient Algorithms on the Family A bociated to an Implicational System.</title>
+  <authors>
+    <author>
+      <name>Karell Bertet</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>http://dmtcs.episciences.org/330</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>An Overview of the Signal Clock Calculus.</title>
+  <authors>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.entcs.2003.05.005</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Specification and analysis of synchronous reactions.</title>
+  <authors>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1007/s00165-004-0039-4</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Decidable Clock Language for Synchronous Specifications.</title>
+  <authors>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+    <author>
+      <name>Sophie Pinchinat</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/S1571-0661(05)80447-5</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Type inference for a distributed π-calculus</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.scico.2003.12.003</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Type Inference for a Distributed π-Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-36575-3_18</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Dependently Typed Ambient Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Vladimiro Sa bone</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-24725-8_13</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Receptive Distributed π-Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Roberto M. Amadio</name>
+    </author>
+    <author>
+      <name>Gerard Boudol</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-46691-6_24</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Stochastic Pi Calculus for Concurrent Objects</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-73433-8_17</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Rule-Based Modeling of Transcriptional Attenuation at the Tryptophan Operon</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-11712-1_6</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Attractor Equivalence: An Observational Semantics for Reaction Networks</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-10398-3_7</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Structural Simplification of Chemical Reaction Networks Preserving Deterministic Semantics</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-23401-4_12</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dynamic Compartments in the Imperative π-Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-03845-7_16</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The receptive distributed π-calculus</title>
+  <publisher>A bociation for Computing Machinery (ACM)</publisher>
+  <authors>
+    <author>
+      <name>Roberto M. Amadio</name>
+    </author>
+    <author>
+      <name>Gerard Boudol</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1145/937563.937564</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Biochemical Reaction Rules with Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-19718-5_18</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Theoretical basis of the community effect in development</title>
+  <publisher>Springer Science and Busine b Media LLC</publisher>
+  <authors>
+    <author>
+      <name>Yasushi Saka</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Ekkehard Ullner</name>
+    </author>
+    <author>
+      <name>Marco Thiel</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1186/1752-0509-5-54</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Symmetry-Based Model Reduction for Approximate Stochastic Analysis</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Kirill Batmanov</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Francois Lemaire</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-33636-2_5</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Attributed Pi Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Adelinde M. Uhrmacher</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-88562-7_10</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Structural simplification of chemical reaction networks in partial steady states</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Elisa Tonello</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.biosystems.2016.08.003</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Normalizing Chemical Reaction Networks by Confluent Structural Simplification</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Elisa Tonello</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-45177-0_13</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Simpliﬁcation of Reaction Networks, Conﬂuence and Elementary Modes</title>
+  <publisher>MDPI AG</publisher>
+  <authors>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Elisa Tonello</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.3390/computation5010014</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Self-organized Patterning by Diffusible Factors: Roles of a Community Effect</title>
+  <publisher>IOS Pre b</publisher>
+  <authors>
+    <author>
+      <name>Kirill Batmanov</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Yasushi Saka</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.3233/fi-2012-723</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>The Attributed Pi-Calculus with Priorities</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Adelinde M. Uhrmacher</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-11712-1_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Functional computation as concurrent computation</title>
+  <publisher>ACM Pre b</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.1145/237721.237801</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Ordering constraints over feature trees expre bed in second-order monadic logic</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Martin Muller</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/bfb0052371</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>On underspecified proce bing of dynamic semantics</title>
+  <publisher>A bociation for Computational Linguistics</publisher>
+  <authors>
+    <author>
+      <name>Alexander Koller</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.3115/990820.990887</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Well-nested parallelism constraints for ellipsis resolution</title>
+  <publisher>A bociation for Computational Linguistics</publisher>
+  <authors>
+    <author>
+      <name>Katrin Erk</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.3115/1067807.1067824</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Bridging the gap between underspecification formalisms</title>
+  <publisher>A bociation for Computational Linguistics</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Stefan Thater</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.3115/1075096.1075143</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dominance constraints in stratified context unification</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Katrin Erk</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.ipl.2006.09.009</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Parallelism Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Katrin Erk</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/10721975_8</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Gene Regulation in the Pi Calculus: Simulating Cooperativity at the Lambda Switch</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/11905455_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dominance Constraints with Set Operators</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Denys Duchier</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-44957-4_22</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Parallelism and Tree Regular Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Mateu Villaret</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-36078-6_21</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Dominance Constraints in Context Unification</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Alexander Koller</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-45738-0_12</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Entailment of Non-structural Subtype Constraints</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Tim Priesnitz</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/3-540-46674-6_22</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Streamable Fragments of Forward XPath</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Olivier Gauwin</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-22256-6_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Describing Lambda Terms in Context Unification</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Mateu Villaret</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/11422532_15</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Uniform Programmning Language for Implementing XML Standards</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Pavel Labath</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-662-46078-8_45</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Projection for Nested Word Automata Speeds up XPath Evaluation on XML Streams</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Tom Sebastian</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-662-49192-8_49</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A confluent relational calculus for higher-order programming with constraints</title>
+  <publisher>Springer-Verlag</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>Gert Smolka</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/bfb0016846</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Logics and Automata for Totally Ordered Trees</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Marco Kuhlmann</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-70590-1_15</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Proceedings Fifth International Workshop on Rewriting Techniques for Program Transformations and Evaluation</title>
+  <publisher>Open Publishing A bociation</publisher>
+  <authors>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+    <author>
+      <name>David Sabel</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.4204/eptcs.289.0</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Exhaustive analysis of dynamical properties of Biological Regulatory Networks with Answer Set Programming</title>
+  <publisher>IEEE</publisher>
+  <authors>
+    <author>
+      <name>Emna Ben Abdallah</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.1109/bibm.2015.7359694</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Analyzing Large Network Dynamics with Proce b Hitting</title>
+  <publisher>John Wiley &amp; Sons, Inc.</publisher>
+  <authors>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Courtney Chancellor</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1002/9781119005223.ch4</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Identification of biological regulatory networks from Proce b Hitting models</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.tcs.2014.12.002</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Concretizing the Proce b Hitting into Biological Regulatory Networks</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-33636-2_11</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Sufficient conditions for reachability in automata networks with priorities</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.tcs.2015.08.040</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>ASP-based method for the enumeration of attractors in non-deterministic synchronous and asynchronous multi-valued networks</title>
+  <publisher>Springer Science and Busine b Media LLC</publisher>
+  <authors>
+    <author>
+      <name>Emna Ben Abdallah</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1186/s13015-017-0111-2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Learning Dynamics with Synchronous, Asynchronous and General Semantics</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Tony Ribeiro</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-99960-9_8</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Under-approximation of Reachability in Multivalued Asynchronous Networks</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.entcs.2013.11.004</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Analyses statiques de la dynamique des reseaux d 'automates indeterministes</title>
+  <publisher>Lavoisier</publisher>
+  <authors>
+    <author>
+      <name>Loic Pauleve</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.3166/tsi.34.463-484</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A pipeline to create predictive functional networks: application to the tumor progre bion of hepatocellular carcinoma</title>
+  <publisher>Cold Spring Harbor Laboratory</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Vincent Legagneux</name>
+    </author>
+    <author>
+      <name>Arnaud Poret</name>
+    </author>
+    <author>
+      <name>Lokmane Chebouba</name>
+    </author>
+    <author>
+      <name>Carito Guziolowski</name>
+    </author>
+    <author>
+      <name>Nathalie Theret</name>
+    </author>
+  </authors>
+  <abstract>&lt;jats:title&gt;Abstract&lt;/jats:title&gt;&lt;jats:sec&gt;&lt;jats:title&gt;Background&lt;/jats:title&gt;&lt;jats:p&gt;Integrating genome-wide gene expre bion patient profiles with regulatory knowledge is a challenging task because of the inherent heterogeneity, noise and incompletene b of biological data. From the computational side, several solvers for logic programs are able to perform extremely well in decision problems for combinatorial search domains. The challenge then is how to proce b the biological knowledge in order to feed these solvers to gain insights in a biological study. It requires formalizing the biological knowledge to give a precise interpretation of this information; currently, very few pathway databases offer this po bibility.&lt;/jats:p&gt;&lt;/jats:sec&gt;&lt;jats:sec&gt;&lt;jats:title&gt;Results&lt;/jats:title&gt;&lt;jats:p&gt;The presented work proposes an automatic pipeline to extract automatically regulatory knowledge from pathway databases and generate novel computational predictions related to the state of expre bion or activity of biological molecules. We applied it in the context of hepatocellular carcinoma (HCC) progre bion, and evaluate the precision and the stability of these computational predictions. Our working base is a graph of 3,383 nodes and 13,771 edges extracted from the KEGG database, in which we integrate 209 differentially expre bed genes between low and high aggre bive HCC acro b 294 patients. Our computational model predicts the shifts of expre bion of 146 initially non-observed biological components. Our predictions were validated at 88% using a larger experimental dataset and cro b-validation techniques. In particular, we focus on the protein complexes predictions and show for the first time that NFKB1/BCL-3 complexes are activated in aggre bive HCC. In spite of the large dimension of the reconstructed models, our analyses over the computational predictions discover a well constrained region where KEGG regulatory knowledge constrains gene expre bion of several biomolecules. These regions can offer interesting windows to perturb experimentally such complex systems.&lt;/jats:p&gt;&lt;/jats:sec&gt;&lt;jats:sec&gt;&lt;jats:title&gt;Conclusion&lt;/jats:title&gt;&lt;jats:p&gt;This new pipeline allows biologists to develop their own predictive models based on a list of genes. It facilitates the identification of new regulatory biomolecules using knowledge graphs and predictive computational methods. Our workflow is implemented in an automatic python pipeline which is publicly available at &lt;jats:ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/LokmaneChebouba/key-pipe"&gt;https://github.com/LokmaneChebouba/key-pipe&lt;/jats:ext-link&gt; and contains as testing data all the data used in this paper.&lt;/jats:p&gt;&lt;/jats:sec&gt;</abstract>
+  <type>posted-content</type>
+  <URL>http://dx.doi.org/10.1101/605519</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A pipeline to create predictive functional networks: application to the tumor progre bion of hepatocellular carcinoma</title>
+  <publisher>Springer Science and Busine b Media LLC</publisher>
+  <authors>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Vincent Legagneux</name>
+    </author>
+    <author>
+      <name>Arnaud Poret</name>
+    </author>
+    <author>
+      <name>Lokmane Chebouba</name>
+    </author>
+    <author>
+      <name>Carito Guziolowski</name>
+    </author>
+    <author>
+      <name>Nathalie Theret</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1186/s12859-019-3316-1</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Inductive Learning from State Transitions over Continuous Domains</title>
+  <publisher>Springer International Publishing</publisher>
+  <authors>
+    <author>
+      <name>Tony Ribeiro</name>
+    </author>
+    <author>
+      <name>Sophie Tourret</name>
+    </author>
+    <author>
+      <name>Maxime Folschette</name>
+    </author>
+    <author>
+      <name>Morgan Magnin</name>
+    </author>
+    <author>
+      <name>Domenico Borzacchiello</name>
+    </author>
+    <author>
+      <name>Francisco Chinesta</name>
+    </author>
+    <author>
+      <name>Olivier Roux</name>
+    </author>
+    <author>
+      <name>Katsumi Inoue</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-319-78090-0_9</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Simulating Bacterial Transcription and Translation in a Stochastic π Calculus</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/11880646_6</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Biomolecular Agents as Multi-behavioural Concurrent Objects</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Denys Duchier</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.entcs.2005.12.022</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Multi-Level Modeling in Systems Biology by Discrete Event Approaches (Mehrebenen-Modellierung in der Systembiologie innerhalb diskret-ereignisbasierter Ansatze)</title>
+  <publisher>Walter de Gruyter GmbH</publisher>
+  <authors>
+    <author>
+      <name>Adelinde Uhrmacher</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+  </authors>
+  <abstract>&lt;jats:title&gt;Summary&lt;/jats:title&gt;&lt;jats:p&gt;The creation of models for heterogeneous and complex cellular networks is a central goal of Systems Biology. When modeling a biological network, one may wish to account for certain aspects in detail, while a bird's eye perspective would seem more appropriate for other parts. Multi-level models combine such overview and detail representations. We illustrate multi-level modeling with gene regulation of the Tryptophan operon in E. coli. We review three discrete event modeling formalisms and discu b model design therein: DEVS, STATECHARTS, and stochastic π-CALCULUS. This introductory presentation already reveals some of their respective virtues and shortcomings.&lt;/jats:p&gt;</abstract>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1524/itit.2006.48.3.148</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Gene Regulation in the Pi Calculus: Simulating Cooperativity at the Lambda Switch</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/11905455_2</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Stochastic Pi Calculus for Concurrent Objects</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-540-73433-8_17</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Rule-Based Modeling of Transcriptional Attenuation at the Tryptophan Operon</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-11712-1_6</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Models of Stochastic Gene Expre bion and Weyl Algebra</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Samuel Vidal</name>
+    </author>
+    <author>
+      <name>Michel Petitot</name>
+    </author>
+    <author>
+      <name>Francois Boulier</name>
+    </author>
+    <author>
+      <name>Francois Lemaire</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-28067-2_5</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Self-organized Patterning by Diffusible Factors: Roles of a Community Effect</title>
+  <publisher>IOS Pre b</publisher>
+  <authors>
+    <author>
+      <name>Kirill Batmanov</name>
+    </author>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Yasushi Saka</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.3233/fi-2012-723</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>An Overview of the Signal Clock Calculus</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/j.entcs.2003.05.005</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Specification and analysis of synchronous reactions</title>
+  <publisher>Springer Science and Busine b Media LLC</publisher>
+  <authors>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1007/s00165-004-0039-4</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Decidable Clock Language for Synchronous Specifications</title>
+  <publisher>Elsevier BV</publisher>
+  <authors>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+    <author>
+      <name>Sophie Pinchinat</name>
+    </author>
+  </authors>
+  <type>journal-article</type>
+  <URL>http://dx.doi.org/10.1016/s1571-0661(05)80447-5</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Rule-Based Modeling of Transcriptional Attenuation at the Tryptophan Operon</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-11712-1_6</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Rule-based modeling of transcriptional attenuation at the tryptophan operon</title>
+  <publisher>IEEE</publisher>
+  <authors>
+    <author>
+      <name>Celine Kuttler</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>proceedings-article</type>
+  <URL>http://dx.doi.org/10.1109/wsc.2009.5429721</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Knockout Prediction for Reaction Networks with Partial Kinetic Information</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Mathias John</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+    <author>
+      <name>Joachim Niehren</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-35873-9_22</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Models of Tet-On System with Epigenetic Effects</title>
+  <publisher>Springer Berlin Heidelberg</publisher>
+  <authors>
+    <author>
+      <name>Ru b Harmer</name>
+    </author>
+    <author>
+      <name>Jean Krivine</name>
+    </author>
+    <author>
+      <name>elise Laruelle</name>
+    </author>
+    <author>
+      <name>Cedric Lhou baine</name>
+    </author>
+    <author>
+      <name>Guillaume Madelaine</name>
+    </author>
+    <author>
+      <name>Mirabelle Nebut</name>
+    </author>
+  </authors>
+  <type>book-chapter</type>
+  <URL>http://dx.doi.org/10.1007/978-3-642-33636-2_25</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>What Population Reveals about Individual Cell Identity - Single-Cell Parameter Estimation of Models of Gene Expre bion in Yeast.</title>
+  <authors>
+    <author>
+      <name>Artemis Llamosi</name>
+    </author>
+    <author>
+      <name>Andres M. Gonzalez-Vargas</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+    <author>
+      <name>Eugenio Cinquemani</name>
+    </author>
+    <author>
+      <name>Giancarlo Ferrari-Trecate</name>
+    </author>
+    <author>
+      <name>Pascal Hersen</name>
+    </author>
+    <author>
+      <name>Gregory Batt</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1371/journal.pcbi.1004706</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Introduction to Concurrency Theory - Transition Systems and CCS</title>
+  <authors>
+    <author>
+      <name>Roberto Gorrieri</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>Books and Theses</type>
+  <URL>https://doi.org/10.1007/978-3-319-21491-7</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Complex Functional Rates in the Modeling of Nano Devices (Extended Abstract).</title>
+  <authors>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+    <author>
+      <name>Gianluigi Zavattaro</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.entcs.2013.02.015</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Complex Functional Rates in Rule-Based Languages for Biochemistry.</title>
+  <authors>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+    <author>
+      <name>Gianluigi Zavattaro</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1007/978-3-642-35524-0_6</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>An Operational Petri Net Semantics for A2CCS.</title>
+  <authors>
+    <author>
+      <name>Roberto Gorrieri</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.3233/FI-2011-501</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A Proce b Calculus for Expre bing Finite Place/Transition Petri Nets</title>
+  <authors>
+    <author>
+      <name>Roberto Gorrieri</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.4204/EPTCS.41.6</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>A core calculus for the analysis and implementation of biologically inspired languages.</title>
+  <authors>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>Books and Theses</type>
+  <URL>http://amsdottorato.unibo.it/1442/</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>An expre bivene b study of priority in proce b calculi.</title>
+  <authors>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+    <author>
+      <name>Nadia Busi</name>
+    </author>
+    <author>
+      <name>Roberto Gorrieri</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1017/S0960129509990168</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Stochastic biological modelling in the presence of multiple compartments.</title>
+  <authors>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+    <author>
+      <name>Nadia Busi</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.tcs.2009.03.038</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>On the Expre bive Power of Restriction and Priorities in CCS with Replication.</title>
+  <authors>
+    <author>
+      <name>Jesus Aranda</name>
+    </author>
+    <author>
+      <name>Frank D. Valencia</name>
+    </author>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-642-00596-1_18</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Stochastic modelling of cellular growth and division by means of the pi@ calculus.</title>
+  <authors>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+  </authors>
+  <type>Informal Publications</type>
+  <URL>http://drops.dagstuhl.de/opus/volltexte/2009/1990/</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>Efficient Stochastic Simulation of Biological Systems with Multiple Variable Volumes.</title>
+  <authors>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+    <author>
+      <name>Nadia Busi</name>
+    </author>
+  </authors>
+  <type>Journal Articles</type>
+  <URL>https://doi.org/10.1016/j.entcs.2007.12.012</URL>
+</article>
+<article>
+  <reference>DBLP</reference>
+  <title>pi@ - A pi-Based Proce b Calculus for the Implementation of Compartmentalised Bio-inspired Calculi.</title>
+  <authors>
+    <author>
+      <name>Cristian Versari</name>
+    </author>
+    <author>
+      <name>Roberto Gorrieri</name>
+    </author>
+  </authors>
+  <type>Conference and Workshop Papers</type>
+  <URL>https://doi.org/10.1007/978-3-540-68894-5_13</URL>
+</article>
+</articles>
