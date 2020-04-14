@@ -1,3 +1,5 @@
+#!/usr/bin/python                                                                       
+# -*- coding: utf-8 -*- 
 import requests
 from lxml import etree
 import sys
@@ -6,7 +8,24 @@ from igraph import *
 import xml.etree.cElementTree as ET
 from decimal import Decimal
 import os
+from unidecode import unidecode
+from networkx import nx
 
+
+
+def getAuthorsFromDataBase () :
+    i = 0
+    ListAuthors = []
+    tree = ET.parse('articles_database.xml')
+    root = tree.getroot()
+    for article in root.findall('article') : 
+        titleArticle = article.find('title').text
+        for author in article.findall('./authors/author') :
+            authorArticle =author.find('name').text
+            if leaveDuplicatAuthors(authorArticle,ListAuthors) == False :
+                ListAuthors.append(authorArticle) 
+    return ListAuthors 
+    
 def leaveDuplicatAuthors (Author,ListAuthors) :
     test = False
     #if ListAuthors is None :
@@ -19,30 +38,55 @@ def leaveDuplicatAuthors (Author,ListAuthors) :
 def InitializeGraph (ListAuthors) :
     g = Graph(len(ListAuthors))
     g.vs["nameAuthor"] = ListAuthors
-    for i in range (0,len(ListAuthors)):
-        print g.vs[i]["nameAuthor"]
+    return g
 
-def getAuthorsFromDataBase () :
-    ListAuthors = []
+def setArc (g,author) :
+    i=0
+    exist = False
+    subset = []
     tree = ET.parse('articles_database.xml')
     root = tree.getroot()
     for article in root.findall('article') : 
-        titleArticle = article.find('title').text
         for author in article.findall('./authors/author') :
             authorArticle =author.find('name').text
-            if leaveDuplicatAuthors(authorArticle,ListAuthors) == False :
-                ListAuthors.append(authorArticle) 
-    return ListAuthors   
-             
+            subset.append(authorArticle) 
+        for authorBySubSet in subset :
+            if authorBySubSet == author :
+                exist = True 
+        if exist == True :
+            for authorBySubSet in subset :
+                if authorBySubSet != author :
+                    index1Author = g.vs.find(nameAuthor=author)
+                    index2Author = g.vs.find(nameAuthor=authorBySubSet)
+                    if ifArcExist(g,index1Author,index2Author) == True :
+                        g.add_edges([(index1Author,index2Author)])
+        subset = []
+
+        
+def ifArcExist(g,index1,index2) :
+    test = False
+    if g.are_connected (index1, index2) == False :
+        test = True
+    return test
+
 def main():
     """
     main function
     """
-    ListAuthors = getAuthorsFromDataBase()
-    #print len(ListAuthors)
-    InitializeGraph(ListAuthors)       
-     
-       
+i = 0
+ListAuthors = getAuthorsFromDataBase()
+g = InitializeGraph(ListAuthors)  
+#for author in ListAuthors :
+    #print "auteur N ",i
+    #i = i+1
+    #setArc(g,author)
+#g.export("test.xml")
+g.save("test.GraphML")
+layout = g.layout_kamada_kawai()
+layout = g.layout("kamada_kawai")
+layout = g.layout("kk")
+plot(g,layout = layout)
+
         
    
 #g = Graph([(0,1), (0,2), (2,3), (3,4), (4,2), (2,5), (5,0), (6,3), (5,6)])

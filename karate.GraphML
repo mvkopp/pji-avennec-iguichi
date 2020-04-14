@@ -1,0 +1,18 @@
+Creator "igraph version 0.8.0 Tue Apr 14 17:23:57 2020"
+Version 1
+graph
+[
+  directed 0
+  node
+  [
+    id 0
+    nameAuthor "Guillaume Madelaine"
+  ]
+  node
+  [
+    id 1
+    nameAuthor "Elisa Tonello"
+  ]
+  node
+  [
+    id 2
