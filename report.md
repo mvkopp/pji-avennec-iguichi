@@ -1,26 +1,38 @@
 # Compte rendu Projet 30
-Autheur : Mael AVENNEC et Imad IGUICHI
+Autheurs : Mael AVENNEC et Imad IGUICHI
 
-# Informations récupérés par les API
+## Couverture
+## Remerciements
+## Sommaire
+## I - Introduction
+## II - Objectifs du projet
+1. Contexte
+2. Motivation
+3. Objectifs
+## III - Gestion de projet
+1. L'équipe 
+    (Présentation des membres de l'équipe responsable du projet)
+2. Planification et outils de gestion
+- Cahier des charges (Explication de sa mise en place)
+- Diagramme de Gantt (Présentation du diagramme)
+3. Répartition des tâches
+## IV -  Conception technique
+1. Logiciels et outlis utilisés
+    - Python
+    - iGraph
+    - Gephi
+    - APIs (présentation de chaque API ainsi que tableau contnenant les informations récupérées et utilisées)
+        - DBLP
+        - Crossref
+2. L'application
+- Présentation de l'application 
+- Description précis de l'interface graphique (avec capture d'écran à l'appui)
+- Base de données (explication, choix, données stockés ..)
+- Scraping
+## V - Bilan
+## VI - Perspectives
+    (Fonctionnalité de login dans le cas d'accès à des données privés)
+## VII - Bibliographie
 
-## DBLP
 
-Format JSON : 
-
-result : 
-- hits : 
-    - @total : (str) nombre de résultat trouvé
-
-    - @sent : (str) nombre de résultat reçu dans la reqûete
-
-    - hit : (array) tableau de tous les résultats de la requête
-        - @id : (str) id de la publication
-        - info : 
-            - authors :
-                - author : (array) tableau contenant les auteurs de la publications
-                    - @pid : (str) id de l'auteur
-                    - text : (str) nom de l'auteur
-
-## CROSSREF
-
-## HAL
+Question : Doit-on parler des modules pyhton utilisés ? 
