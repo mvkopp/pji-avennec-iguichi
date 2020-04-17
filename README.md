@@ -37,13 +37,12 @@ Objectifs :
 - [x] Choisir comment stocker les données qu’on peut déjà extraire
 - [x] Réalisation d'un diagramme de gantt (Gestion de projet) 
 
-Questions ? 
+> Questions ? 
+> - Devons-nous récupérer les abstract des articles par scraping ? ou par utilisation d'une API ? (Articles sur différents sites)
+> ***Pour l'instant pas de récupération des abstract, attendre de voir l'avancement du projet pour décider***
 
-- Devons-nous récupérer les abstract des articles par scraping ? ou par utilisation d'une API ? (Articles sur différents sites)
--> ***Pour l'instant pas de récupération des abstract, attendre de voir l'avancement du projet pour décider***
-
-Notes :
-- Utilisation du module [requests](https://pypi.org/project/requests/)
+> Notes :
+> - Utilisation du module [requests](https://pypi.org/project/requests/)
 
 ### **Semaine 2** - 30/03/20
 
@@ -57,25 +56,26 @@ Objectifs :
 - [x] Remplacer les entités HTML par des caractères unicode
 - [x] Créer fonction qui va calculer la précision du nom d'autheur donnée par l'utilisateur et des noms d'auteurs dans les articles récupérés
 
-Questions ?
-- Comment gérer les cas où il n'y a pas de titre dans les résultats (ex : site=Crossref, auteur=Laurent Noé, article=1) ?
--> ***Si pas de titre, on ne considère pas l'article***
+> Questions ?
+> - Comment gérer les cas où il n'y a pas de titre dans les résultats (ex : site=Crossref, auteur=Laurent Noé, article=1) ?
+> ***Si pas de titre, on ne considère pas l'article***
 
 
-Notes : 
-- Utilisation du module [Unidecode](https://pypi.org/project/Unidecode/)
-- Utilisation du module [HTML.unescape](https://docs.python.org/3/library/html.html#html.unescape) pour échapper les caractères spéciaux 
-- Utilisation du module os pour vérifier si un fichier est vide
-- Utilisation du module decimal
+> Notes : 
+> - Utilisation du module [Unidecode](https://pypi.org/project/Unidecode/)
+> - Utilisation du module [HTML.unescape](https://docs.python.org/3/library/html.html#html.unescape) pour échapper les caractères spéciaux 
+> - Utilisation du module os pour vérifier si un fichier est vide
+> - Utilisation du module decimal
 
 ### **Semaine 3** - 06/04/20
 
-Objectifs : 
+Objectifs :
 
 - [ ] Mettre à jour diagramme de gantt 
 - [ ] Réflechir à comment montrer les informations extraites de façon intuitive
 - [ ] Commencer à mettre en place interface
-- [ ] Tester l'exportation avec Gephi
+- [ ] Créer fichier graph en utilisant iGraph
+- [ ] Réaliser une exportation avec Gephi
 - [ ] Customiser l'interface
 - [ ] Se documenter sur les algos de détections et expliquer dans le rapport
 - [ ] Appliquer les algos
