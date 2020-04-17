@@ -72,13 +72,12 @@ Objectifs :
 Objectifs :
 
 - [x] Mettre à jour diagramme de gantt 
-- [ ] Réflechir à comment montrer les informations extraites de façon intuitive
 - [x] Créer fichier graph en utilisant iGraph
 - [x] Réaliser une importation sur Gephi
-- [ ] Commencer à mettre en place interface
+- [ ] Réflechir à comment montrer les informations extraites de façon intuitive
 - [ ] Réaliser une exportation avec Gephi
-- [ ] Customiser l'interface
-- [ ] Se documenter sur les algos de détections et expliquer dans le rapport
+- [ ] Commencer à mettre en place interface
+- [x] Se documenter sur les algos de détections
 - [ ] Appliquer les algos
 
 Notes : /
@@ -87,6 +86,7 @@ Notes : /
 
 Objectifs : 
 
+- [ ] Customiser l'interface
 - [ ] Terminer les choses qui n'ont pas été terminés
 - [ ] Travailler de manière approfondi le rapport
 - [ ] Créer tutoriel sur la façon d'utiliser l'application et ses fonctionnalités
