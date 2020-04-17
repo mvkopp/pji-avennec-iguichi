@@ -71,10 +71,11 @@ Objectifs :
 
 Objectifs :
 
-- [ ] Mettre à jour diagramme de gantt 
+- [x] Mettre à jour diagramme de gantt 
 - [ ] Réflechir à comment montrer les informations extraites de façon intuitive
+- [x] Créer fichier graph en utilisant iGraph
+- [x] Réaliser une importation sur Gephi
 - [ ] Commencer à mettre en place interface
-- [ ] Créer fichier graph en utilisant iGraph
 - [ ] Réaliser une exportation avec Gephi
 - [ ] Customiser l'interface
 - [ ] Se documenter sur les algos de détections et expliquer dans le rapport
