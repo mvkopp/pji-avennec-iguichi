@@ -29,10 +29,11 @@ Autheurs : Mael AVENNEC et Imad IGUICHI
 - Description précis de l'interface graphique (avec capture d'écran à l'appui)
 - Base de données (explication, choix, données stockés ..)
 - Scraping
+- Algos de détections de communautés
 ## V - Bilan
 ## VI - Perspectives
     (Fonctionnalité de login dans le cas d'accès à des données privés)
 ## VII - Bibliographie
 
 
-Question : Doit-on parler des modules pyhton utilisés ? 
+Question : Doit-on définir et expliquer les modules python utilisés ? 
