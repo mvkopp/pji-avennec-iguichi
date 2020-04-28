@@ -16,7 +16,7 @@ Autheurs : Mael AVENNEC et Imad IGUICHI
 - Cahier des charges (Explication de sa mise en place)
 - Diagramme de Gantt (Présentation du diagramme)
 3. Répartition des tâches
-## IV -  Conception technique
+## IV - Conception technique
 1. Logiciels et outlis utilisés
     - Python
     - iGraph
