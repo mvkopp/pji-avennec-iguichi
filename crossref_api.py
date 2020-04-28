@@ -118,7 +118,7 @@ def save_articles_into_database(publications,the_author,verbose=False):
             article = etree.SubElement(articles, "article")
             # reference
             reference = etree.SubElement(article, "reference")
-            reference.text = "DBLP"
+            reference.text = "Crossref"
             # title
             title = etree.SubElement(article,"title")
             title.text = publication['title']
