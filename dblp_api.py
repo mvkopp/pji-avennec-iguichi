@@ -11,7 +11,7 @@ def get_articles_by_author(author,h=30):
     """
     GET informations about all articles where the author is involved
 
-    :params : - author (str) the author name
+    :params:  - author (str) the author name
               - h (int) number max of results (default = 30)
     :returns: (list) list of all publications where the author is involved
 
