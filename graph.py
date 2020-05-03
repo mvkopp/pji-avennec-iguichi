@@ -78,7 +78,7 @@ ListAuthors = getAuthorsFromDataBase()
 print len(ListAuthors)
 g = InitializeGraph(ListAuthors)  
 setArc(g)
-g.write("test.GraphML")
+g.write("test.GML")
 plot(g)
 
 #g = Graph([(0,1), (0,2), (2,3), (3,4), (4,2), (2,5), (5,0), (6,3), (5,6)])
