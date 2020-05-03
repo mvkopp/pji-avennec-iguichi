@@ -15,16 +15,16 @@
   "legend": {
     "edgeLabel": "edge description",
     "colorLabel": "Modularity",
-    "nodeLabel": "node description"
+    "nodeLabel": "nameAuthor"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
+    "groupSelectorAttribute": "nameAuthor",
     "hoverBehavior": "default"
   },
   "informationPanel": {
-    "groupByEdgeDirection": false,
-    "imageAttribute": false
+    "groupByEdgeDirection": true,
+    "imageAttribute": "nameAuthor"
   },
   "sigma": {
     "drawingProperties": {

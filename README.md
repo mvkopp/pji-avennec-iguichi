@@ -115,6 +115,26 @@ Notes : /
 - [ ] Mettre en place l'analyse textuelle
 - [ ] (Bonus) Analyse textuelle amélioré
 
+Notes : /
+
+### **Semaine 8** - 11/05/20
+
+- [ ] A définir ...
+
+Notes : /
+
+### **Semaine 9** - 18/05/20
+
+- [ ] A définir ...
+
+Notes : /
+
+### **Semaine 10** - 25/05/20
+
+- [ ] A définir ...
+
+Notes : /
+
 # Structure du dossier
 
 ```
