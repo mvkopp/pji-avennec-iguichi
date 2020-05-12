@@ -8,18 +8,18 @@
     "text": "Iguichi-Avennec"
   },
   "text": {
-    "more": "Actor_Graph",
-    "intro": "Actor_Graph",
+    "more": "Actor_Graph \u003cbr\u003e\n\ngroupe 1 : Les co-auteurs de tous les membres de cristal \u003cbr\u003e\n\ngroupe 2 : Data Intelligence Group \u003cbr\u003e\n\ngroupe 3 : Interaction et intelligence collective \u003cbr\u003e\n\ngroupe 4 : Génie Logiciel \u003cbr\u003e\n\ngroupe 5 : OPTIMA \u003cbr\u003e\n\ngroupe 6 : Control and Scientific Computing \u003cbr\u003e\n\ngroupe 7 : Conception intégrée de systèmes et supervision \u003cbr\u003e \n\ngroupe 8 : Système Embarqués Adaptatifs et sécurisés \u003cbr\u003e\n\ngroupe 9 : Modélisation pour les Sciences vivant \u003cbr\u003e\n\ngroupe 10 : IMAGE\u003cbr\u003e",
+    "intro": "Actor_Graph\n",
     "title": "Cristal_Actor_Graph"
   },
   "legend": {
-    "edgeLabel": "edge description",
-    "colorLabel": "Modularity",
-    "nodeLabel": "nameAuthor"
+    "edgeLabel": "Article",
+    "colorLabel": "Membres",
+    "nodeLabel": "Author\u0027s Name"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "nameAuthor",
+    "groupSelectorAttribute": "Membre",
     "hoverBehavior": "default"
   },
   "informationPanel": {
