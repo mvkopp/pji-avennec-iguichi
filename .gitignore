@@ -1,3 +1,7 @@
 
 *.pyc
 *.pdf
+
+# Mac OS
+*.DS_Store
+*.icloud
