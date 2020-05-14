@@ -623,7 +623,12 @@ function showCluster(a) {
 
 // Add
 const initMain = ()=>{
-    changeBackgroundColor('white');
+    let options = document.getElementsByName('option-background-color');
+    for(let i=0;i<options.length;i++){
+        if(options[i].checked){
+            changeBackgroundColor(options[i].dataset.color)
+        }
+    }
 }
 document.addEventListener('DOMContentLoaded',initMain);
 
