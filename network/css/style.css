@@ -427,6 +427,7 @@ background-position: -51px -122px;
 #mainpanel .colours {
 
 background-image:url('../images/rainbow.png');
+background-size: 15px;
 
 }
 #legend .note {
