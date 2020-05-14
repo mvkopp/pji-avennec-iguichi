@@ -621,3 +621,17 @@ function showCluster(a) {
 }
 
 
+// Add
+const initMain = ()=>{
+    changeBackgroundColor('white');
+}
+document.addEventListener('DOMContentLoaded',initMain);
+
+const changeBackgroundColor = (color)=>{
+    let elts = document.getElementsByClassName('sigma-expand');
+    for(let i=0;i<elts.length;i++){
+        let elt = elts[i];
+        elt.style.backgroundColor=color;
+    }
+}
+

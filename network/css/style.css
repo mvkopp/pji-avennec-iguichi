@@ -575,3 +575,24 @@ cursor: pointer;
 display: none;
 }
 
+/*******/
+/* Add */
+/*******/
+
+body div#mainpanel div.col div#options{
+	border-top: 1px solid #999;
+	margin-top:20px;
+	padding-top: 20px;
+}
+
+body div#mainpanel div.col div#options div#background{
+	
+}
+
+body div#mainpanel div.col div#options div#background div.background-color-choice{
+	display:block;
+}
+
+body div#mainpanel div.col div#options div#background input{
+	margin-top: 5px;
+}
