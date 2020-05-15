@@ -11,21 +11,34 @@ import os
 from unidecode import unidecode
 from networkx import nx
 
-def getAuthorsFromDataBase () :
+def getAuthorsFromDatabase () :
     """
     Return all authors from articles database
+
+    :params : /
+    :returns: (dict) dictionnary of all author with their infos
     """
     i = 0
+    dictAuthors = {}
     listAuthors = []
     tree = ET.parse('articles_database.xml')
     root = tree.getroot()
     for article in root.findall('article') : 
         titleArticle = article.find('title').text
         for author in article.findall('./authors/author') :
-            authorArticle =author.find('name').text
-            if skipDoubleAuthor(authorArticle,listAuthors) == False :
-                listAuthors.append(authorArticle)
-    return listAuthors 
+            authorName = author.find('name').text
+            groupName = author.find('group').text
+            teamName = author.find('team').text
+            memberTypeName = author.find('member_type').text
+
+            dictAuthors[authorName]=dict()
+            
+            if not skipDoubleAuthor(authorName,listAuthors) :
+                listAuthors.append(authorName)
+                dictAuthors[authorName]['group']=groupName
+                dictAuthors[authorName]['team']=teamName
+                dictAuthors[authorName]['member_type']=memberTypeName
+    return dictAuthors 
     
 def skipDoubleAuthor (author,listAuthors) :
     """
@@ -37,19 +50,23 @@ def skipDoubleAuthor (author,listAuthors) :
     """
     tmp = False
     for an_author in listAuthors :
-        if author == an_author:
+        if author.lower() == an_author.lower():
             tmp = True
     return tmp
 
-def initializeGraph(listAuthors) :
+def initializeGraph(dictAuthors) :
     """
     Initialize a graph from a list of authors
     
-    :params: - listAuthors (list) list of authors
+    :params: - dictAuthors (dict) dictionnary of authors
     :returns: a graph
     """
     g = Graph(len(listAuthors))
-    g.vs["nameAuthor"] = listAuthors
+    for authorName in dictAuthors :
+        g.vs['nameAuthor'] = authorName
+        g.vs['group'] = dictAuthors[authorName]['group']
+        g.vs['team'] = dictAuthors[authorName]['team']
+        g.vs['member_type'] = dictAuthors[authorName]['member_type']
     return g
 
 def setArc (g) :
@@ -57,26 +74,31 @@ def setArc (g) :
     :params: - g (igraph.Graph) a graph
     :returns: /
     """
-    listArtc = []
     i=0
-    exist = False
-    subset = []
+    subsetAuthors = []
     tree = ET.parse('articles_database.xml')
     root = tree.getroot()
     for article in root.findall('article') : 
         print(i) 
         i = i+1
         for author in article.findall('./authors/author') :
-            authorArticle =author.find('name').text
-            subset.append(authorArticle) 
-        for actorActual in subset :
-            for actorTarget in subset :
+            authorName = author.find('name').text
+            subsetAuthors.append(authorName) 
+        for actorActual in subsetAuthors :
+            for actorTarget in subsetAuthors :
                 if actorActual != actorTarget :
                     index1Author = g.vs.find(nameAuthor=actorActual)
                     index2Author = g.vs.find(nameAuthor=actorTarget)
-                    if g.are_connected (index1Author, index2Author) == False :
-                        g.add_edges([(index1Author,index2Author)])
-        subset = []
+                    if not g.are_connected(index1Author, index2Author) :
+                        g.add_edges([(index1Author,index2Author)]) # create edge between the two authors
+                        edge_id = g.get_edge(index1Author,index2Author)
+                        g.es[edge_id]['articles_title'] = []
+                        g.es[edge_id]['articles_title'].append(article.find('title').text)
+                        
+                    else : # if edge already exists between these two authors
+                        edge_id = g.get_edge(index1Author,index2Author)
+                        g.es[edge_id]['articles_title'].append(article.find('title').text)     
+        subsetAuthors = []
 
         
 def ifArcExist(g,index1,index2) :
@@ -91,10 +113,10 @@ def main():
     """
     main function
     """
-i = 0
-ListAuthors = getAuthorsFromDataBase()
-print(len(ListAuthors))
-g = initializeGraph(ListAuthors)  
-setArc(g)
-g.write("test.GraphML")
-plot(g)
+    i = 0
+    dictAuthors = getAuthorsFromDatabase()
+    print(len(listAuthors))
+    g = initializeGraph(dictAuthors)  
+    setArc(g)
+    g.write("test.GraphML")
+    plot(g)
