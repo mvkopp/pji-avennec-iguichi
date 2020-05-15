@@ -152,18 +152,32 @@ def recover_all_cristal_members():
 
     return members
 
-def recover_all_cristal_members_with_teams():
+def recover_all_cristal_members_with_infos():
     """
+    Recover all the CRIStAL members with associated with their infos
+
+    :params: /
+    :returns : (dict) a dictionnary with all members with their group, team and type
+
+    :example:
+    >>> recover_all_cristal_members_with_infos()
+    { ... ,
+        'Céline Kuttler': {'group': 'MSV : Modélisation pour les Sciences du Vivant', 'team': 'biocomputing', 'member_type': 'permanent'},
+        'Émilie Allart': {'group': 'MSV : Modélisation pour les Sciences du Vivant', 'team': 'biocomputing', 'member_type': 'non-permanent'}
+       , ...  }
+    
     """
     all_members=dict()
     all_groups = scrape_webpage_cristal_all_groups_teams()
     for group in all_groups :
         for team in all_groups[group] :
             team_members=scrape_webpage_cristal_members_by_teams(team)
-            for member in team_members['permanent'] :
-                all_members[member]=group
-            for member in team_members['non-permanent'] :
-                all_members[member]=group
+            for team_member_type in team_members :
+                for member in team_members[team_member_type] :
+                    all_members[member]=dict()
+                    all_members[member]['group']=group
+                    all_members[member]['team']=team
+                    all_members[member]['member_type']=team_member_type             
     return all_members
 
 def main():
@@ -173,7 +187,7 @@ def main():
     #URL="https://www.cristal.univ-lille.fr/gt/optima/"
     #scrape_webpage_cristal_optima(URL)
 
-    print(len(recover_all_cristal_members()['non-permanent']))
+    print(len(recover_all_cristal_members_with_teams()))
     
 
 if __name__ == "__main__":
