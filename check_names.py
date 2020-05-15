@@ -13,14 +13,38 @@ names={'leatitia jourdan-vermeulen':'Leatitia Jourdan',
        'xaiver le pallec':'Xavier Le Pallec',
        'el ghazali talbi':'El-Ghazali Talbi',
        'ei-ghazali taibi':'El-Ghazali Talbi',
-       'nicolas durand 0001':'Nicolas Durand'
+       'nicolas durand 0001':'Nicolas Durand',
+       'simon collart dutilleul' : 'Simon Collart-Dutilleul',
+       'adnen el amraoui' : 'Adnen El-Amraoui',
+       'anne cecile caron' : 'Anne-Cecile Caron',
+       'jean pierre bourey' : 'Jean-Pierre Bourey',
+       'ismahene hakj khalifa' : 'Ismahene Hadj Khalifa',
+       'loan marius bilasco' : 'Ioan Marius Bilasco',
+       'juan carlos elvarez paiva' : 'Juan Carlos Alvarez Paiva',
+       'hong phuong dang' : 'Hong-Phuong Dang',
+       'jean michel charbois' : 'Jean-Michel Charbois',
+       'marcos eduardo gomes borges' : 'Marcos Eduardo Gomes-Borges',
+       'jean francois coeurjolly' : 'Jean-Francois Coeurjolly',
+       'thierry marie guerra' : 'Thierry-Marie Guerra',
+       'jean pierre barbot' : 'Jean-Pierre Barbot';
+       'silviu iulian niculescu' : 'Silviu-Iulian Niculescu',
+       'andrey polyakov 0001' : 'Andrey Polyakov',
+       'andrei polyakov 0001' : 'Andrey Polyakov',
+       'Tatiana Kharkovskaya' : 'Tatiana Kharkovskaia'
        }
 
 def check_name(name):
     """
+    Check the name
+
+    :param: - name (str) a name
+    :return: (str) the name unify without accent
+
+    :example:
+    >>> check_name('Belkacem Ould Bouamama')
+    Belkacem Ould-Bouamama
     """
     if strip_accents(name.lower()) in names :
-        print('Name to change : '+name)
         return names[strip_accents(name.lower())]
     return strip_accents(name)
 
@@ -51,10 +75,25 @@ def levenshtein(seq1, seq2):
     print (matrix)
     return (matrix[size_x - 1, size_y - 1])
 
-def hamming_distance(chaine1, chaine2):
+def hamming_distance(string1, string2):
     """
+    Calculate the distance between two string
+
+    :params: - string1 (str) The first string
+             - string2 (str) The second string
+    :returns: (int) the distance between the two string
+
+    :example:
+    >>> hamming_distance('hello world','hello world')
+    0
+    >>> hamming_distance('hello world','hello-world')
+    1
+    >>> hamming_distance('hello world','helloworld')
+    5
+    >>> hamming_distance('hello world','hello world !')
+    0
     """
-    return len(list(filter(lambda x : ord(x[0])^ord(x[1]), zip(chaine1, chaine2))))
+    return len(list(filter(lambda x : ord(x[0])^ord(x[1]), zip(string1, string2))))
 
 def strip_accents(text):
     """
@@ -76,9 +115,22 @@ def strip_accents(text):
     return str(text)
 
 def check_all_authors_name_database(distance_max):
+    """
+    Check and display authors who have a distance max less or equal to the parameter distance_max
+
+    :param: - distance_max (int) the distance maximum
+    :return: /
+
+    :example:
+    >>> check_all_authors_name_database(1)
+    Olivier Gauwin <-> Olivier Bau
+    Remi Gilleron <-> Remy Gilleron
+    ...
+    """
+    
     authors_found_checked=[]
     
-    tree = ET.parse('articles_database.xml')
+    tree = ET.parse('articles_database_base.xml')
     root = tree.getroot()
     for authorActual in root.findall('article/authors/author/name') :
         authorArticleActual=strip_accents(authorActual.text) # remove accents
@@ -93,19 +145,15 @@ def check_all_authors_name_database(distance_max):
 
                 if(couple_actual_target not in authors_found_checked):
                     if(0 < hamming_distance(authorArticleActual.lower(), authorArticleTarget.lower()) <= distance_max):
-                        print('Actual : '+authorArticleActual+', Target : '+authorArticleTarget)
+                        print(authorArticleActual+' <-> '+authorArticleTarget)
                         authors_found_checked.append(couple_actual_target) # add the new couple found in the list of couple already found
-
-
-
-    
 
 def main():
     """
     main function
     """
     #print(check_all_authors_name_database(1))
-    print(check_name('Laetitia Vermeulen-Jourdan'))
+    #print(check_name('Laetitia Vermeulen-Jourdan'))
 
 
 if __name__ == "__main__":
