@@ -14,7 +14,7 @@
   },
   "legend": {
     "edgeLabel": "At least one article wrote by the authors",
-    "colorLabel": "Membres",
+    "colorLabel": "Teams",
     "nodeLabel": "Author\u0027s Name"
   },
   "features": {
@@ -24,7 +24,8 @@
   },
   "informationPanel": {
     "groupByEdgeDirection": true,
-    "imageAttribute": "nameAuthor"
+    "imageAttribute": "avatarAuthor",
+    "nameAttribute" : "nameAuthor"
   },
   "sigma": {
     "drawingProperties": {
