@@ -103,8 +103,8 @@ Objectifs :
 Objectifs : 
 
 - [x] Rendre le compte rendu du projet à 90% (**27/04/20**)
-- [ ] Customiser l'interface
-- [ ] Mettre en place les politesse des API
+- [x] Customiser l'interface
+
 
 Notes : /
 
@@ -112,14 +112,16 @@ Notes : /
 
 - [ ] Créer tutoriel sur la façon d'utiliser l'application et ses fonctionnalités
 - [ ] Créer un questionnaire de satisfaction/critique pour une première utilisation de l'application (ergonomie, utilité, etc..)
-- [ ] Mettre en place l'analyse textuelle
-- [ ] (Bonus) Analyse textuelle amélioré
+- [x] Se documenter sur l'analyse textuelle
 
 Notes : /
 
 ### **Semaine 8** - 11/05/20
 
-- [ ] A définir ...
+- [ ] Mettre en place les politesse des API
+- [ ] Créer fonction d'analyse textuel sur les titres des articles + ajout d'un selecteur dans l'interface pour séléectionner que les auteurs ayant un lien avec le Subject séléectionné
+- [ ] Créer fonction qui parse les noms avant l'ajout dans la base de donnée + ajout fonction qui modifie les noms dans la base de donnée
+- [ ] Ajout d'information dans les arcs à la création du graphe + ajout animation au survol d'un arc + click sur arc affichage des articles écrit entre les deux auteurs
 
 Notes : /
 
