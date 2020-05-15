@@ -20,7 +20,7 @@ def get_articles_by_author(author,cristal_members={},h=30):
     """
     res=[]
     GET_URL="http://dblp.org/search/publ/api"
-    response=requests.get(GET_URL+'?q='+author+'&h='+str(h)+'&format=json')
+    response=requests.get(GET_URL+'?q='+author+'&h='+str(h)+'&format=json&mailto=mael.avennec.etu@univ-lille.fr')
     response=response.json()
 
     nb_hits=response['result']['hits']['@total']
