@@ -26,7 +26,7 @@ names={'leatitia jourdan-vermeulen':'Leatitia Jourdan',
        'marcos eduardo gomes borges' : 'Marcos Eduardo Gomes-Borges',
        'jean francois coeurjolly' : 'Jean-Francois Coeurjolly',
        'thierry marie guerra' : 'Thierry-Marie Guerra',
-       'jean pierre barbot' : 'Jean-Pierre Barbot';
+       'jean pierre barbot' : 'Jean-Pierre Barbot',
        'silviu iulian niculescu' : 'Silviu-Iulian Niculescu',
        'andrey polyakov 0001' : 'Andrey Polyakov',
        'andrei polyakov 0001' : 'Andrey Polyakov',
@@ -130,7 +130,7 @@ def check_all_authors_name_database(distance_max):
     
     authors_found_checked=[]
     
-    tree = ET.parse('articles_database_base.xml')
+    tree = ET.parse('articles_database.xml')
     root = tree.getroot()
     for authorActual in root.findall('article/authors/author/name') :
         authorArticleActual=strip_accents(authorActual.text) # remove accents
