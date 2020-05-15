@@ -13,6 +13,7 @@ def get_articles_by_author(author,cristal_members={},h=30):
     GET informations about all articles where the author is involved
 
     :params:  - author (str) the author name
+              - cristal_members (dict) all cristal members (default={})
               - h (int) number max of results (default = 30)
     :returns: (list) list of all publications where the author is involved
 
@@ -49,20 +50,30 @@ def get_articles_by_author(author,cristal_members={},h=30):
                 # author affiliation
                 if author_array[0] in cristal_members :
                     author_array.append('CRIStAL') # affiliation
-                    author_array.append(cristal_members[author_array[0]]) # team
+                    author_array.append(cristal_members[author_array[0]]['group']) # group
+                    author_array.append(cristal_members[author_array[0]]['team']) # team
+                    author_array.append(cristal_members[author_array[0]]['member_type']) # member type
                 else :
                     author_array.append('Unknown') # affiliation
+                    author_array.append('Unknown') # group
                     author_array.append('Unknown') # team
+                    author_array.append('Unknown') # member type
                 authors.append(author_array)
         else :
             author_array.append(html.unescape(hit['info']['authors']['author']['text']))
             # author affiliation
             if author_array[0] in cristal_members :
                 author_array.append('CRIStAL') # affiliation
-                author_array.append(cristal_members[author_array[0]]) # team
+                author_array.append(cristal_members[author_array[0]]['group']) # group
+                author_array.append(cristal_members[author_array[0]]['team']) # team
+                author_array.append(cristal_members[author_array[0]]['member_type']) # member type
+
             else :
                 author_array.append('Unknown') # affiliation
+                author_array.append('Unknown') # group
                 author_array.append('Unknown') # team
+                author_array.append('Unknown') # member type
+                
             authors.append(author_array)
             
         tmp['authors']=authors
@@ -142,10 +153,14 @@ def save_articles_into_database(publications,the_author,verbose=False):
                 author = etree.SubElement(authors,"author")
                 nom = etree.SubElement(author, "name")
                 affiliation = etree.SubElement(author,"affiliation")
+                group = etree.SubElement(author,"group")
                 team = etree.SubElement(author,"team")
+                member_type = etree.SubElement(author,"member_type")
                 nom.text = check_names.check_name(author_arr[0]) # replace letters with accents and/or replace name if exists in list of similar names 
                 affiliation.text = author_arr[1]
-                team.text = author_arr[2]
+                group.text = author_arr[2]
+                team.text = author_arr[3]
+                member_type.text = author_arr[4]
             # type    
             type_article = etree.SubElement(article,"type") 
             type_article.text=publication['type']
