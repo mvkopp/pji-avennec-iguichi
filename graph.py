@@ -90,11 +90,10 @@ def ifArcExist(g,index1,index2) :
 def main():
     """
     main function
-<<<<<<< HEAD
     """
 i = 0
 ListAuthors = getAuthorsFromDataBase()
-print len(ListAuthors)
+print(len(ListAuthors))
 g = initializeGraph(ListAuthors)  
 setArc(g)
 g.write("test.GraphML")
