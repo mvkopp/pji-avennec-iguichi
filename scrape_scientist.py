@@ -32,21 +32,20 @@ def scrape_webpage_cristal_optima(url):
 
     return members
 
-def scrape_webpage_cristal_all_teams():
+def scrape_webpage_cristal_all_groups_teams():
     """
-    Scrape the CRIStAL webpage and recover all the teams
+    Scrape the CRIStAL webpage and recover all groups with their teams
 
     :params : /
-    :returns: (list) the list of all CRIStAL teams
+    :returns: (dict) dictionnary of all CRIStAL groups
 
     :example:
-    >>> scrape_webpage_cristal_all_teams()
-    ['biocomputing', 'bonsai', 'dicot', 'mocis', 'moses', '2xs', 'east', 'émeraude', '3dsam', 'fox', 'imageriecouleur', 'bonus', 'inocs', 'orkad', 'osl', 'links', 'magnet', 'sigma', 'sequel', 'caramel', 'carbon', 'rmod', 'spirals', 'cfhp', 'defrost', 'shoc', 'valse', 'bci', 'loki', 'mint', 'noce', 'smac']
-    
+    >>> scrape_webpage_cristal_all_groups_teams()
+    {'MSV : Modélisation pour les Sciences du Vivant': ['biocomputing', 'bonsai'], 'CI2S : Conception Intégrée de Systèmes et Supervision': ['dicot', 'mocis', 'moses'], 'SEAS : Systèmes Embarqués Adaptatifs et Sécurisés': ['2xs', 'east', 'emeraude'], 'Image': ['3d-sam', 'fox', 'imagerie-couleur'], 'OPTIMA : OPTImisation : Modèles et Applications': ['bonus', 'inocs', 'orkad', 'osl'], 'DatInG : Data Intelligence Group': ['links', 'magnet', 'sigma', 'sequel'], 'GL : Génie Logiciel': ['caramel', 'carbon', 'rmod', 'spirals'], 'CO2 :  Control and scientific Computing': ['cfhp', 'defrost', 'shoc', 'valse'], 'I2C : Interaction et Intelligence Collective ': ['bci', 'loki', 'mint', 'noce', 'smac']}
     """
     URL = 'https://www.cristal.univ-lille.fr'
     
-    teams=[]
+    teams={}
 
     page=requests.get(URL) # recover the url content
     soup = BeautifulSoup(page.content,'html.parser')
@@ -58,7 +57,9 @@ def scrape_webpage_cristal_all_teams():
     for row in rows :
         columns=row.findAll('div',{'class':'col-md-3'})
         for column in columns :
-            if(column.find('ul').find('li').find('a').find('span',{'class':'mega-menu-sub-title'}) != None):   
+            if(column.find('ul').find('li').find('a').find('span',{'class':'mega-menu-sub-title'}) != None):
+                group = column.find('ul').find('li').find('a').find('span',{'class':'mega-menu-sub-title'}).text
+                teams[group]=[]
                 sections=column.find('ul').find('li').find('ul').findAll('li')
                 for section in sections :
                     team=section.find('a').text # find the name
@@ -67,8 +68,24 @@ def scrape_webpage_cristal_all_teams():
                     team=team.replace(" ","-") # replace space between word by a dash
                     team=team.lower() # transform the name to lower case
                     team=unidecode.unidecode(team)
-                    teams.append(team) # add the team name to the result list
+                    teams[group].append(team) # add the team name to the result list
+    return teams
 
+def scrape_webpage_cristal_all_teams():
+    """
+    Recover all the teams
+
+    :params : /
+    :returns: (list) the list of all CRIStAL teams
+
+    :example:
+    >>> scrape_webpage_cristal_all_teams()
+    ['biocomputing', 'bonsai', 'dicot', 'mocis', 'moses', '2xs', 'east', 'émeraude', '3dsam', 'fox', 'imageriecouleur', 'bonus', 'inocs', 'orkad', 'osl', 'links', 'magnet', 'sigma', 'sequel', 'caramel', 'carbon', 'rmod', 'spirals', 'cfhp', 'defrost', 'shoc', 'valse', 'bci', 'loki', 'mint', 'noce', 'smac']
+    """
+    all_groups_teams = scrape_webpage_cristal_all_groups_teams()
+    teams=[]
+    for key in all_groups_teams :
+        teams+=all_groups_teams[key]
     return teams
 
 def scrape_webpage_cristal_members_by_teams(team):
@@ -143,7 +160,7 @@ def main():
     #URL="https://www.cristal.univ-lille.fr/gt/optima/"
     #scrape_webpage_cristal_optima(URL)
 
-    print(recover_all_cristal_members())
+    print(scrape_webpage_cristal_all_teams())
     
 
 if __name__ == "__main__":
