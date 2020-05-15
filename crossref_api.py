@@ -27,8 +27,9 @@ def get_articles_by_author(author,cristal_members={}):
     for item in items:
         tmp={}
         # publisher
-        publisher=item['publisher']
-        tmp['publisher']=html.unescape(publisher)
+        if 'publisher' in item :
+            publisher=item['publisher']
+            tmp['publisher']=html.unescape(publisher)
         # type
         document_type=item['type']
         tmp['type']=html.unescape(document_type)
@@ -154,8 +155,9 @@ def save_articles_into_database(publications,the_author,verbose=False):
             title = etree.SubElement(article,"title")
             title.text = publication['title']
             # publisher
-            publisher = etree.SubElement(article, "publisher")
-            publisher.text = (publication['publisher'])
+            if 'publisher' in publication : 
+                publisher = etree.SubElement(article, "publisher")
+                publisher.text = (publication['publisher'])
             # authors
             authors = etree.SubElement(article, "authors")
             for author_arr in publication['authors'] :
