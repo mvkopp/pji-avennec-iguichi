@@ -4,9 +4,10 @@ import xml.etree.cElementTree as ET
 import html
 from decimal import Decimal
 import os
+import check_names
 
 
-def get_articles_by_author(author):
+def get_articles_by_author(author,cristal_members={}):
     """
     GET informations about all articles where the author is involved
 
@@ -40,6 +41,8 @@ def get_articles_by_author(author):
         # authors
         authors=[]
         for author in item['author']:
+            author_array=[]
+            # author name
             if 'given' in author :
                 author_name=author['given']+' '+author['family']
             else :
@@ -47,8 +50,27 @@ def get_articles_by_author(author):
                     author_name = author['family']
                 else :
                     author_name = author['name']
-            
-            authors.append(html.unescape(author_name))
+            author_array.append(html.unescape(author_name))
+            # author affiliation
+            if 'affiliation' in author :
+                if 'name' in author['affiliation'] :
+                    author_array.append(author['affiliation']['name'])
+                    author_array.append('Unknown') # team
+                else :
+                    if author_array[0] in cristal_members:
+                        author_array.append('CRIStAL') # affiliation
+                        author_array.append(cristal_members[author_array[0]]) # team
+                    else :
+                        author_array.append('Unknown') # affiliation
+                        author_array.append('Unknown') # team
+            else :
+                if author_array[0] in cristal_members:
+                    author_array.append('CRIStAL') # affiliation
+                    author_array.append(cristal_members[author_array[0]]) # team
+                else :
+                    author_array.append('Unknown') # affiliation
+                    author_array.append('Unknown') # team
+            authors.append(author_array)
         tmp['authors']=authors
         # abstract
         if 'abstract' in item :
@@ -75,7 +97,7 @@ def test_author_by_name(author, publication):
     """
     test = False 
     for auteur in publication['authors']:
-        if (auteur == author):
+        if (auteur[0] == author):
             test = True
     return test
 
@@ -127,11 +149,15 @@ def save_articles_into_database(publications,the_author,verbose=False):
             publisher.text = (publication['publisher'])
             # authors
             authors = etree.SubElement(article, "authors")
-            for author_name in publication['authors'] :
+            for author_arr in publication['authors'] :
                 # author
                 author = etree.SubElement(authors,"author")
                 nom = etree.SubElement(author, "name")
-                nom.text = author_name
+                affiliation = etree.SubElement(author,"affiliation")
+                team = etree.SubElement(author,"team")
+                nom.text = check_names.check_name(author_arr[0]) # replace letters with accents and/or replace name if exists in list of similar names 
+                affiliation.text = author_arr[1]
+                team.text = author_arr[2]
             # abstract
             if 'abstract' in publication : 
                 abstract = etree.SubElement(article,'abstract')
@@ -213,7 +239,7 @@ def test_accuracy_author_name(author,publications,verbose=False):
     
     for publication in publications :
         for auteur in publication['authors']:
-            if (auteur == author):
+            if (auteur[0] == author):
                 identique += 1
     nonIdentique = len(publications) - identique
 

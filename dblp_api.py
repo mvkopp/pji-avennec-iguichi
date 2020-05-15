@@ -5,9 +5,10 @@ import xml.etree.cElementTree as ET
 import html
 from decimal import Decimal
 import os
+import check_names
 
 
-def get_articles_by_author(author,h=30):
+def get_articles_by_author(author,cristal_members={},h=30):
     """
     GET informations about all articles where the author is involved
 
@@ -38,12 +39,32 @@ def get_articles_by_author(author,h=30):
         tmp['type']=html.unescape(document_type)
         # authors
         authors=[]
+        author_array=[]
+        #author name
         if type(hit['info']['authors']['author']) == list :
             for author_elt in hit['info']['authors']['author']:
+                author_array=[]
                 author_name=author_elt['text']
-                authors.append(html.unescape(author_name))
+                author_array.append(html.unescape(author_name))
+                # author affiliation
+                if author_array[0] in cristal_members :
+                    author_array.append('CRIStAL') # affiliation
+                    author_array.append(cristal_members[author_array[0]]) # team
+                else :
+                    author_array.append('Unknown') # affiliation
+                    author_array.append('Unknown') # team
+                authors.append(author_array)
         else :
-            authors.append(html.unescape(hit['info']['authors']['author']['text']))
+            author_array.append(html.unescape(hit['info']['authors']['author']['text']))
+            # author affiliation
+            if author_array[0] in cristal_members :
+                author_array.append('CRIStAL') # affiliation
+                author_array.append(cristal_members[author_array[0]]) # team
+            else :
+                author_array.append('Unknown') # affiliation
+                author_array.append('Unknown') # team
+            authors.append(author_array)
+            
         tmp['authors']=authors
         # url
         if 'ee' in hit['info']:
@@ -68,7 +89,7 @@ def test_author_by_name(author, publication):
     """
     test = False 
     for auteur in publication['authors']:
-        if (auteur == author):
+        if (auteur[0] == author):
             test = True
     return test
 
@@ -116,11 +137,15 @@ def save_articles_into_database(publications,the_author,verbose=False):
             title.text = publication['title']
             # authors
             authors = etree.SubElement(article, "authors")
-            for author_name in publication['authors'] :
+            for author_arr in publication['authors'] :
                 # author
                 author = etree.SubElement(authors,"author")
                 nom = etree.SubElement(author, "name")
-                nom.text = author_name
+                affiliation = etree.SubElement(author,"affiliation")
+                team = etree.SubElement(author,"team")
+                nom.text = check_names.check_name(author_arr[0]) # replace letters with accents and/or replace name if exists in list of similar names 
+                affiliation.text = author_arr[1]
+                team.text = author_arr[2]
             # type    
             type_article = etree.SubElement(article,"type") 
             type_article.text=publication['type']
@@ -150,7 +175,9 @@ def save_articles_into_database(publications,the_author,verbose=False):
 
             else : # if the database file is empty
                 fichier = open("articles_database.xml","a")
-                fichier.write(etree.tostring(articles, encoding='unicode', pretty_print=True))
+                fichier.write("<articles>")
+                fichier.write(etree.tostring(article, encoding='unicode', pretty_print=True))
+                fichier.write("</articles>")
                 fichier.close()
 
             
@@ -202,7 +229,7 @@ def test_accuracy_author_name(author, publications,verbose=False):
     
     for publication in publications :
         for auteur in publication['authors']:
-            if (auteur == author):
+            if (auteur[0] == author):
                 identique += 1
     nonIdentique = len(publications) - identique
 
