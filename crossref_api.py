@@ -122,7 +122,6 @@ def test_article_already_exists(publication) :
     if os.stat('articles_database.xml').st_size == 0 :
         return test
     tree = ET.parse('articles_database.xml')
-    return tree
     root = tree.getroot()
     for article in root.findall('article') :
         titleArticle = article.find('title').text
