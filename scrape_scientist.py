@@ -151,7 +151,20 @@ def recover_all_cristal_members():
         members['non-permanent']+=team_members['non-permanent']
 
     return members
-            
+
+def recover_all_cristal_members_with_teams():
+    """
+    """
+    all_members=dict()
+    all_groups = scrape_webpage_cristal_all_groups_teams()
+    for group in all_groups :
+        for team in all_groups[group] :
+            team_members=scrape_webpage_cristal_members_by_teams(team)
+            for member in team_members['permanent'] :
+                all_members[member]=group
+            for member in team_members['non-permanent'] :
+                all_members[member]=group
+    return all_members
 
 def main():
     """
@@ -160,7 +173,7 @@ def main():
     #URL="https://www.cristal.univ-lille.fr/gt/optima/"
     #scrape_webpage_cristal_optima(URL)
 
-    print(scrape_webpage_cristal_all_teams())
+    print(len(recover_all_cristal_members()['non-permanent']))
     
 
 if __name__ == "__main__":
