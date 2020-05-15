@@ -18,7 +18,7 @@ def get_articles_by_author(author,cristal_members={}):
     """
     res=[]
     GET_URL="https://api.crossref.org/works"
-    response=requests.get(GET_URL+'?query.author='+author)
+    response=requests.get(GET_URL+'?query.author='+author+'&mailto=mael.avennec.etu@univ-lille.fr')
     response=response.json()
 
     items=response['message']['items']
