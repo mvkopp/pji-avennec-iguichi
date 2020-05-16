@@ -127,7 +127,16 @@ Notes : /
 - [x] Ajout d'informations dans les arcs à la création du graphe
 - [ ] Ajout animation au survol d'un arc + click sur arc affichage des articles écrit entre les deux auteurs
 
-Notes : /
+> Notes :
+>
+> Décision d'unifier les noms d'auteurs de la façon suivante : 
+> - Aucun accent
+> - Aucun tiret
+> - Premiere lettre de chaque nom en majuscule.
+>
+> Cela permet de regrouper les mêmes noms afin que lors de la creation du graphe tous les articles écrit par un auteur soit attribué à un seul et même auteur
+>
+> Utilisation du module re pour découper une chaine de caractère en spécifiant une règle REGEX
 
 ### **Semaine 9** - 18/05/20
 
