@@ -25,19 +25,19 @@ def getAuthorsFromDatabase () :
     root = tree.getroot()
     for article in root.findall('article') : 
         titleArticle = article.find('title').text
-        for author in article.findall('./authors/author') :
+        for author in article.findall('./authors/author') :                
             authorName = author.find('name').text
             groupName = author.find('group').text
             teamName = author.find('team').text
             memberTypeName = author.find('member_type').text
-
-            dictAuthors[authorName]=dict()
             
-            if not skipDoubleAuthor(authorName,listAuthors) :
-                listAuthors.append(authorName)
-                dictAuthors[authorName]['group']=groupName
-                dictAuthors[authorName]['team']=teamName
-                dictAuthors[authorName]['member_type']=memberTypeName
+            if skipDoubleAuthor(authorName.lower(),listAuthors) == False:
+                listAuthors.append(authorName.lower())
+                dictAuthors[authorName.lower()]=dict()
+                dictAuthors[authorName.lower()]['name']=authorName                
+                dictAuthors[authorName.lower()]['group']=groupName
+                dictAuthors[authorName.lower()]['team']=teamName
+                dictAuthors[authorName.lower()]['member_type']=memberTypeName
     return dictAuthors 
     
 def skipDoubleAuthor (author,listAuthors) :
@@ -61,12 +61,21 @@ def initializeGraph(dictAuthors) :
     :params: - dictAuthors (dict) dictionnary of authors
     :returns: a graph
     """
-    g = Graph(len(listAuthors))
+    g = Graph(len(dictAuthors))
+    names = []
+    groups = []
+    teams = []
+    member_types = []
     for authorName in dictAuthors :
-        g.vs['nameAuthor'] = authorName
-        g.vs['group'] = dictAuthors[authorName]['group']
-        g.vs['team'] = dictAuthors[authorName]['team']
-        g.vs['member_type'] = dictAuthors[authorName]['member_type']
+        names.append(dictAuthors[authorName]['name'])
+        groups.append(dictAuthors[authorName]['group'])
+        teams.append(dictAuthors[authorName]['team'])
+        member_types.append(dictAuthors[authorName]['member_type'])
+
+    g.vs['nameAuthor']=names
+    g.vs['group']=groups
+    g.vs['team']=teams
+    g.vs['member_type']=member_types
     return g
 
 def setArc (g) :
@@ -79,25 +88,37 @@ def setArc (g) :
     tree = ET.parse('articles_database.xml')
     root = tree.getroot()
     for article in root.findall('article') : 
-        print(i) 
         i = i+1
         for author in article.findall('./authors/author') :
             authorName = author.find('name').text
-            subsetAuthors.append(authorName) 
+            subsetAuthors.append(authorName)
+        coupleAuthorsChecked=[]
         for actorActual in subsetAuthors :
             for actorTarget in subsetAuthors :
                 if actorActual != actorTarget :
+                    
+                    coupleAuthors=set()
+                    coupleAuthors.add(actorActual)
+                    coupleAuthors.add(actorTarget)
+                    
                     index1Author = g.vs.find(nameAuthor=actorActual)
                     index2Author = g.vs.find(nameAuthor=actorTarget)
                     if not g.are_connected(index1Author, index2Author) :
                         g.add_edges([(index1Author,index2Author)]) # create edge between the two authors
-                        edge_id = g.get_edge(index1Author,index2Author)
-                        g.es[edge_id]['articles_title'] = []
-                        g.es[edge_id]['articles_title'].append(article.find('title').text)
+                        edge_id = g.get_eid(index1Author,index2Author)
+                        g.es[edge_id]['articles_nb']=0
+                        g.es[edge_id]['article_title_'+str(g.es[edge_id]['articles_nb'])]=article.find('title').text
+                        g.es[edge_id]['articles_nb']+=1
                         
                     else : # if edge already exists between these two authors
-                        edge_id = g.get_edge(index1Author,index2Author)
-                        g.es[edge_id]['articles_title'].append(article.find('title').text)     
+                        if(coupleAuthors not in coupleAuthorsChecked): # to escape doublon in article title
+                        
+                            edge_id = g.get_eid(index1Author,index2Author)
+
+                            g.es[edge_id]['article_title_'+str(g.es[edge_id]['articles_nb'])]=article.find('title').text   
+                            g.es[edge_id]['articles_nb']+=1
+                            
+                    coupleAuthorsChecked.append(coupleAuthors)
         subsetAuthors = []
 
         
@@ -113,10 +134,17 @@ def main():
     """
     main function
     """
+    filename = "graph.GraphML"
     i = 0
+    print('Récupération des auteurs dans la base de donnée...\n')
     dictAuthors = getAuthorsFromDatabase()
-    print(len(listAuthors))
-    g = initializeGraph(dictAuthors)  
+    print('Initialisation du graphe...\n')
+    g = initializeGraph(dictAuthors)
+    print('Ajout des arcs...\n')
     setArc(g)
-    g.write("test.GraphML")
-    plot(g)
+    print('Ecriture dans le fichier (',filename,')...\n')
+    g.write(filename)
+
+if __name__ == "__main__": # execute only if run as a script
+    main()
+
