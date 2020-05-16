@@ -69,7 +69,7 @@ def str_to_capitalize(string):
     >>> str_to_capitalize('hello world-hello')
     'Hello World Hello'
     """
-    tab=re.findall(r"[\w]+",string)
+    tab=re.findall(r"[\w\.\']+",string)
     res=[]
     for w in tab :
         res.append(w.capitalize())
