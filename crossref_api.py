@@ -31,8 +31,11 @@ def get_articles_by_author(author,cristal_members={}):
             publisher=item['publisher']
             tmp['publisher']=html.unescape(publisher)
         # type
-        document_type=item['type']
-        tmp['type']=html.unescape(document_type)
+        if 'type' in item : 
+            document_type=item['type']
+            tmp['type']=html.unescape(document_type)
+        else :
+            tmp['type']='unknown'
         # title
         if 'title' in item :
             title=item['title'][0]
