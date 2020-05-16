@@ -118,10 +118,14 @@ Notes : /
 
 ### **Semaine 8** - 11/05/20
 
-- [ ] Mettre en place les politesse des API
-- [ ] Créer fonction d'analyse textuel sur les titres des articles + ajout d'un selecteur dans l'interface pour sélectionner que les auteurs ayant un lien avec le Subject séléectionné
-- [ ] Créer fonction qui parse les noms avant l'ajout dans la base de donnée + ajout fonction qui modifie les noms dans la base de donnée
-- [ ] Ajout d'information dans les arcs à la création du graphe + ajout animation au survol d'un arc + click sur arc affichage des articles écrit entre les deux auteurs
+- [x] Mettre en place les politesse des API
+- [ ] Créer fonction d'analyse textuel sur les titres des articles
+- [ ] Ajout d'un selecteur dans l'interface pour sélectionner que les auteurs ayant un lien avec le Subject séléectionné
+- [x] Créer fonction qui check tous les noms de la base de donnée afin de trouver les noms avec une distance faible afin de les ajouter manuellement dans le dictionnaire des noms
+- [x] Créer fonction qui parse les noms (accent + nom dans liste des noms) avant l'ajout dans la base de donnée  
+- [ ] Ajout fonction qui modifie les noms dans la base de donnée
+- [x] Ajout d'informations dans les arcs à la création du graphe
+- [ ] Ajout animation au survol d'un arc + click sur arc affichage des articles écrit entre les deux auteurs
 
 Notes : /
 
