@@ -30,7 +30,8 @@ names={'leatitia jourdan-vermeulen':'Leatitia Jourdan',
        'silviu iulian niculescu' : 'Silviu-Iulian Niculescu',
        'andrey polyakov 0001' : 'Andrey Polyakov',
        'andrei polyakov 0001' : 'Andrey Polyakov',
-       'tatiana kharkovskaya' : 'Tatiana Kharkovskaia'
+       'tatiana kharkovskaya' : 'Tatiana Kharkovskaia',
+       'alireza fakhrizadeh esfahani' : 'Alireza Esfahani'
        }
 
 def check_name(name):
