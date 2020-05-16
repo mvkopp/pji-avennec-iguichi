@@ -48,7 +48,9 @@ def get_articles_by_author(author,cristal_members={}):
             author_array=[]
             # author name
             if 'given' in author :
-                author_name=author['given']+' '+author['family']
+                author_name=author['given']
+                if 'family' in author :
+                    author_name+=' '+author['family']
             else :
                 if 'family' in author :
                     author_name = author['family']
