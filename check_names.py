@@ -6,32 +6,33 @@ import re
 import unicodedata
 import numpy as np
 
-names={'leatitia jourdan-vermeulen':'Leatitia Jourdan',
-       'remy gilleron':'remi gilleron',
-       'belkacem ould bouamama':'Belkacem Ould-Bouamama',
-       'belkacem ould bouamam':'Belkacem Ould-Bouamama',
-       'xaiver le pallec':'Xavier Le Pallec',
-       'el ghazali talbi':'El-Ghazali Talbi',
-       'ei-ghazali taibi':'El-Ghazali Talbi',
-       'nicolas durand 0001':'Nicolas Durand',
-       'simon collart dutilleul' : 'Simon Collart-Dutilleul',
-       'adnen el amraoui' : 'Adnen El-Amraoui',
-       'anne cecile caron' : 'Anne-Cecile Caron',
-       'jean pierre bourey' : 'Jean-Pierre Bourey',
-       'ismahene hakj khalifa' : 'Ismahene Hadj Khalifa',
-       'loan marius bilasco' : 'Ioan Marius Bilasco',
-       'juan carlos elvarez paiva' : 'Juan Carlos Alvarez Paiva',
-       'hong phuong dang' : 'Hong-Phuong Dang',
-       'jean michel charbois' : 'Jean-Michel Charbois',
-       'marcos eduardo gomes borges' : 'Marcos Eduardo Gomes-Borges',
-       'jean francois coeurjolly' : 'Jean-Francois Coeurjolly',
-       'thierry marie guerra' : 'Thierry-Marie Guerra',
-       'jean pierre barbot' : 'Jean-Pierre Barbot',
-       'silviu iulian niculescu' : 'Silviu-Iulian Niculescu',
-       'andrey polyakov 0001' : 'Andrey Polyakov',
-       'andrei polyakov 0001' : 'Andrey Polyakov',
-       'tatiana kharkovskaya' : 'Tatiana Kharkovskaia',
-       'alireza fakhrizadeh esfahani' : 'Alireza Esfahani'
+names={'Leatitia Jourdan-Vermeulen':'Leatitia Jourdan',
+       'Remy Gilleron':'Remi Gilleron',
+       'Belkacem Ould-Bouamama':'Belkacem Ould Bouamama',
+       'Belkacem Ould-Bouamam':'Belkacem Ould Bouamama',
+       'Xaiver Le Pallec':'Xavier Le Pallec',
+       'El-Ghazali Talbi':'El Ghazali Talbi',
+       'Ei-Ghazali Taibi':'El Ghazali Talbi',
+       'Nicolas Durand 0001':'Nicolas Durand',
+       'Simon Collart-Dutilleul' : 'Simon Collart Dutilleul',
+       'Adnen El-Amraoui' : 'Adnen El Amraoui',
+       'Anne-Cecile Caron' : 'Anne Cecile Caron',
+       'Jean-Pierre Bourey' : 'Jean Pierre Bourey',
+       'Ismahene Hakj Khalifa' : 'Ismahene Hadj Khalifa',
+       'Loan Marius Bilasco' : 'Ioan Marius Bilasco',
+       'Juan Carlos Elvarez Paiva' : 'Juan Carlos Alvarez Paiva',
+       'Hong-Phuong Dang' : 'Hong Phuong Dang',
+       'Jean-Michel Charbois' : 'Jean Michel Charbois',
+       'Marcos Eduardo Gomes-Borges' : 'Marcos Eduardo Gomes Borges',
+       'Jean-Francois Coeurjolly' : 'Jean Francois Coeurjolly',
+       'Thierry-Marie Guerra' : 'Thierry Marie Guerra',
+       'Jean-Pierre Barbot' : 'Jean Pierre Barbot',
+       'Silviu-Iulian Niculescu' : 'Silviu Iulian Niculescu',
+       'Andrey Polyakov 0001' : 'Andrey Polyakov',
+       'Andrei Polyakov 0001' : 'Andrey Polyakov',
+       'Tatiana Kharkovskaya' : 'Tatiana Kharkovskaia',
+       'Alireza Fakhrizadeh Esfahani' : 'Alireza Esfahani',
+       'Jian Zhang 0042' : 'Jian Zhang'
        }
 
 def check_name(name):
@@ -39,15 +40,40 @@ def check_name(name):
     Check the name
 
     :param: - name (str) a name
-    :return: (str) the name unify without accent
+    :return: (str) the name unify without accent and only first letter of each name to upper
 
     :example:
-    >>> check_name('Belkacem Ould Bouamama')
-    Belkacem Ould-Bouamama
+    >>> check_name('Belkacem Ould-Bouamama')
+    Belkacem Ould Bouamama
     """
-    if strip_accents(name.lower()) in names :
-        return names[strip_accents(name.lower())]
-    return strip_accents(name)
+    if strip_accents(name) in names :
+        return str_to_capitalize(names[strip_accents(name)])
+    return str_to_capitalize(strip_accents(name))
+
+def str_to_capitalize(string):
+    """
+    To unify the string
+
+    :params: - string (str) a string
+    :returns: (str) a string with first letter of each word to capitalize
+
+    :examples:
+    >>> str_to_capitalize('hello world')
+    'Hello World'
+    >>> str_to_capitalize('hello woRLd')
+    'Hello World'
+    >>> str_to_capitalize('HELLO woRLd')
+    'Hello World'
+    >>> str_to_capitalize('HELLO woRLd 01')
+    'Hello World 01'
+    >>> str_to_capitalize('hello world-hello')
+    'Hello World Hello'
+    """
+    tab=re.findall(r"[\w]+",string)
+    res=[]
+    for w in tab :
+        res.append(w.capitalize())
+    return ' '.join(res)
 
 
 def levenshtein(seq1, seq2):
@@ -145,7 +171,7 @@ def check_all_authors_name_database(distance_max):
                 couple_actual_target.add(authorArticleTarget)
 
                 if(couple_actual_target not in authors_found_checked):
-                    if(0 < hamming_distance(authorArticleActual.lower(), authorArticleTarget.lower()) <= distance_max):
+                    if(0 < hamming_distance(authorArticleActual, authorArticleTarget) <= distance_max):
                         print(authorArticleActual+' <-> '+authorArticleTarget)
                         authors_found_checked.append(couple_actual_target) # add the new couple found in the list of couple already found
 
@@ -153,7 +179,7 @@ def main():
     """
     main function
     """
-    #print(check_all_authors_name_database(1))
+    print(check_all_authors_name_database(1))
     #print(check_name('Laetitia Vermeulen-Jourdan'))
 
 
