@@ -27,6 +27,7 @@ def getAuthorsFromDatabase () :
         titleArticle = article.find('title').text
         for author in article.findall('./authors/author') :                
             authorName = author.find('name').text
+            affiliationName = author.find('affiliation').text
             groupName = author.find('group').text
             teamName = author.find('team').text
             memberTypeName = author.find('member_type').text
@@ -34,7 +35,8 @@ def getAuthorsFromDatabase () :
             if skipDoubleAuthor(authorName.lower(),listAuthors) == False:
                 listAuthors.append(authorName.lower())
                 dictAuthors[authorName.lower()]=dict()
-                dictAuthors[authorName.lower()]['name']=authorName                
+                dictAuthors[authorName.lower()]['name']=authorName
+                dictAuthors[authorName.lower()]['affiliation']=affiliationName
                 dictAuthors[authorName.lower()]['group']=groupName
                 dictAuthors[authorName.lower()]['team']=teamName
                 dictAuthors[authorName.lower()]['member_type']=memberTypeName
@@ -63,16 +65,19 @@ def initializeGraph(dictAuthors) :
     """
     g = Graph(len(dictAuthors))
     names = []
+    affiliations =[]
     groups = []
     teams = []
     member_types = []
     for authorName in dictAuthors :
         names.append(dictAuthors[authorName]['name'])
+        affiliations.append(dictAuthors[authorName]['affiliation'])
         groups.append(dictAuthors[authorName]['group'])
         teams.append(dictAuthors[authorName]['team'])
         member_types.append(dictAuthors[authorName]['member_type'])
 
     g.vs['nameAuthor']=names
+    g.vs['affiliation']=affiliations
     g.vs['group']=groups
     g.vs['team']=teams
     g.vs['member_type']=member_types
