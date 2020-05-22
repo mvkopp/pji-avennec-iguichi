@@ -68,7 +68,7 @@ function initSigma(config) {
     else
         graphProps = {
             minNodeSize: 1,
-            maxNodeSize: 7,
+            maxNodeSize: 3,
             minEdgeSize: 0.2,
             maxEdgeSize: 0.5
         };
@@ -566,18 +566,17 @@ function nodeActive(a) {
         e = [];
         temp_array = [];
         g = 0;
+        console.log(f.attributes);
         for (var attr in f.attributes) {
             var d = f.attributes[attr],
                 h = "";
             if (attr != image_attribute && attr !=name_attribute) {
-                h = '<span><strong>' + attr + ':</strong> ' + d + '</span><br/>'
+                h = '<span><strong>' + attr + ' :</strong> ' + d + '</span>'
+                e.push(h)
             }
             //temp_array.push(f.attributes[g].attr);
-            e.push(h)
+            
         }
-
-        console.log(f);
-        console.log(image_attribute);
 
         if (image_attribute) {
             //image_index = jQuery.inArray(image_attribute, temp_array);
