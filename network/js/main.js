@@ -281,8 +281,8 @@ function configSigmaElements(config) {
     //a.sort();
     $GP.cluster.content(a.join(""));
     b = {
-        minWidth: 400,
-        maxWidth: 800,
+        minWidth: 9000,
+        maxWidth: 9000,
         maxHeight: 600
     };//        minHeight: 300,
     $("a.fb").fancybox(b);
