@@ -8,13 +8,13 @@
     "text": "Iguichi-Avennec"
   },
   "text": {
-    "more": "\u003chead\u003e\u003c/head\u003e\n\u003cbody\u003e\n\u003cstyle\u003e\n#groupe1{background-color : rgb(235, 20, 20);}\n#groupe2{background-color : rgb(63, 235, 20);}\n#groupe3{background-color : rgb(235, 106, 20);}\n#groupe4{background-color : rgb(235, 20, 120);}\n#groupe5{background-color : rgb(177, 174, 226);}\n#groupe6{background-color : rgb(37, 36, 36);}\n#groupe7{background-color : rgb(92, 150, 104);}\n#groupe8{background-color : rgba(163, 130, 102, 0.973);}\n#groupe9{background-color : rgb(235, 221, 20);}\n#groupe10{background-color : rgb(20, 88, 235);}\n\n\u003c/style\u003e  \nActor_Graph \u003cbr\u003e\n\n\u003cdiv id \u003d \"groupe1\"\u003e   \nUnknown \u003cbr\u003e\n\u003c/div\u003e\n\n\u003cdiv id \u003d \"groupe2\"\u003e Data Intelligence Group \u003cbr\u003e\u003c/div\u003e\n\n\u003cdiv id \u003d \"groupe3\"\u003e Interaction et intelligence collective \u003cbr\u003e\u003c/div\u003e\n\n\u003cdiv id \u003d \"groupe4\"\u003e Génie Logiciel \u003cbr\u003e\u003c/div\u003e\n\n\u003cdiv id \u003d \"groupe5\"\u003e OPTIMA \u003cbr\u003e\u003c/div\u003e\n\n\u003cdiv id \u003d \"groupe6\"\u003eControl and Scientific Computing \u003cbr\u003e\u003c/div\u003e\n\n\u003cdiv id \u003d \"groupe7\"\u003e Conception intégrée de systèmes et supervision \u003cbr\u003e\u003c/div\u003e \n\n\u003cdiv id \u003d \"groupe8\"\u003eSystème Embarqués Adaptatifs et sécurisés \u003cbr\u003e\u003c/div\u003e\n\n\u003cdiv id \u003d \"groupe9\"\u003eModélisation pour les Sciences vivant \u003cbr\u003e\u003c/div\u003e\n\n\u003cdiv id \u003d \"groupe10\"\u003eIMAGE\u003cbr\u003e\u003c/div\u003e\n\n\u003c/body\u003e\n",
-    "intro": "Actor_Graph\n",
-    "title": "Cristal_Actor_Graph"
+    "more": "\u003chead\u003e\u003c/head\u003e\n\u003cbody\u003e\n\u003cstyle\u003e\n#groupe1{background-color : rgb(235, 20, 20);color:white; padding:3px;}\n#groupe2{background-color : rgb(115,192,0);padding:3px;}\n#groupe3{background-color : rgb(255,136,5);color:white;padding:3px;}\n#groupe4{background-color : rgb(255,85,132);color:white;padding:3px;}\n#groupe5{background-color : rgb(0,196,255);padding:3px;}\n#groupe6{background-color : rgb(76,70,62);color:white;padding:3px;}\n#groupe7{background-color : rgb(0,189,148);color:white;padding:3px;}\n#groupe8{background-color : rgb(255,232,26);padding:3px;}\n#groupe9{background-color : rgb(192,192,192);padding:3px;}\n#groupe10{background-color : rgb(20,23,255);color:white;padding:3px;}\n\n\u003c/style\u003e  \n Groups List \u003cbr\u003e\u003cbr\u003e\n\n  \u003cdiv id \u003d \"groupe1\"\u003e \nUnknown\u003c/div\u003e \n\n\u003cdiv id \u003d \"groupe5\"\u003e OPTIMA\u003c/div\u003e \n\n\u003cdiv id \u003d \"groupe4\"\u003e Génie Logiciel\u003c/div\u003e \n\n\u003cdiv id \u003d \"groupe10\"\u003eIMAGE\u003c/div\u003e \n\n\u003cdiv id \u003d \"groupe6\"\u003eControl and Scientific Computing\u003c/div\u003e \n\n\u003cdiv id \u003d \"groupe3\"\u003e Interaction et intelligence collective\u003c/div\u003e \n\n\u003cdiv id \u003d \"groupe8\"\u003eSystème Embarqués Adaptatifs et sécurisés\u003c/div\u003e \n\n\u003cdiv id \u003d \"groupe7\"\u003e Conception intégrée de systèmes et supervision\u003c/div\u003e \n\n\u003cdiv id \u003d \"groupe9\"\u003eModélisation pour les Sciences vivant\u003c/div\u003e \n\n\u003cdiv id \u003d \"groupe2\"\u003e Data Intelligence Group\u003c/div\u003e \n\n\u003c/body\u003e\n",
+    "intro": "Un outil pour l'analyse et la visualisation de collaborations scientifiques\n",
+    "title": "PJI Projet 30"
   },
   "legend": {
-    "edgeLabel": "Article",
-    "colorLabel": "Membres",
+    "edgeLabel": "Article(s) between authors",
+    "colorLabel": "Groups",
     "nodeLabel": "Author\u0027s Name"
   },
   "features": {
@@ -24,7 +24,8 @@
   },
   "informationPanel": {
     "groupByEdgeDirection": true,
-    "imageAttribute": "./images/avatar_default.png"
+    "imageAttribute": "./images/avatar_default.png",
+    "nameAttribute" : "nameAuthor"
   },
   "sigma": {
     "drawingProperties": {
@@ -40,8 +41,8 @@
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 0.1,
-      "minEdgeSize": 0.1,
+      "maxEdgeSize": 0.7,
+      "minEdgeSize": 0.7,
       "minNodeSize": 1,
       "maxNodeSize": 3
     },
