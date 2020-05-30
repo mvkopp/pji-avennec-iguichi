@@ -83,7 +83,7 @@ def initializeGraph(dictAuthors) :
     g.vs['member_type']=member_types
     return g
 
-def setArc (g) :
+def setEdges (g) :
     """
     :params: - g (igraph.Graph) a graph
     :returns: /
@@ -146,7 +146,7 @@ def main():
     print('Initialisation du graphe...\n')
     g = initializeGraph(dictAuthors)
     print('Ajout des arcs...\n')
-    setArc(g)
+    setEdges(g)
     print('Ecriture dans le fichier (',filename,')...\n')
     g.write(filename)
 
