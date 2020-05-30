@@ -6,7 +6,7 @@ import re
 import unicodedata
 import numpy as np
 
-names={'Leatitia Jourdan-Vermeulen':'Leatitia Jourdan',
+names={'Laetitia Jourdan-Vermeulen':'Laetitia Jourdan',
        'Remy Gilleron':'Remi Gilleron',
        'Belkacem Ould-Bouamama':'Belkacem Ould Bouamama',
        'Belkacem Ould-Bouamam':'Belkacem Ould Bouamama',
@@ -47,10 +47,10 @@ def check_name(name):
     Belkacem Ould Bouamama
     """
     if strip_accents(name) in names :
-        return str_to_capitalize(names[strip_accents(name)])
-    return str_to_capitalize(strip_accents(name))
+        return str_to_capitalize_without_dashes(names[strip_accents(name)])
+    return str_to_capitalize_without_dashes(strip_accents(name))
 
-def str_to_capitalize(string):
+def str_to_capitalize_without_dashes(string):
     """
     To unify the string
 
@@ -58,15 +58,15 @@ def str_to_capitalize(string):
     :returns: (str) a string with first letter of each word to capitalize
 
     :examples:
-    >>> str_to_capitalize('hello world')
+    >>> str_to_capitalize_without_dashes('hello world')
     'Hello World'
-    >>> str_to_capitalize('hello woRLd')
+    >>> str_to_capitalize_without_dashes('hello woRLd')
     'Hello World'
-    >>> str_to_capitalize('HELLO woRLd')
+    >>> str_to_capitalize_without_dashes('HELLO woRLd')
     'Hello World'
-    >>> str_to_capitalize('HELLO woRLd 01')
+    >>> str_to_capitalize_without_dashes('HELLO woRLd 01')
     'Hello World 01'
-    >>> str_to_capitalize('hello world-hello')
+    >>> str_to_capitalize_without_dashes('hello world-hello')
     'Hello World Hello'
     """
     tab=re.findall(r"[\w\.\']+",string)
